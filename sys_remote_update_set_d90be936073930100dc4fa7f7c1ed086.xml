@@ -1,0 +1,1910 @@
+<?xml version="1.0" encoding="UTF-8"?><unload unload_date="2021-08-09 20:12:41">
+<sys_remote_update_set action="INSERT_OR_UPDATE">
+<application display_value="Global">global</application>
+<application_name>Global</application_name>
+<application_scope>global</application_scope>
+<application_version/>
+<collisions/>
+<commit_date/>
+<deleted/>
+<description/>
+<inserted/>
+<name>Service Portal - RES</name>
+<origin_sys_id/>
+<parent display_value=""/>
+<release_date/>
+<remote_base_update_set display_value=""/>
+<remote_parent_id/>
+<remote_sys_id>75e8f47207b530100dc4fa7f7c1ed0b6</remote_sys_id>
+<state>loaded</state>
+<summary/>
+<sys_class_name>sys_remote_update_set</sys_class_name>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2021-08-09 20:12:40</sys_created_on>
+<sys_id>d90be936073930100dc4fa7f7c1ed086</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2021-08-09 20:12:40</sys_updated_on>
+<update_set display_value=""/>
+<update_source display_value=""/>
+<updated/>
+</sys_remote_update_set>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_script_3c32053a07b530100dc4fa7f7c1ed032</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_ui_script"&gt;&lt;sys_ui_script action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;description/&gt;&lt;global&gt;false&lt;/global&gt;&lt;name&gt;Sly Fox Menu Script&lt;/name&gt;&lt;script&gt;&lt;![CDATA[var SlyMenu = function() {
+
+    var IS_MENU_OPEN = false;
+	var PAGE_ELEMENT = '';
+    return {
+		loadDefaults: function(_page_element){
+			PAGE_ELEMENT = document.querySelector(_page_element);
+			PAGE_ELEMENT.classList.add('sf-page');
+		},
+        toggleSideBar: function() {
+            IS_MENU_OPEN = (!IS_MENU_OPEN);
+            this.setPageClass(IS_MENU_OPEN);
+            return IS_MENU_OPEN;
+        },
+        setPageClass: function(decision) {
+			try{
+				if (decision) {
+					PAGE_ELEMENT.classList.add('shrink');
+					return;
+				}
+				PAGE_ELEMENT.classList.remove('shrink');	
+			}catch(e){
+				//die in silence
+			}
+        },
+    };
+}();]]&gt;&lt;/script&gt;&lt;script_name/&gt;&lt;sys_class_name&gt;sys_ui_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-08-09 17:14:35&lt;/sys_created_on&gt;&lt;sys_id&gt;3c32053a07b530100dc4fa7f7c1ed032&lt;/sys_id&gt;&lt;sys_mod_count&gt;16&lt;/sys_mod_count&gt;&lt;sys_name&gt;Sly Fox Menu Script&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ui_script_3c32053a07b530100dc4fa7f7c1ed032&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-08-09 18:49:00&lt;/sys_updated_on&gt;&lt;ui_type&gt;10&lt;/ui_type&gt;&lt;use_scoped_format&gt;false&lt;/use_scoped_format&gt;&lt;/sys_ui_script&gt;&lt;/record_update&gt;</payload>
+<payload_hash>28918576</payload_hash>
+<remote_update_set display_value="Service Portal - RES">d90be936073930100dc4fa7f7c1ed086</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2021-08-09 20:12:40</sys_created_on>
+<sys_id>110be936073930100dc4fa7f7c1ed08a</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17b2c5edffd0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2021-08-09 20:12:40</sys_updated_on>
+<table/>
+<target_name>Sly Fox Menu Script</target_name>
+<type>UI Script</type>
+<update_domain>global</update_domain>
+<update_guid>67c0ad7e28f53010c2398feeee76ee27</update_guid>
+<update_guid_history>67c0ad7e28f53010c2398feeee76ee27:28918576,d550a93ec7f53010309b3954a376df56:-924569783,63cfd93ebef53010dd86d0739b412791:-1206855149,ce8f193efff530103fba0e8fbb399539:-1113736597,d47f193eddf53010017c57d76f7bc335:1147291146,1a4fddfa86f53010b287b3fb0ad33136:-683122671,ae7e11ba53f5301053ba4dea27dd98e5:1477292784,5aed11ba47f530101be970e5b0ff93df:-193182060,3fd7dd7662f530104142c5e268ee98f8:28918576,14a7dd7638f530103a83e33f68b983f4:-2019822277,99a61d7626f53010d4ce0d906a3a888d:-924569783,c906dd7602f53010ab1413d85113b972:1362210703,c8c51d7664f53010cf33634501fc0562:1771840979,6ca59976dbf53010e81e1ac7dadf1ec8:-481068665,85d4d936a7f53010268c4bd596fc869b:581307616,9ee191f24ef53010efaf152c13661f43:1784268241,dae9497e90b53010f198e5bfa5cdf04e:-382590762,23a949faacb530102a9bdd0670794cf4:677740240,0769c17ec6b530105033e0ffe9de09d1:-1718386441,5a290dfae5b53010280a17abab511948:-233521620,0c54897aedb53010cce10331315f0e72:-1847575362,3c34897abeb530101ca023ca2af85e4c:322629775,3e14457a5bb53010bf0b12e58464eee1:-297282977,a8a3453a60b530104c20a540efe0b247:-765988711,a84289f667b530104f2a8d980bdf74d2:1763660668</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sp_rel_widget_clone_4e596936073930100dc4fa7f7c1ed0e8</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_rel_widget_clone"><sp_rel_widget_clone action="INSERT_OR_UPDATE"><child display_value="Copy of Header Menu">8659edf2073930100dc4fa7f7c1ed026</child><cloned>2021-08-09 20:05:21</cloned><last_validated>2021-08-09 20:05:21</last_validated><parent display_value="Header Menu">5ef595c1cb12020000f8d856634c9c6e</parent><payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;sp_widget&gt;&lt;category&gt;standard&lt;/category&gt;&lt;client_script&gt;&lt;![CDATA[function ($scope, spUtil, $rootScope, $timeout, spAriaUtil, spGtd, $window) {
+	$scope.collapse = function() {
+		$rootScope.$emit('sp-navbar-collapse');
+	}
+	$scope.loadingIndicator = $rootScope.loadingIndicator;
+	$scope.cartItemCount = 0;
+	$scope.wishlistItemCount = 0;
+	$scope.itemAddedTooltipOpen = false;
+	$scope.accessibilityEnabled = spAriaUtil.g_accessibility === "true";
+	$scope.$on("$sp.service_catalog.cart.count", function($evt, count) {
+		$scope.cartItemCount = count;
+	});
+	$scope.$on("$sp.service_catalog.wishlist.count", function($evt, count) {
+		$scope.wishlistItemCount = count;
+	});
+	var cancelTooltipPromise;
+	$scope.$on("$sp.service_catalog.cart.add_item", function() {
+		$timeout.cancel(cancelTooltipPromise);
+		$scope.itemAddedTooltipOpen = true;
+		cancelTooltipPromise = $timeout(function() {
+			$scope.itemAddedTooltipOpen = false;
+		}, 3000);
+	});
+	$scope.$on('sp_loading_indicator', function(e, value) {
+		$scope.loadingIndicator = value;
+	});
+	$scope.toggleCart = function() {
+		$timeout.cancel(cancelTooltipPromise);
+		$scope.itemAddedTooltipOpen = false;
+		$timeout(function() {
+			$("#cart-dropdown").dropdown("toggle");
+		});
+	};
+	// PRB1108244: visibleItems array is used to improve keyboard nav
+	// in menu, refresh it as needed
+	$scope.$watch('data.menu.items', function() {
+		$scope.visibleItems = [];
+		if ($scope.data.menu.items) {
+			for (var i in $scope.data.menu.items) {
+				var item = $scope.data.menu.items[i];
+				if (item.items || (item.scriptedItems &amp;&amp; item.scriptedItems.count != 0))
+					$scope.visibleItems.push(item);
+			}
+		}
+	}, true);
+  $scope.$on('sp-menu-update-tours', function(event, tours) {
+    $scope.data.showTours = $scope.data.showTours &amp;&amp; !spUtil.isMobile();
+    if ($scope.data.showTours === false) {
+			$scope.data.guidedTours = null;
+			return;
+	}
+    var guidedToursLabel = 'Guided Tours';
+    $scope.data.guidedTours = {
+		label: guidedToursLabel,
+		collection: []
+	};
+    if (tours.length &gt; 0) {
+      $scope.data.guidedTours.collection = tours.map(function(t) {
+        return {
+          title:  t.name,
+          id: t.id,
+          clicked: function() {
+            spGtd.launch(t.id);
+          }
+        };
+      });
+    }
+  });
+	// Get list of record watchers
+	var record_watchers = [];
+	if ($scope.data.menu.items) {
+		for(var i in $scope.data.menu.items) {
+			var item = $scope.data.menu.items[i];
+			if (item.type == 'scripted') {
+				if (item.scriptedItems.record_watchers)
+					record_watchers = record_watchers.concat(item.scriptedItems.record_watchers);
+			}
+			if (item.type == 'filtered') {
+				record_watchers.push({'table':item.table,'filter':item.filter});
+			}
+		}
+	}
+	// Init record watchers
+	for (var y in record_watchers){
+		var watcher = record_watchers[y];
+		spUtil.recordWatch($scope, watcher.table, watcher.filter);
+	}
+  $rootScope.$broadcast('sp-header-loaded');
+}]]&gt;&lt;/client_script&gt;&lt;controller_as/&gt;&lt;css&gt;.header-loader {
+	float: left;
+  	width: 24px;
+  	position: relative;
+  	top: 24px;
+}
+
+.cart-dropdown, .wishlist-menu, .gtd-dropdown-container .empty-dropdown {
+  width: 350px;
+  padding: 0;
+  z-index: 1000;
+  border-top-left-radius: 4px !important;
+  border-top-right-radius: 4px !important;
+
+  ul {
+    max-height: 300px;
+    overflow: auto;
+  }
+
+  .subtotal {
+    display: block;
+  }
+
+  .item-image {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    max-width:100%;
+    height:auto;
+  }
+  label, p {
+    padding: 0;
+    margin: 0;
+  }
+  .media {
+    padding: 0;
+    margin: 0;
+  }
+  .media-left &amp;gt; a {
+    display: block;
+    width: 48px;
+    max-width: 48px;
+  }
+  .media-body {
+    label {
+      font-weight: bold;
+    }
+  }
+  li.media {
+    border-top: 1px solid #cccccc;
+    padding: 1rem;
+  }
+  .panel {
+    margin: 0;
+  }
+  .panel .panel-body {
+    padding: 0;
+  }
+  .btn-clear {
+		color: #333;
+    background-color: #fff;
+  }
+  p.quantity-price {
+    padding-top: 0.5rem;
+    span {
+      color: $text-muted;
+      padding-right: 0.5rem;
+    }
+  }
+  .align-right {
+  	text-align: right;
+  }
+}
+
+
+
+.item-added-tooltip, wishlist-item-added-tooltip {
+  width: 184px;
+  font-size: 14px;
+}
+
+.gtd-dropdown-container {
+  .empty-tour-content{
+    text-align: center;
+    margin:40px 20px;
+  }
+  .dropdown-menu li {
+    a {
+      cursor: pointer;
+    }
+    min-width: 20em;
+  }
+  .label-as-badge{
+    width: 12px;
+    height: 12px;
+    display: inline-block;
+    padding: 0px;
+    padding-top: 2px;
+  }
+  .badge-container {
+    display: inline-block;
+    width: 12px;
+  }
+}
+
+@media  (max-width: 845px) and (min-width: 768px)  {
+	.header-menu-item ul {
+		right: auto;
+		left: auto;
+	}
+}
+&lt;/css&gt;&lt;data_table&gt;sp_instance_menu&lt;/data_table&gt;&lt;demo_data/&gt;&lt;description/&gt;&lt;docs/&gt;&lt;field_list&gt;title&lt;/field_list&gt;&lt;has_preview&gt;false&lt;/has_preview&gt;&lt;id/&gt;&lt;internal&gt;false&lt;/internal&gt;&lt;link&gt;&lt;![CDATA[function(scope, elem) {
+	$(elem).on('keydown','.header-menu-item',function(e){
+		var target = e.target;
+		if (target.localName == 'a') {
+			var currentMenuItem = $(target).parents('li');
+			var parentUL = currentMenuItem.parents('ul');
+			var allMenuItems = parentUL.children('li:visible');
+			var firstMenuItem = allMenuItems.first();
+			var lastMenuItem = allMenuItems.last();
+			var menuItemToFocus;
+			if(e.keyCode == 37) {
+				e.preventDefault();
+				currentMenuItem.removeClass('open');
+				var previousMenuItem = currentMenuItem.prevAll('li:visible').first();
+				//enable circular navigation
+				menuItemToFocus = previousMenuItem.length ? previousMenuItem : lastMenuItem;
+				menuItemToFocus.find('a').focus();
+			} else if(e.keyCode == 39) {
+				e.preventDefault();
+				currentMenuItem.removeClass('open');
+				var nextMenuItem = currentMenuItem.nextAll('li:visible').first();
+				//enable circular navigation
+				menuItemToFocus = nextMenuItem.length ? nextMenuItem : firstMenuItem;
+				menuItemToFocus.find('a').focus();
+			}
+			if(e.keyCode == 9) {
+				$(target).parents('li').removeClass('open');
+			}
+		}
+		});
+	}]]&gt;&lt;/link&gt;&lt;name&gt;Header Menu&lt;/name&gt;&lt;option_schema/&gt;&lt;public&gt;true&lt;/public&gt;&lt;roles/&gt;&lt;script&gt;&lt;![CDATA[(function(){
+	// build menus
+	var menu_id = $sp.getValue('sys_id'); // instance sys_id
+	var gr = new GlideRecord('sp_instance_menu');
+	gr.get(menu_id);
+	data.menu = {};
+	data.menu.items = $sp.getMenuItems(menu_id);
+	data.isLoggedIn = GlideSession.get().isLoggedIn();
+	data.guidedTours = {};
+	// Show tours only if gtd's sp sys property is set
+	data.showTours = (gs.getProperty('com.snc.guided_tours.sp.enable') === 'true') &amp;&amp; data.isLoggedIn;
+	if (!data.showTours) {
+	data.guidedTours = null;
+	}
+	var catalogArr = ($sp.getCatalogs().value + "").split(",");
+  
+	catalogArr.forEach(function(catalog) {
+		data.showWishlist = data.showWishlist || new sn_sc.Catalog(catalog).isWishlistEnabled();
+	});
+	if (data.isLoggedIn) {
+		if (data.showWishlist)
+			data.wishlistWidget = $sp.getWidget("sc_wishlist_cart", {wishlistTemplate: "small_wishlist.html", auto_update_wishlist:options.auto_update_wishlist});
+		if (gs.getProperty("glide.sc.portal.use_cart_v2_header", "false") === "true")
+			data.cartWidget = $sp.getWidget("sc-shopping-cart-v2", {cartTemplate: "small_shopping_cart_v2.html", auto_update_cart:options.auto_update_cart});
+		else
+			data.cartWidget = $sp.getWidget("sc-shopping-cart", {cartTemplate: "small_shopping_cart.html", auto_update_cart:options.auto_update_cart});
+	}
+})();]]&gt;&lt;/script&gt;&lt;servicenow&gt;true&lt;/servicenow&gt;&lt;sys_class_name&gt;sp_widget&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2015-09-02 22:41:30&lt;/sys_created_on&gt;&lt;sys_id&gt;5ef595c1cb12020000f8d856634c9c6e&lt;/sys_id&gt;&lt;sys_mod_count&gt;579&lt;/sys_mod_count&gt;&lt;sys_name&gt;Header Menu&lt;/sys_name&gt;&lt;sys_package display_value="Service Portal - Core" source="com.glide.service-portal"&gt;50f2458f6d6620100acb70b353433062&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_widget_5ef595c1cb12020000f8d856634c9c6e&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-11-30 05:22:33&lt;/sys_updated_on&gt;&lt;template&gt;&lt;![CDATA[&lt;ul class="nav navbar-nav" aria-label="${Header menu}" role="menubar"&gt;
+  &lt;div class="header-loader" ng-class="{'invisible': !loadingIndicator}"&gt;
+    &lt;div class="hidden-xs sp-loading-indicator la-sm"&gt;
+      &lt;div&gt;&lt;/div&gt;
+      &lt;div&gt;&lt;/div&gt;
+      &lt;div&gt;&lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;li ng-repeat="item in visibleItems" ng-class="{dropdown: item.items.length &gt; 0, 'header-menu-item': true}" ng-include="'menuTemplate'" role="presentation"&gt;&lt;/li&gt;
+&lt;!-- Wishlist menu --&gt;
+  &lt;li ng-if="options.enable_wishlist &amp;&amp; data.isLoggedIn &amp;&amp; data.showWishlist" ng-show="!accessibilityEnabled" class="dropdown hidden-xs" role="presentation"&gt;
+  	&lt;a role="menuitem" href="javascript:void(0)"
+       data-toggle="dropdown"
+       id="wishlist-menu"
+       title="${Your Wish List currently has} {{wishlistItemCount}} ${items}"
+       aria-label="${Wish List}"&gt;
+      &lt;span ng-bind-html="'${Wish List}'" aria-hidden="true"&gt;&lt;/span&gt;
+      &lt;span ng-if="wishlistItemCount &gt; 0" aria-hidden="true" class="label label-as-badge label-primary sp-navbar-badge-count"&gt;{{wishlistItemCount}}&lt;/span&gt;
+		&lt;/a&gt;
+    &lt;div class="dropdown-menu wishlist-menu"&gt;
+      &lt;sp-widget widget="data.wishlistWidget"&gt;&lt;/sp-widget&gt;
+    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li ng-if="options.enable_wishlist &amp;&amp; data.isLoggedIn &amp;&amp; data.showWishlist" class="dropdown" ng-class="{'visible-xs': !accessibilityEnabled}" role="presentation"&gt;
+  	&lt;a href="?id=sc_wishlist"
+       title="${Wish List}"
+       class="toggle-dropdown"
+       role="menuitem"
+       aria-label="${Your Wish List currently has} {{wishlistItemCount}} ${items}"&gt;
+      &lt;span ng-bind-html="'${Wish List}'" aria-hidden="true"&gt;&lt;/span&gt;
+      &lt;span ng-if="wishlistItemCount &gt; 0" aria-hidden="true" class="label label-as-badge label-primary sp-navbar-badge-count"&gt;{{wishlistItemCount}}&lt;/span&gt;
+		&lt;/a&gt;
+  &lt;/li&gt;
+  &lt;!-- Shopping cart stuff --&gt;
+ &lt;li ng-if="::options.enable_cart &amp;&amp; data.isLoggedIn" ng-show="::!accessibilityEnabled" class="dropdown hidden-xs header-menu-item" role="presentation"&gt;
+  	&lt;a href
+       data-toggle="dropdown"
+       id="cart-dropdown"
+       uib-tooltip-template="'item-added-tooltip.html'"
+       tooltip-placement="bottom"
+       tooltip-trigger="'none'"
+       tooltip-is-open="$parent.itemAddedTooltipOpen"
+       title="${Your shopping cart currently has} {{cartItemCount}} ${items}"
+       aria-label="${Shopping cart}"
+       role="menuitem"&gt;
+    	&lt;i class="fa fa-shopping-cart" aria-hidden="true"&gt;&lt;/i&gt;
+      &lt;span ng-bind-html="'${Cart}'" aria-hidden="true"&gt;&lt;/span&gt;
+      &lt;span ng-if="cartItemCount &gt; 0" aria-hidden="true" class="label label-as-badge label-primary sp-navbar-badge-count"&gt;{{cartItemCount}}&lt;/span&gt;
+		&lt;/a&gt;
+    &lt;div class="dropdown-menu cart-dropdown"&gt;
+      &lt;sp-widget widget="data.cartWidget"&gt;&lt;/sp-widget&gt;
+    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li ng-if="::options.enable_cart &amp;&amp; data.isLoggedIn" class="dropdown header-menu-item" ng-class="::{'visible-xs': !accessibilityEnabled}"  role="presentation"&gt;
+  	&lt;a ng-href="?id=sc_cart"
+       ng-click="collapse()"
+       title="${Cart}"
+       class="toggle-dropdown"
+       role="menuitem"
+       aria-label="${Your shopping cart currently has} {{cartItemCount}} ${items}"&gt;
+    	&lt;i class="fa fa-shopping-cart" aria-hidden="true"&gt;&lt;/i&gt;
+      &lt;span ng-bind-html="'${Cart}'" aria-hidden="true"&gt;&lt;/span&gt;
+      &lt;span ng-if="cartItemCount &gt; 0" aria-hidden="true" class="label label-as-badge label-primary sp-navbar-badge-count"&gt;{{cartItemCount}}&lt;/span&gt;
+	&lt;/a&gt;
+  &lt;/li&gt;
+  &lt;li ng-if="data.isLoggedIn &amp;&amp; data.guidedTours" class="dropdown hidden-xs header-menu-item gtd-dropdown-container" role="presentation"&gt;
+    &lt;a href
+       data-toggle="dropdown"
+       id="tour-dropdown"
+       tooltip-placement="bottom"
+       tooltip-trigger="'none'"
+       title="${This page currently has {{data.guidedTours.collection.length}} tours}"
+       aria-label="{{data.guidedTours.label}}"
+       role="menuitem"&gt;
+      &lt;span ng-bind-html="'${Tours}'" aria-hidden="true"&gt;&lt;/span&gt;
+      &lt;span class='badge-container' ng-if="data.guidedTours.collection.length &gt; 0"&gt;
+        &lt;span aria-hidden="true" class="label label-as-badge label-primary sp-navbar-badge-count"&gt;
+          &amp;nbsp;
+       &lt;/span&gt;
+      &lt;/span&gt;
+    &lt;/a&gt;
+    &lt;div ng-if="data.guidedTours.collection.length &lt; 1" class="dropdown-menu empty-dropdown"&gt;
+      &lt;div class="panel ng-scope"&gt;
+       &lt;div class="panel-body" aria-hidden="false"&gt;
+        &lt;div class="empty-tour-content"&gt;
+         &lt;div class="h4"&gt;${You have no tours on this page}&lt;/div&gt;
+         &lt;p&gt;${Tours appear when your administrator creates them on specific pages}&lt;/p&gt;
+        &lt;/div&gt;
+       &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;ul ng-if="data.guidedTours.collection.length &gt; 0" class="dropdown-menu"
+        role="menu" aria-label="${Tours}"&gt;
+      &lt;li role="presentation" ng-repeat="mi in data.guidedTours.collection"
+          class="ng-scope dropdown-menu-line"&gt;
+        &lt;a role="menuitem" href title="{{::mi.title}}" target="{{::mi.target}}" ng-click="mi.clicked()"&gt;
+          {{::mi.title | characters:60}}
+        &lt;/a&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;]]&gt;&lt;/template&gt;&lt;/sp_widget&gt;</payload><sys_class_name>sp_rel_widget_clone</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-08-09 20:05:21</sys_created_on><sys_id>4e596936073930100dc4fa7f7c1ed0e8</sys_id><sys_mod_count>0</sys_mod_count><sys_name>8659edf2073930100dc4fa7f7c1ed026</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sp_rel_widget_clone_4e596936073930100dc4fa7f7c1ed0e8</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-08-09 20:05:21</sys_updated_on></sp_rel_widget_clone></record_update>]]></payload>
+<payload_hash>-1368245897</payload_hash>
+<remote_update_set display_value="Service Portal - RES">d90be936073930100dc4fa7f7c1ed086</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2021-08-09 20:12:40</sys_created_on>
+<sys_id>150be936073930100dc4fa7f7c1ed089</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17b2c8508d60000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2021-08-09 20:12:40</sys_updated_on>
+<table/>
+<target_name>8659edf2073930100dc4fa7f7c1ed026</target_name>
+<type>Widget Clone</type>
+<update_domain>global</update_domain>
+<update_guid>06596936243930101b8c12cb60221dea</update_guid>
+<update_guid_history>06596936243930101b8c12cb60221dea:-1368245897</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sp_js_include_6e12813a07b530100dc4fa7f7c1ed0e6</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_js_include"><sp_js_include action="INSERT_OR_UPDATE"><display_name>Sly Fox Menu Script</display_name><source>local</source><sys_class_name>sp_js_include</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-08-09 17:14:10</sys_created_on><sys_id>6e12813a07b530100dc4fa7f7c1ed0e6</sys_id><sys_mod_count>1</sys_mod_count><sys_name>Sly Fox Menu Script</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_ui_script display_value="Sly Fox Menu Script">3c32053a07b530100dc4fa7f7c1ed032</sys_ui_script><sys_update_name>sp_js_include_6e12813a07b530100dc4fa7f7c1ed0e6</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-08-09 17:14:37</sys_updated_on><url/></sp_js_include></record_update>]]></payload>
+<payload_hash>93444937</payload_hash>
+<remote_update_set display_value="Service Portal - RES">d90be936073930100dc4fa7f7c1ed086</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2021-08-09 20:12:40</sys_created_on>
+<sys_id>190be936073930100dc4fa7f7c1ed088</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17b2be8bb070000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2021-08-09 20:12:40</sys_updated_on>
+<table/>
+<target_name>Sly Fox Menu Script</target_name>
+<type>JS Include</type>
+<update_domain>global</update_domain>
+<update_guid>5542413a69b53010c276d9323a475364</update_guid>
+<update_guid_history>5542413a69b53010c276d9323a475364:93444937,2e22413a95b5301001958914fff26e6c:533038709</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sp_css_511895f607f530100dc4fa7f7c1ed0e7</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_css"><sp_css action="INSERT_OR_UPDATE"><css>//transition page for sidebar&#13;
+&#13;
+section.page.sf-page{&#13;
+  	position: relative;&#13;
+  	top: 0px;&#13;
+  	left: 0px;&#13;
+	transition: width 300ms ease, left 300ms ease;&#13;
+}&#13;
+section.page.sf-page.shrink{&#13;
+	width: calc(100% - 250px);&#13;
+    left: 250px;&#13;
+}</css><name>Sly Fox Default Styles</name><sys_class_name>sp_css</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-08-09 18:50:09</sys_created_on><sys_id>511895f607f530100dc4fa7f7c1ed0e7</sys_id><sys_mod_count>17</sys_mod_count><sys_name>Sly Fox Default Styles</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sp_css_511895f607f530100dc4fa7f7c1ed0e7</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-08-09 19:25:21</sys_updated_on></sp_css></record_update>]]></payload>
+<payload_hash>-78045695</payload_hash>
+<remote_update_set display_value="Service Portal - RES">d90be936073930100dc4fa7f7c1ed086</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2021-08-09 20:12:40</sys_created_on>
+<sys_id>1d0be936073930100dc4fa7f7c1ed087</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17b2c606a7c0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2021-08-09 20:12:40</sys_updated_on>
+<table/>
+<target_name>Sly Fox Default Styles</target_name>
+<type>Style Sheet</type>
+<update_domain>global</update_domain>
+<update_guid>5830e57e22f530103de5aad3f96bdf40</update_guid>
+<update_guid_history>5830e57e22f530103de5aad3f96bdf40:-78045695,db2e51baa2f530107bbde1735b43260b:-1321180187,158b9d7a08f530100a5b0b3c99a3f18b:-78045695,567b9d7a83f53010f30225f0328081f3:1173131383,346bd1f677f5301000bad093bf75d4e1:-60870988,f63bd17ac2f5301050d0f2d0a795261d:1720229983,4efa957ac8f530106b939029bc8c3d3b:516465608,88aa1d7697f53010cafd1e6dc3fb479d:2092970452,875a1d3a0bf5301053b3dafd01cd7a39:1640200622,d399113af1f530101107a318a395daa4:1624531051,4499193a47f53010e1e091762a684302:1000318637,887995b601f53010c895f78dbe65d2d1:376106223,1a19ddf64ef5301002fbdfd7f6d8e173:-1388010118,f4e819f6f4f53010a75f1627ca9b375c:721445370,cac8ddf621f53010c83a0273f5cc1c36:-369814720,2da855f66ef53010b534f9d3d65dfeeb:179038218,447895f62df5301049d58987bad2e890:1993180054,e82895f62ef530106652276b44addf8c:105270442</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sp_rectangle_menu_item_f1996d36073930100dc4fa7f7c1ed070</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_rectangle_menu_item"><sp_rectangle_menu_item action="INSERT_OR_UPDATE"><active>true</active><color>default</color><condition/><display_1/><display_2/><display_date/><filter/><glyph>stop</glyph><hint/><kb_article/><kb_category/><kb_topic/><label>SC Category</label><order>100</order><record_script/><sc_cat_item/><sc_category/><short_description/><sp_page display_value="sc_category">07261a2147132100ba13a5554ee49092</sp_page><sp_rectangle_menu display_value="Sly Fox SideBar Menu">c1c86136073930100dc4fa7f7c1ed0a7</sp_rectangle_menu><sp_rectangle_menu_item/><sys_class_name>sp_rectangle_menu_item</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-08-09 20:10:28</sys_created_on><sys_id>f1996d36073930100dc4fa7f7c1ed070</sys_id><sys_mod_count>0</sys_mod_count><sys_name>SC Category</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sp_rectangle_menu_item_f1996d36073930100dc4fa7f7c1ed070</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-08-09 20:10:28</sys_updated_on><table/><type>page</type><url/><url_target/></sp_rectangle_menu_item><sys_translated_text action="delete_multiple" query="documentkey=f1996d36073930100dc4fa7f7c1ed070"/></record_update>]]></payload>
+<payload_hash>-634916006</payload_hash>
+<remote_update_set display_value="Service Portal - RES">d90be936073930100dc4fa7f7c1ed086</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2021-08-09 20:12:40</sys_created_on>
+<sys_id>510be936073930100dc4fa7f7c1ed089</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17b2c89b8860000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2021-08-09 20:12:40</sys_updated_on>
+<table/>
+<target_name>SC Category</target_name>
+<type>Menu Item</type>
+<update_domain>global</update_domain>
+<update_guid>498ae57657393010de333602f67d135f</update_guid>
+<update_guid_history>498ae57657393010de333602f67d135f:-634916006</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sp_instance_menu_c1c86136073930100dc4fa7f7c1ed0a7</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_menu"><sp_instance_menu action="INSERT_OR_UPDATE"><active>true</active><class_name/><color>default</color><css/><glyph/><id/><order>1</order><roles/><short_description/><size>md</size><sp_column/><sp_widget display_value="Sly Fox SideBar Menu">8659edf2073930100dc4fa7f7c1ed026</sp_widget><sys_class_name>sp_instance_menu</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-08-09 20:03:24</sys_created_on><sys_id>c1c86136073930100dc4fa7f7c1ed0a7</sys_id><sys_mod_count>1</sys_mod_count><sys_name>Sly Fox SideBar Menu</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sp_instance_menu_c1c86136073930100dc4fa7f7c1ed0a7</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-08-09 20:06:23</sys_updated_on><title>Sly Fox SideBar Menu</title><url/><widget_parameters/></sp_instance_menu><sys_translated_text action="delete_multiple" query="documentkey=c1c86136073930100dc4fa7f7c1ed0a7"/></record_update>]]></payload>
+<payload_hash>931669953</payload_hash>
+<remote_update_set display_value="Service Portal - RES">d90be936073930100dc4fa7f7c1ed086</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2021-08-09 20:12:40</sys_created_on>
+<sys_id>550be936073930100dc4fa7f7c1ed088</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17b2c85fb8b0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2021-08-09 20:12:40</sys_updated_on>
+<table/>
+<target_name>Sly Fox SideBar Menu</target_name>
+<type>Instance with Menu</type>
+<update_domain>global</update_domain>
+<update_guid>11996d368039301092cfb571b30a9d1d</update_guid>
+<update_guid_history>11996d368039301092cfb571b30a9d1d:931669953,2de8e1366c393010d44c0b9b14b12658:-1255542085</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>m2m_sp_widget_dependency_4e59edf2073930100dc4fa7f7c1ed028</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sp_widget_dependency"><m2m_sp_widget_dependency action="INSERT_OR_UPDATE"><sp_dependency display_value="angular-truncate">09e1f1416712220023c82e08f585ef1e</sp_dependency><sp_widget display_value="Copy of Header Menu">8659edf2073930100dc4fa7f7c1ed026</sp_widget><sys_class_name>m2m_sp_widget_dependency</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-08-09 20:05:21</sys_created_on><sys_id>4e59edf2073930100dc4fa7f7c1ed028</sys_id><sys_mod_count>0</sys_mod_count><sys_name>angular-truncate.Copy of Header Menu</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>m2m_sp_widget_dependency_4e59edf2073930100dc4fa7f7c1ed028</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-08-09 20:05:21</sys_updated_on></m2m_sp_widget_dependency></record_update>]]></payload>
+<payload_hash>600205221</payload_hash>
+<remote_update_set display_value="Service Portal - RES">d90be936073930100dc4fa7f7c1ed086</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2021-08-09 20:12:40</sys_created_on>
+<sys_id>590be936073930100dc4fa7f7c1ed087</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17b2c85088b0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2021-08-09 20:12:40</sys_updated_on>
+<table/>
+<target_name>angular-truncate.Copy of Header Menu</target_name>
+<type>Widget Dependency</type>
+<update_domain>global</update_domain>
+<update_guid>0259edf297393010e37e078e2de3d52b</update_guid>
+<update_guid_history>0259edf297393010e37e078e2de3d52b:600205221</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sp_widget_8659edf2073930100dc4fa7f7c1ed026</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sp_widget"&gt;&lt;sp_widget action="INSERT_OR_UPDATE"&gt;&lt;category&gt;standard&lt;/category&gt;&lt;client_script&gt;&lt;![CDATA[function ($scope, spUtil, $rootScope, $timeout, spAriaUtil, spGtd, $window) {
+	$scope.collapse = function() {
+		$rootScope.$emit('sp-navbar-collapse');
+	}
+	$scope.loadingIndicator = $rootScope.loadingIndicator;
+	$scope.cartItemCount = 0;
+	$scope.wishlistItemCount = 0;
+	$scope.itemAddedTooltipOpen = false;
+	$scope.accessibilityEnabled = spAriaUtil.g_accessibility === "true";
+	$scope.$on("$sp.service_catalog.cart.count", function($evt, count) {
+		$scope.cartItemCount = count;
+	});
+	$scope.$on("$sp.service_catalog.wishlist.count", function($evt, count) {
+		$scope.wishlistItemCount = count;
+	});
+	var cancelTooltipPromise;
+	$scope.$on("$sp.service_catalog.cart.add_item", function() {
+		$timeout.cancel(cancelTooltipPromise);
+		$scope.itemAddedTooltipOpen = true;
+		cancelTooltipPromise = $timeout(function() {
+			$scope.itemAddedTooltipOpen = false;
+		}, 3000);
+	});
+	$scope.$on('sp_loading_indicator', function(e, value) {
+		$scope.loadingIndicator = value;
+	});
+	$scope.toggleCart = function() {
+		$timeout.cancel(cancelTooltipPromise);
+		$scope.itemAddedTooltipOpen = false;
+		$timeout(function() {
+			$("#cart-dropdown").dropdown("toggle");
+		});
+	};
+	// PRB1108244: visibleItems array is used to improve keyboard nav
+	// in menu, refresh it as needed
+	$scope.$watch('data.menu.items', function() {
+		$scope.visibleItems = [];
+		if ($scope.data.menu.items) {
+			for (var i in $scope.data.menu.items) {
+				var item = $scope.data.menu.items[i];
+				if (item.items || (item.scriptedItems &amp;&amp; item.scriptedItems.count != 0))
+					$scope.visibleItems.push(item);
+			}
+		}
+	}, true);
+  $scope.$on('sp-menu-update-tours', function(event, tours) {
+    $scope.data.showTours = $scope.data.showTours &amp;&amp; !spUtil.isMobile();
+    if ($scope.data.showTours === false) {
+			$scope.data.guidedTours = null;
+			return;
+	}
+    var guidedToursLabel = 'Guided Tours';
+    $scope.data.guidedTours = {
+		label: guidedToursLabel,
+		collection: []
+	};
+    if (tours.length &gt; 0) {
+      $scope.data.guidedTours.collection = tours.map(function(t) {
+        return {
+          title:  t.name,
+          id: t.id,
+          clicked: function() {
+            spGtd.launch(t.id);
+          }
+        };
+      });
+    }
+  });
+	// Get list of record watchers
+	var record_watchers = [];
+	if ($scope.data.menu.items) {
+		for(var i in $scope.data.menu.items) {
+			var item = $scope.data.menu.items[i];
+			if (item.type == 'scripted') {
+				if (item.scriptedItems.record_watchers)
+					record_watchers = record_watchers.concat(item.scriptedItems.record_watchers);
+			}
+			if (item.type == 'filtered') {
+				record_watchers.push({'table':item.table,'filter':item.filter});
+			}
+		}
+	}
+	// Init record watchers
+	for (var y in record_watchers){
+		var watcher = record_watchers[y];
+		spUtil.recordWatch($scope, watcher.table, watcher.filter);
+	}
+  $rootScope.$broadcast('sp-header-loaded');
+}]]&gt;&lt;/client_script&gt;&lt;controller_as&gt;c&lt;/controller_as&gt;&lt;css&gt;.header-loader {
+	float: left;
+  	width: 24px;
+  	position: relative;
+  	top: 24px;
+}
+
+.cart-dropdown, .wishlist-menu, .gtd-dropdown-container .empty-dropdown {
+  width: 350px;
+  padding: 0;
+  z-index: 1000;
+  border-top-left-radius: 4px !important;
+  border-top-right-radius: 4px !important;
+
+  ul {
+    max-height: 300px;
+    overflow: auto;
+  }
+
+  .subtotal {
+    display: block;
+  }
+
+  .item-image {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    max-width:100%;
+    height:auto;
+  }
+  label, p {
+    padding: 0;
+    margin: 0;
+  }
+  .media {
+    padding: 0;
+    margin: 0;
+  }
+  .media-left &amp;gt; a {
+    display: block;
+    width: 48px;
+    max-width: 48px;
+  }
+  .media-body {
+    label {
+      font-weight: bold;
+    }
+  }
+  li.media {
+    border-top: 1px solid #cccccc;
+    padding: 1rem;
+  }
+  .panel {
+    margin: 0;
+  }
+  .panel .panel-body {
+    padding: 0;
+  }
+  .btn-clear {
+		color: #333;
+    background-color: #fff;
+  }
+  p.quantity-price {
+    padding-top: 0.5rem;
+    span {
+      color: $text-muted;
+      padding-right: 0.5rem;
+    }
+  }
+  .align-right {
+  	text-align: right;
+  }
+}
+
+
+
+.item-added-tooltip, wishlist-item-added-tooltip {
+  width: 184px;
+  font-size: 14px;
+}
+
+.gtd-dropdown-container {
+  .empty-tour-content{
+    text-align: center;
+    margin:40px 20px;
+  }
+  .dropdown-menu li {
+    a {
+      cursor: pointer;
+    }
+    min-width: 20em;
+  }
+  .label-as-badge{
+    width: 12px;
+    height: 12px;
+    display: inline-block;
+    padding: 0px;
+    padding-top: 2px;
+  }
+  .badge-container {
+    display: inline-block;
+    width: 12px;
+  }
+}
+
+@media  (max-width: 845px) and (min-width: 768px)  {
+	.header-menu-item ul {
+		right: auto;
+		left: auto;
+	}
+}
+&lt;/css&gt;&lt;data_table&gt;sp_instance_menu&lt;/data_table&gt;&lt;demo_data/&gt;&lt;description/&gt;&lt;docs/&gt;&lt;field_list&gt;title&lt;/field_list&gt;&lt;has_preview&gt;false&lt;/has_preview&gt;&lt;id/&gt;&lt;internal&gt;false&lt;/internal&gt;&lt;link&gt;&lt;![CDATA[function(scope, elem) {
+	$(elem).on('keydown','.header-menu-item',function(e){
+		var target = e.target;
+		if (target.localName == 'a') {
+			var currentMenuItem = $(target).parents('li');
+			var parentUL = currentMenuItem.parents('ul');
+			var allMenuItems = parentUL.children('li:visible');
+			var firstMenuItem = allMenuItems.first();
+			var lastMenuItem = allMenuItems.last();
+			var menuItemToFocus;
+			if(e.keyCode == 37) {
+				e.preventDefault();
+				currentMenuItem.removeClass('open');
+				var previousMenuItem = currentMenuItem.prevAll('li:visible').first();
+				//enable circular navigation
+				menuItemToFocus = previousMenuItem.length ? previousMenuItem : lastMenuItem;
+				menuItemToFocus.find('a').focus();
+			} else if(e.keyCode == 39) {
+				e.preventDefault();
+				currentMenuItem.removeClass('open');
+				var nextMenuItem = currentMenuItem.nextAll('li:visible').first();
+				//enable circular navigation
+				menuItemToFocus = nextMenuItem.length ? nextMenuItem : firstMenuItem;
+				menuItemToFocus.find('a').focus();
+			}
+			if(e.keyCode == 9) {
+				$(target).parents('li').removeClass('open');
+			}
+		}
+		});
+	}]]&gt;&lt;/link&gt;&lt;name&gt;Sly Fox SideBar Menu&lt;/name&gt;&lt;option_schema/&gt;&lt;public&gt;true&lt;/public&gt;&lt;roles/&gt;&lt;script&gt;&lt;![CDATA[(function(){
+	// build menus
+	var menu_id = $sp.getValue('sys_id'); // instance sys_id
+	var gr = new GlideRecord('sp_instance_menu');
+	gr.get(menu_id);
+	data.menu = {};
+	data.menu.items = $sp.getMenuItems(menu_id);
+	data.isLoggedIn = GlideSession.get().isLoggedIn();
+	data.guidedTours = {};
+	// Show tours only if gtd's sp sys property is set
+	data.showTours = (gs.getProperty('com.snc.guided_tours.sp.enable') === 'true') &amp;&amp; data.isLoggedIn;
+	if (!data.showTours) {
+	data.guidedTours = null;
+	}
+	var catalogArr = ($sp.getCatalogs().value + "").split(",");
+  
+	catalogArr.forEach(function(catalog) {
+		data.showWishlist = data.showWishlist || new sn_sc.Catalog(catalog).isWishlistEnabled();
+	});
+	if (data.isLoggedIn) {
+		if (data.showWishlist)
+			data.wishlistWidget = $sp.getWidget("sc_wishlist_cart", {wishlistTemplate: "small_wishlist.html", auto_update_wishlist:options.auto_update_wishlist});
+		if (gs.getProperty("glide.sc.portal.use_cart_v2_header", "false") === "true")
+			data.cartWidget = $sp.getWidget("sc-shopping-cart-v2", {cartTemplate: "small_shopping_cart_v2.html", auto_update_cart:options.auto_update_cart});
+		else
+			data.cartWidget = $sp.getWidget("sc-shopping-cart", {cartTemplate: "small_shopping_cart.html", auto_update_cart:options.auto_update_cart});
+	}
+})();]]&gt;&lt;/script&gt;&lt;servicenow&gt;false&lt;/servicenow&gt;&lt;sys_class_name&gt;sp_widget&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-08-09 20:05:21&lt;/sys_created_on&gt;&lt;sys_id&gt;8659edf2073930100dc4fa7f7c1ed026&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name&gt;Sly Fox SideBar Menu&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_widget_8659edf2073930100dc4fa7f7c1ed026&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-08-09 20:05:34&lt;/sys_updated_on&gt;&lt;template&gt;&lt;![CDATA[&lt;ul class="nav navbar-nav" aria-label="${Header menu}" role="menubar"&gt;
+  &lt;div class="header-loader" ng-class="{'invisible': !loadingIndicator}"&gt;
+    &lt;div class="hidden-xs sp-loading-indicator la-sm"&gt;
+      &lt;div&gt;&lt;/div&gt;
+      &lt;div&gt;&lt;/div&gt;
+      &lt;div&gt;&lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;li ng-repeat="item in visibleItems" ng-class="{dropdown: item.items.length &gt; 0, 'header-menu-item': true}" ng-include="'menuTemplate'" role="presentation"&gt;&lt;/li&gt;
+&lt;!-- Wishlist menu --&gt;
+  &lt;li ng-if="options.enable_wishlist &amp;&amp; data.isLoggedIn &amp;&amp; data.showWishlist" ng-show="!accessibilityEnabled" class="dropdown hidden-xs" role="presentation"&gt;
+  	&lt;a role="menuitem" href="javascript:void(0)"
+       data-toggle="dropdown"
+       id="wishlist-menu"
+       title="${Your Wish List currently has} {{wishlistItemCount}} ${items}"
+       aria-label="${Wish List}"&gt;
+      &lt;span ng-bind-html="'${Wish List}'" aria-hidden="true"&gt;&lt;/span&gt;
+      &lt;span ng-if="wishlistItemCount &gt; 0" aria-hidden="true" class="label label-as-badge label-primary sp-navbar-badge-count"&gt;{{wishlistItemCount}}&lt;/span&gt;
+		&lt;/a&gt;
+    &lt;div class="dropdown-menu wishlist-menu"&gt;
+      &lt;sp-widget widget="data.wishlistWidget"&gt;&lt;/sp-widget&gt;
+    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li ng-if="options.enable_wishlist &amp;&amp; data.isLoggedIn &amp;&amp; data.showWishlist" class="dropdown" ng-class="{'visible-xs': !accessibilityEnabled}" role="presentation"&gt;
+  	&lt;a href="?id=sc_wishlist"
+       title="${Wish List}"
+       class="toggle-dropdown"
+       role="menuitem"
+       aria-label="${Your Wish List currently has} {{wishlistItemCount}} ${items}"&gt;
+      &lt;span ng-bind-html="'${Wish List}'" aria-hidden="true"&gt;&lt;/span&gt;
+      &lt;span ng-if="wishlistItemCount &gt; 0" aria-hidden="true" class="label label-as-badge label-primary sp-navbar-badge-count"&gt;{{wishlistItemCount}}&lt;/span&gt;
+		&lt;/a&gt;
+  &lt;/li&gt;
+  &lt;!-- Shopping cart stuff --&gt;
+ &lt;li ng-if="::options.enable_cart &amp;&amp; data.isLoggedIn" ng-show="::!accessibilityEnabled" class="dropdown hidden-xs header-menu-item" role="presentation"&gt;
+  	&lt;a href
+       data-toggle="dropdown"
+       id="cart-dropdown"
+       uib-tooltip-template="'item-added-tooltip.html'"
+       tooltip-placement="bottom"
+       tooltip-trigger="'none'"
+       tooltip-is-open="$parent.itemAddedTooltipOpen"
+       title="${Your shopping cart currently has} {{cartItemCount}} ${items}"
+       aria-label="${Shopping cart}"
+       role="menuitem"&gt;
+    	&lt;i class="fa fa-shopping-cart" aria-hidden="true"&gt;&lt;/i&gt;
+      &lt;span ng-bind-html="'${Cart}'" aria-hidden="true"&gt;&lt;/span&gt;
+      &lt;span ng-if="cartItemCount &gt; 0" aria-hidden="true" class="label label-as-badge label-primary sp-navbar-badge-count"&gt;{{cartItemCount}}&lt;/span&gt;
+		&lt;/a&gt;
+    &lt;div class="dropdown-menu cart-dropdown"&gt;
+      &lt;sp-widget widget="data.cartWidget"&gt;&lt;/sp-widget&gt;
+    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li ng-if="::options.enable_cart &amp;&amp; data.isLoggedIn" class="dropdown header-menu-item" ng-class="::{'visible-xs': !accessibilityEnabled}"  role="presentation"&gt;
+  	&lt;a ng-href="?id=sc_cart"
+       ng-click="collapse()"
+       title="${Cart}"
+       class="toggle-dropdown"
+       role="menuitem"
+       aria-label="${Your shopping cart currently has} {{cartItemCount}} ${items}"&gt;
+    	&lt;i class="fa fa-shopping-cart" aria-hidden="true"&gt;&lt;/i&gt;
+      &lt;span ng-bind-html="'${Cart}'" aria-hidden="true"&gt;&lt;/span&gt;
+      &lt;span ng-if="cartItemCount &gt; 0" aria-hidden="true" class="label label-as-badge label-primary sp-navbar-badge-count"&gt;{{cartItemCount}}&lt;/span&gt;
+	&lt;/a&gt;
+  &lt;/li&gt;
+  &lt;li ng-if="data.isLoggedIn &amp;&amp; data.guidedTours" class="dropdown hidden-xs header-menu-item gtd-dropdown-container" role="presentation"&gt;
+    &lt;a href
+       data-toggle="dropdown"
+       id="tour-dropdown"
+       tooltip-placement="bottom"
+       tooltip-trigger="'none'"
+       title="${This page currently has {{data.guidedTours.collection.length}} tours}"
+       aria-label="{{data.guidedTours.label}}"
+       role="menuitem"&gt;
+      &lt;span ng-bind-html="'${Tours}'" aria-hidden="true"&gt;&lt;/span&gt;
+      &lt;span class='badge-container' ng-if="data.guidedTours.collection.length &gt; 0"&gt;
+        &lt;span aria-hidden="true" class="label label-as-badge label-primary sp-navbar-badge-count"&gt;
+          &amp;nbsp;
+       &lt;/span&gt;
+      &lt;/span&gt;
+    &lt;/a&gt;
+    &lt;div ng-if="data.guidedTours.collection.length &lt; 1" class="dropdown-menu empty-dropdown"&gt;
+      &lt;div class="panel ng-scope"&gt;
+       &lt;div class="panel-body" aria-hidden="false"&gt;
+        &lt;div class="empty-tour-content"&gt;
+         &lt;div class="h4"&gt;${You have no tours on this page}&lt;/div&gt;
+         &lt;p&gt;${Tours appear when your administrator creates them on specific pages}&lt;/p&gt;
+        &lt;/div&gt;
+       &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;ul ng-if="data.guidedTours.collection.length &gt; 0" class="dropdown-menu"
+        role="menu" aria-label="${Tours}"&gt;
+      &lt;li role="presentation" ng-repeat="mi in data.guidedTours.collection"
+          class="ng-scope dropdown-menu-line"&gt;
+        &lt;a role="menuitem" href title="{{::mi.title}}" target="{{::mi.target}}" ng-click="mi.clicked()"&gt;
+          {{::mi.title | characters:60}}
+        &lt;/a&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;]]&gt;&lt;/template&gt;&lt;/sp_widget&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-1473590991</payload_hash>
+<remote_update_set display_value="Service Portal - RES">d90be936073930100dc4fa7f7c1ed086</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2021-08-09 20:12:40</sys_created_on>
+<sys_id>5d0be936073930100dc4fa7f7c1ed089</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17b2c853d690000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2021-08-09 20:12:40</sys_updated_on>
+<table/>
+<target_name>Sly Fox SideBar Menu</target_name>
+<type>Widget</type>
+<update_domain>global</update_domain>
+<update_guid>59692936eb3930103019291b6b5d6214</update_guid>
+<update_guid_history>59692936eb3930103019291b6b5d6214:-1473590991,0259edf26b393010c1770e53cad87c28:1675469023</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sp_header_footer_edbdb03607b530100dc4fa7f7c1ed01d</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sp_header_footer"&gt;&lt;sp_header_footer action="INSERT_OR_UPDATE"&gt;&lt;category&gt;standard&lt;/category&gt;&lt;client_script&gt;&lt;![CDATA[function ($rootScope, $scope, snRecordWatcher, spUtil, $location, $uibModal, cabrillo, $timeout, $window) {
+
+	/***
+	* Sly Fox addition
+	*/
+	SlyMenu.loadDefaults('section.page');
+	$scope.isMenuOpen = false;
+	$scope.toggleSideBar = function(){
+		$scope.isMenuOpen = SlyMenu.toggleSideBar();
+	}
+	
+	
+	
+	
+	
+	
+	$scope.collapse = function() {
+		$rootScope.$emit('sp-navbar-collapse');
+	}
+
+	$scope.avatarProfile = {
+		userID: $scope.user.sys_id,
+		name: $scope.user.name,
+		initials: $window.NOW.user_initials
+	};
+
+	if ($window.NOW.user_avatar) {
+		$scope.avatarProfile.userImage = $window.NOW.user_avatar;
+	}
+
+	if (cabrillo.isNative()) {
+		if ($window.innerWidth &lt; 767) {
+			$scope.isViewNative = true;
+		} else {
+			$scope.isViewNativeTablet = true;
+		}
+	}
+
+
+	$scope.openPopUp = function() {
+		var url = "$chat_support.do?queueID=" + $scope.data.connect_support_queue_id;
+		var popup = window.open (url, "popup", "width=900, height=600");
+	};
+
+	$scope.openLogin = function () {
+		$scope.modalInstance = $uibModal.open({
+			templateUrl: 'modalLogin',
+			scope: $scope
+		});
+	};
+
+	var xsScreenSize = isXSScreenSize();
+	$scope.showXSAvatar = isXSScreenSize();
+	$scope.showAvatar = !isXSScreenSize();
+
+	$scope.isAgentChatConfigured = g_has_agent_chat_config;
+
+	angular.element($window).on('resize', function () {
+		if(xsScreenSize !== isXSScreenSize() &amp;&amp; (!$scope.showXSAvatar || !$scope.showAvatar)){
+			$scope.showXSAvatar = true;
+			$scope.showAvatar = true;
+		}
+	});
+
+
+	function isXSScreenSize() {
+		return $window.matchMedia('(max-width: 767px)').matches;
+	}
+
+	$rootScope.$on('sp.avatar_changed', function(evt, obj) {
+		$scope.userID = "";
+		$scope.newAvatarId = obj.newAvatarId;
+		$timeout(function(){
+			$scope.userID = $scope.user.sys_id;
+			$("#profile-dropdown .sub-avatar").css("background-image", 'url("' + $scope.newAvatarId + '.iix?t=small")');
+		});
+	});
+
+	$scope.isHomepage = function() {
+		if (!$scope.page.id)
+			return true;
+
+		if ($scope.page.id == $scope.portal.homepage_dv)
+			return true;
+
+		return false;
+	};
+}
+		]]&gt;&lt;/client_script&gt;&lt;controller_as&gt;c&lt;/controller_as&gt;&lt;css&gt;.navbar {
+  transition: 250ms opacity ease-in-out;
+  -webkit-transition: 250ms opacity ease-in-out;
+  border: 0;
+  border-bottom: 4px solid $sp-navbar-divider-color;
+}
+
+.navbar-fade {
+  opacity: 0.4;
+}
+
+.navbar-inverse .navbar-toggle {
+  border-color: rgba(255, 255, 255, 0.25);
+}
+
+header[role="banner"],
+.nav &amp;gt; li &amp;gt; a {
+  max-height: 60px;
+}
+
+@media screen and (max-width: 768px){
+  .nav &amp;gt; li &amp;gt; a {
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
+  }
+}
+
+.navbar-brand {
+  max-height: 60px;
+  padding: 0;
+  padding-bottom: 0.5rem;
+}
+
+.navbar-brand img, .navbar-brand span {
+  margin-left: $sp-logo-margin-x;
+  margin-right: $sp-logo-margin-x;
+  margin-top: $sp-logo-margin-y;
+  margin-bottom: $sp-logo-margin-y;
+  display: block;
+  max-height: $sp-logo-max-height;
+  max-width: $sp-logo-max-width;
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+.breadcrumb-container {
+  background-color: $panel-bg;
+}
+
+/* for mobile app */
+.navbar-inverse.is-native {
+  background-color: #405060;
+}
+
+nav {
+  margin-bottom: 0px;
+  border-radius: 0px;
+
+ .toggle-dropdown {
+    height: 60px;
+  }
+
+}
+
+.navbar-right {
+  padding-right: 0px;
+  padding-left: 7px;
+}
+
+.navbar-nav {
+margin: 0px;
+}
+
+// PRB711244: Dropdown menu is scrollable when too many items
+.scrollable-dropdown {
+  max-height: 80vh;
+  overflow: auto;
+  height: auto;
+}
+
+.is-native {
+ .scrollable-dropdown {
+  max-height: 100vh;
+  overflow: scroll;
+  height: auto;
+	}
+}
+
+
+/* PRB923910: Fix for Service Portal - Header Poorly Aligned in Safari */
+@media screen and (min-width: 768px) {
+  .navbar-right {
+    display: flex !important;
+    height: auto !important;
+  }
+}
+
+.sf-stock-header{
+	position: relative;
+  
+    .sf-side-bar{
+      position: absolute;
+      bottom: calc(-100vh + 60);
+      left: 0px;
+      height: 100vh;
+      width: 250px;
+      z-index: 1000;
+      border-right: 4px solid $sp-navbar-divider-color;
+      transition: left 300ms ease;
+      
+      
+      .sf-side-bar-tab{
+      	position: absolute;
+        right: -48px;
+        top: 8px;
+        width: 48px;
+        height: 48px;
+        border-top-right-radius: 4px;
+        border-bottom-right-radius: 4px;
+        border-left: 4px solid $sp-navbar-divider-color;
+        z-index: 999;
+        
+        .glyphicon{
+        	position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%,-50%);
+        	font-size: 24px;
+        }
+      }
+  }  
+  
+  .sf-side-bar.closed{
+  	left: -250px;
+  }
+  
+  
+  
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;/css&gt;&lt;data_table&gt;sp_instance&lt;/data_table&gt;&lt;demo_data/&gt;&lt;description/&gt;&lt;docs/&gt;&lt;field_list/&gt;&lt;has_preview&gt;false&lt;/has_preview&gt;&lt;id/&gt;&lt;internal&gt;false&lt;/internal&gt;&lt;link&gt;&lt;![CDATA[function(scope, element) {
+	$(document).keyup(function(event) {
+		if (event.which == 9 || event.which == 37 || event.which == 39) { //tab key handler + arrow keys
+			if ($(event.target).parents(".dropdown-menu").length == 0) { //if we are NOT inside a dropdown...
+				//close the dropdowns
+				$(".dropdown").removeClass("open");
+				$("[data-toggle='dropdown']").attr("aria-expanded", "false");
+			}
+		}
+		if (event.which == 13 || event.which == 32)
+			$(event.target).parent(".dropdown.open").find("ul.dropdown-menu li:first-child a").focus();
+	});
+
+	$(element).on('click.nav','.navbar-collapse.in',function(e) {
+		var target = $(e.target);
+		if (target.is('a')) {
+			if (target.hasClass('sp-menu-has-items'))
+				return; // menu item has a submenu, so just toggle it
+
+			// collapse mobile nav if clicked an anchor
+			$(this).removeClass('in').addClass('collapse');
+			return;
+		}
+
+		if (target.parent().hasClass("toggle-dropdown")) {
+			// collapse mobile nav if parent has toggle-dropdown class
+			$(this).removeClass('in').addClass('collapse');
+			return;
+		}
+
+		// if neither target nor parent is an anchor, do nothing
+		if (!target.parent().is('a'))
+			return;
+
+		// collapse mobile nav if target is part of a submenu
+		if (target.parents("ul.dropdown-menu").length &gt; 0)
+			$(this).removeClass('in').addClass('collapse');
+	});
+
+}]]&gt;&lt;/link&gt;&lt;name&gt;Sly Fox Stock Header&lt;/name&gt;&lt;option_schema/&gt;&lt;public&gt;true&lt;/public&gt;&lt;roles/&gt;&lt;script&gt;&lt;![CDATA[// Defines the support queue ID that will be linked to by the Live Chat link in header
+data.connect_support_queue_id = $sp.getValue('sp_chat_queue');
+data.login_page = $sp.getValue('login_page');
+data.profileBtnMsg = gs.getMessage("User options");
+var menu = $sp.getValue("sp_rectangle_menu");
+var sideBarMenu = $sp.getValue("sly_fox_sidebar_menu");
+data.menu = $sp.getWidgetFromInstance(menu);
+data.sideBarMenu = $sp.getWidgetFromInstance(sideBarMenu);
+if (data.menu &amp;&amp; data.menu.data) {
+	data.menu.data.replace = true;
+	// Hide login if menu already has link to login
+	data.hasLogin = false;
+	if (data.menu.data.menu.items) {
+		for(var i in data.menu.data.menu.items) {
+			var item = data.menu.data.menu.items[i];
+			if (item.type == 'page' &amp;&amp; item.sp_page == data.login_page)
+				data.hasLogin = true;
+		}
+	}
+}
+
+data.loginWidget = $sp.getWidgetFromInstance('login-modal');]]&gt;&lt;/script&gt;&lt;servicenow&gt;false&lt;/servicenow&gt;&lt;static&gt;false&lt;/static&gt;&lt;sys_class_name&gt;sp_header_footer&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-08-09 16:54:42&lt;/sys_created_on&gt;&lt;sys_id&gt;edbdb03607b530100dc4fa7f7c1ed01d&lt;/sys_id&gt;&lt;sys_mod_count&gt;75&lt;/sys_mod_count&gt;&lt;sys_name&gt;Sly Fox Stock Header&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_header_footer_edbdb03607b530100dc4fa7f7c1ed01d&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-08-09 19:57:51&lt;/sys_updated_on&gt;&lt;template&gt;&lt;![CDATA[&lt;div class="sf-stock-header"&gt;
+  &lt;nav class="navbar-inverse" ng-class="::{'navbar':!isViewNative, 'is-native': isViewNative}"
+       role="navigation" aria-label="${Primary}"&gt;
+    &lt;div ng-show="::!isViewNative" class="navbar-header"&gt;
+&lt;a class="navbar-brand" ng-if="::!portal.logo" href="?id={{::portal.homepage_dv}}"&gt;&lt;span ng-bind="portal.title"&gt;&lt;/span&gt;&lt;/a&gt;
+      &lt;a class="navbar-brand navbar-brand-logo" ng-if="::portal.logo" ng-href="?id={{::portal.homepage_dv}}" ng-click="collapse()" aria-label="${Go to homepage}"&gt;
+        &lt;img ng-src="{{::portal.logo}}" title="ServiceNow" role="presentation" alt="${Portal Logo}" /&gt;
+      &lt;/a&gt;
+
+      &lt;button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#sp-nav-bar"&gt;
+        &lt;span class="sr-only"&gt;${Toggle navigation}&lt;/span&gt;
+        &lt;span class="icon-bar"&gt;&lt;/span&gt;
+        &lt;span class="icon-bar"&gt;&lt;/span&gt;
+        &lt;span class="icon-bar"&gt;&lt;/span&gt;
+      &lt;/button&gt;
+    &lt;/div&gt;
+
+    &lt;div sp-navbar-toggle="" class="collapse navbar-right" id="sp-nav-bar"&gt;
+      &lt;!-- Include The Menu --&gt;
+      &lt;sp-widget widget="::data.menu"&gt;&lt;/sp-widget&gt;
+      &lt;ul ng-if="(!user.logged_in &amp;&amp; page.id != portal.login_page_dv &amp;&amp; !data.hasLogin)" class="nav navbar-nav" role="presentation"&gt;
+        &lt;li role="presentation"&gt;&lt;a href ng-click="::openLogin()"&gt;${Login}&lt;/a&gt;&lt;/li&gt;
+      &lt;/ul&gt;
+      &lt;ul ng-if="user.logged_in" class="nav navbar-nav" role="menubar"&gt;
+        &lt;!-- chat, avatar, and logout --&gt;
+        &lt;li ng-if="::(data.connect_support_queue_id &amp;&amp; !isAgentChatConfigured)" role="presentation"&gt;&lt;a href ng-click="openPopUp()" role="menuitem"&gt;${Live Chat}&lt;/a&gt;&lt;/li&gt;
+        &lt;li ng-if="showAvatar" class="hidden-xs dropdown" role="presentation"&gt;
+          &lt;a href class="toggle-dropdown" data-toggle="dropdown" aria-expanded="false" title="{{::data.profileBtnMsg}}" aria-label="{{::data.profileBtnMsg}}: {{::user.name}}" id="profile-dropdown"  role="menuitem" aria-haspopup="true"&gt;
+            &lt;span class="navbar-avatar" aria-hidden="true"&gt;&lt;sn-avatar class="avatar-small-medium" primary="avatarProfile" /&gt;&lt;/span&gt;
+            &lt;span class="visible-lg-inline"&gt;{{::user.name}}&lt;/span&gt;
+          &lt;/a&gt;
+          &lt;ul class="dropdown-menu" role="menu" aria-label="{{::data.profileBtnMsg}}"&gt;
+            &lt;li role="presentation"&gt;&lt;a tabindex="-1" ng-href="?id=user_profile&amp;sys_id={{::user.sys_id}}" role="menuitem"&gt;${Profile}&lt;/a&gt;&lt;/li&gt;
+            &lt;li ng-if="::!(isViewNative || isViewNativeTablet)" role="presentation"&gt;&lt;a tabindex="-1" href="{{::portal.logoutUrl}}" role="menuitem"&gt;${Logout}&lt;/a&gt;&lt;/li&gt;
+          &lt;/ul&gt;
+        &lt;/li&gt;
+        &lt;li ng-if="showXSAvatar" class="visible-xs-block" role="presentation"&gt;&lt;a role="menuitem" ng-href="?id=user_profile&amp;sys_id={{::user.sys_id}}" ng-click="collapse()"&gt;
+          &lt;span class="navbar-avatar"&gt;&lt;sn-avatar class="avatar-small-medium" primary="avatarProfile" /&gt;&lt;/span&gt;{{::user.name}}&lt;/a&gt;
+        &lt;/li&gt;
+        &lt;li ng-if="::!(isViewNative || isViewNativeTablet)" class="visible-xs-block" role="presentation"&gt;&lt;a role="menuitem" ng-href="{{::portal.logoutUrl}}" ng-click="collapse()"&gt;${Logout}&lt;/a&gt;&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/div&gt;
+  &lt;/nav&gt;
+  
+  &lt;!--================================
+			Sly fox navbar
+	=================================--&gt;
+  &lt;div class="sf-side-bar navbar-inverse" ng-class="{'closed':!isMenuOpen}"&gt;
+  		&lt;div&gt;
+          &lt;sp-widget widget="::data.sideBarMenu"&gt;&lt;/sp-widget&gt;
+        &lt;/div&gt;
+    &lt;div class="sf-side-bar-tab navbar-inverse" ng-click="toggleSideBar()"&gt;
+      &lt;div class="glyphicon glyphicon-align-justify"&gt;&lt;div&gt;
+    &lt;/div&gt;&lt;!-- sf-side-bar-tab--&gt;
+        
+  &lt;/div&gt; &lt;!-- sf-side-bar --&gt;
+&lt;/div&gt;&lt;!-- sf-stock-header --&gt;
+]]&gt;&lt;/template&gt;&lt;/sp_header_footer&gt;&lt;/record_update&gt;</payload>
+<payload_hash>14066185</payload_hash>
+<remote_update_set display_value="Service Portal - RES">d90be936073930100dc4fa7f7c1ed086</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2021-08-09 20:12:40</sys_created_on>
+<sys_id>910be936073930100dc4fa7f7c1ed088</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17b2c7e2bfa0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2021-08-09 20:12:40</sys_updated_on>
+<table/>
+<target_name>Sly Fox Stock Header</target_name>
+<type>Header | Footer</type>
+<update_domain>global</update_domain>
+<update_guid>9ca7e1f2b5393010fe577323fa195ff2</update_guid>
+<update_guid_history>9ca7e1f2b5393010fe577323fa195ff2:14066185,4a67ad7214393010d88a838842bbcab2:-493964618,7070edfaa0f530102a5b0f2a16c15794:22354613,5a0e1d7adef53010fbde1564bf836571:-1128981004,b7371db63ef53010a62fa67ae7fa67ff:22354613,cc2555761ff53010f1bf73e4f6a4a596:1390651674,b80591761ef53010e7325eb1d59c2259:-600955697,6934d936e6f530108f29451eb1051e7a:1377179751,682459f2c1f53010febc7688fc02deae:-1625117698,2fd3d536d0f53010bc81c07c91c6aaa5:-1484063039,a6c3953658f530109a9e5230cdcb96ad:-2066182168,368251b243f53010e572b5b17d80ec8a:1588593314,e85291b275f5301011af3180aeb4027d:1169197413,df3291f2aff530108f3009843fe85f49:1231101031,b6c1d1729ef53010f780e09ce032010c:2023740778,649191b2e8f53010c3a94530ff5d0175:-353466358,be9019729bf5301092c63d083a36ea96:1918273245,517091b26cf530108e1d6da4ed09db6c:-1189605963,aa4011b2a7f5301040330d002abb643f:1918273245,659f81722af53010fb3e0c62752339de:2062912068,549f4572bdf530102cc412c8659d9e65:103911680,354f457292f5301027d1ec7513f9935d:-1534396534,370f81725ff5301072713d05b7fb15d6:845789304,7aaecdfe95b53010304983833e4fa15c:908493466,2d8e0d3210f53010bae5ca02f06904fe:-1458729729,df4e8dfecfb53010787feaaf77c0117c:-498726860,0ebd09be15b530101183dab5c0460a2e:2013335492,6b2d4dfe0fb53010e361ee0988473c17:26355136,351dc9be93b53010e5af0c103eb8bc8b:-1847152913,2f0d09be26b530106ea2965421cfb703:2000743127,248c85fe3bb53010ed15fa6b3822b8b6:924557303,bc5cc9be35b530109ff32dd5f296b483:1914427123,3e7bc9be98b53010cf1ba036a2f4937b:-1200919223,d56bc17e62b53010bc68be34b2980bfb:1253791241,f03bcdba43b5301080d8bf0605b2be81:1392168395,742a497e60b530104998838d88707456:-817095322,e2b9c17e4fb5301012adf562f54474d7:1234457906,c159817ea0b530104d68016eb9aa2873:2068252478,34094dbaafb530104e73424ea38c2f8d:1234457906,b16745fa69b530102a531016dc5fe9c3:562698449,8e370dfaeeb530107a692686033d9741:1694078549,1d2709fac3b53010ca5f39af6ac11b3f:-1629762272,051789faeeb5301007e15eb3fb22de80:2117506683,7507cdba04b5301014aa1e20e9a0ad66:-1682863392,6de6897af7b530105c7acd7b5d89b153:1705790617,8fa645fa45b530102a2465e950146473:-563286649,1e160dba91b5301001d923c5fb67fb8b:1330588857,78f5897a20b5301089fa4a312bf6a368:1764736139,16d50dbaa8b530105c6277fa1a13e954:-1365192642,1b5585ba65b53010a6e352f348fd67f8:1069907446,b1c3c53abeb530106c725680bae5d455:122775909,58f1413ab0b53010e529b5089ff1bf05:995232239,48e189b626b53010f9df190898d16a5e:38935586,ab61c9b6bcb53010ab742ae79a352601:-1524244217,eb0149b6acb53010c7bc1e5a82686e70:165616982,7120c5b665b53010e908a906459cd81c:720032442,e000453613b53010add35f9c138610cc:-247405625,5affb8b6f7b53010779cc1a8df107ef9:100737023,a7ef38b697b53010afc97b547b87f5a0:-1134144468,cedf38b650b5301047bc54749fa5c6ef:758139438,74df38b633b530105fc55bba58082f98:-1613118930,20bff4b6c3b530109a04f7720f04d114:-1745875751,9d7f34b692b5301087d701ded3412a5f:-17160578,424fb0b6e0b53010e9b03f176b39a639:973744163,f22f3c76b9b53010bebde115247e72b6:1714901473,6b1f30b61ab5301003e0a52edc49a116:1897630296,9c1f70766cb53010e2b4f21b7ea52595:-475057155,66febc7618b53010c174ce63a2c47e27:173746438,83ee34767fb530100528c6e25c0b69da:1548069008,d0ee3c7613b53010dc68afa8af8c0374:2133734757,cedef87653b53010dde575e09ba6d2f7:746473810,80cef8f20fb5301011ce16e728401ed0:1227936849,466e307649b53010482ec7980672ed53:1424871903,413e347624b530103ef28ec5b1f7c2d2:-2014836645,92cdfc3666b5301002b636525c8612ac:852407824,6dbdb036cab5301065224039d2106520:-1926737738</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>m2m_sp_theme_js_include_7a22413a07b530100dc4fa7f7c1ed06d</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sp_theme_js_include"><m2m_sp_theme_js_include action="INSERT_OR_UPDATE"><order>100</order><sp_js_include display_value="Sly Fox Menu Script">6e12813a07b530100dc4fa7f7c1ed0e6</sp_js_include><sp_theme display_value="Sly Fox Development">0189fc7207b530100dc4fa7f7c1ed08b</sp_theme><sys_class_name>m2m_sp_theme_js_include</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-08-09 17:14:10</sys_created_on><sys_id>7a22413a07b530100dc4fa7f7c1ed06d</sys_id><sys_mod_count>1</sys_mod_count><sys_name>Sly Fox Menu Script.Sly Fox Development</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>m2m_sp_theme_js_include_7a22413a07b530100dc4fa7f7c1ed06d</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-08-09 17:15:03</sys_updated_on></m2m_sp_theme_js_include></record_update>]]></payload>
+<payload_hash>306924947</payload_hash>
+<remote_update_set display_value="Service Portal - RES">d90be936073930100dc4fa7f7c1ed086</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2021-08-09 20:12:40</sys_created_on>
+<sys_id>950be936073930100dc4fa7f7c1ed087</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17b2be921a90000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2021-08-09 20:12:40</sys_updated_on>
+<table/>
+<target_name>Sly Fox Menu Script.Sly Fox Development</target_name>
+<type>JS Includes</type>
+<update_domain>global</update_domain>
+<update_guid>2f52853a67b53010b8fda3af6ce8259d</update_guid>
+<update_guid_history>2f52853a67b53010b8fda3af6ce8259d:306924947,ba22413abab5301006c3bbaf1c31546f:-38754022</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_section_7b896abf0a0a0b08006074405f3d14d5</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_section caption="" section_id="7b896abf0a0a0b08006074405f3d14d5" sys_domain="global" table="sys_ui_script" version="3" view=""><sys_ui_element action="INSERT_OR_UPDATE"><element>script_name</element><position>0</position><sys_created_by>admin</sys_created_by><sys_created_on>2021-08-09 19:28:39</sys_created_on><sys_id>a8f061be07f530100dc4fa7f7c1ed05c</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="sys_ui_script" sys_domain="global" view="Default view                    ">7b896abf0a0a0b08006074405f3d14d5</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-08-09 19:28:39</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>name</element><position>1</position><sys_created_by>admin</sys_created_by><sys_created_on>2021-08-09 19:28:39</sys_created_on><sys_id>20f061be07f530100dc4fa7f7c1ed05d</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="sys_ui_script" sys_domain="global" view="Default view                    ">7b896abf0a0a0b08006074405f3d14d5</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-08-09 19:28:39</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>ui_type</element><position>2</position><sys_created_by>admin</sys_created_by><sys_created_on>2021-08-09 19:28:39</sys_created_on><sys_id>a4f061be07f530100dc4fa7f7c1ed05d</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="sys_ui_script" sys_domain="global" view="Default view                    ">7b896abf0a0a0b08006074405f3d14d5</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-08-09 19:28:39</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>global</element><position>3</position><sys_created_by>admin</sys_created_by><sys_created_on>2021-08-09 19:28:39</sys_created_on><sys_id>2cf061be07f530100dc4fa7f7c1ed05d</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="sys_ui_script" sys_domain="global" view="Default view                    ">7b896abf0a0a0b08006074405f3d14d5</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-08-09 19:28:39</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.split</element><position>4</position><sys_created_by>admin</sys_created_by><sys_created_on>2021-08-09 19:28:39</sys_created_on><sys_id>a0f061be07f530100dc4fa7f7c1ed05e</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="sys_ui_script" sys_domain="global" view="Default view                    ">7b896abf0a0a0b08006074405f3d14d5</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-08-09 19:28:39</sys_updated_on><sys_user/><type>.split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>sys_scope</element><position>5</position><sys_created_by>admin</sys_created_by><sys_created_on>2021-08-09 19:28:39</sys_created_on><sys_id>28f061be07f530100dc4fa7f7c1ed05e</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="sys_ui_script" sys_domain="global" view="Default view                    ">7b896abf0a0a0b08006074405f3d14d5</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-08-09 19:28:39</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>active</element><position>6</position><sys_created_by>admin</sys_created_by><sys_created_on>2021-08-09 19:28:39</sys_created_on><sys_id>acf061be07f530100dc4fa7f7c1ed05e</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="sys_ui_script" sys_domain="global" view="Default view                    ">7b896abf0a0a0b08006074405f3d14d5</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-08-09 19:28:39</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.end_split</element><position>7</position><sys_created_by>admin</sys_created_by><sys_created_on>2021-08-09 19:28:39</sys_created_on><sys_id>24f061be07f530100dc4fa7f7c1ed05f</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="sys_ui_script" sys_domain="global" view="Default view                    ">7b896abf0a0a0b08006074405f3d14d5</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-08-09 19:28:39</sys_updated_on><sys_user/><type>.end_split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>description</element><position>8</position><sys_created_by>admin</sys_created_by><sys_created_on>2021-08-09 19:28:39</sys_created_on><sys_id>a8f061be07f530100dc4fa7f7c1ed05f</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="sys_ui_script" sys_domain="global" view="Default view                    ">7b896abf0a0a0b08006074405f3d14d5</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-08-09 19:28:39</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>script</element><position>9</position><sys_created_by>admin</sys_created_by><sys_created_on>2021-08-09 19:28:39</sys_created_on><sys_id>20f061be07f530100dc4fa7f7c1ed060</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="sys_ui_script" sys_domain="global" view="Default view                    ">7b896abf0a0a0b08006074405f3d14d5</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-08-09 19:28:39</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_section action="INSERT_OR_UPDATE"><caption/><header>false</header><name>sys_ui_script</name><roles/><sys_class_name>sys_ui_section</sys_class_name><sys_created_by>glide.maint</sys_created_by><sys_created_on>2008-09-19 16:55:15</sys_created_on><sys_domain>global</sys_domain><sys_domain_path/><sys_id>7b896abf0a0a0b08006074405f3d14d5</sys_id><sys_mod_count>0</sys_mod_count><sys_name>sys_ui_script</sys_name><sys_overrides display_value="">global                          </sys_overrides><sys_package display_value="UI Pages (define HTML pages and their processing)" source="com.glide.ui_page">12acb4436d2220100acb70b353433096</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_ui_section_7b896abf0a0a0b08006074405f3d14d5</sys_update_name><sys_updated_by>glide.maint</sys_updated_by><sys_updated_on>2008-09-19 16:55:15</sys_updated_on><sys_user/><title>true</title><view display_value="Default view" name="NULL">Default view                    </view><view_name/></sys_ui_section></sys_ui_section></record_update>]]></payload>
+<payload_hash>1281948361</payload_hash>
+<remote_update_set display_value="Service Portal - RES">d90be936073930100dc4fa7f7c1ed086</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2021-08-09 20:12:40</sys_created_on>
+<sys_id>950be936073930100dc4fa7f7c1ed08a</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17b2c6370250000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2021-08-09 20:12:40</sys_updated_on>
+<table>sys_ui_script</table>
+<target_name>UI Script</target_name>
+<type>Form Layout</type>
+<update_domain>global</update_domain>
+<update_guid>60f061be6cf530103b90d47cd0bb0762</update_guid>
+<update_guid_history>60f061be6cf530103b90d47cd0bb0762:1281948361,ad30e57e4bf53010fcab03d68fc9aec4:-1683191681,6930e9fa9bf530102180ddd9053a54ee:1281948361</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sp_theme_0189fc7207b530100dc4fa7f7c1ed08b</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_theme"><sp_theme action="INSERT_OR_UPDATE"><css_variables/><footer/><footer_fixed>true</footer_fixed><header display_value="Sly Fox Stock Header">edbdb03607b530100dc4fa7f7c1ed01d</header><name>Sly Fox Development</name><navbar_fixed>true</navbar_fixed><sys_class_name>sp_theme</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-08-09 16:36:47</sys_created_on><sys_id>0189fc7207b530100dc4fa7f7c1ed08b</sys_id><sys_mod_count>1</sys_mod_count><sys_name>Sly Fox Development</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sp_theme_0189fc7207b530100dc4fa7f7c1ed08b</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-08-09 16:55:11</sys_updated_on></sp_theme></record_update>]]></payload>
+<payload_hash>47198860</payload_hash>
+<remote_update_set display_value="Service Portal - RES">d90be936073930100dc4fa7f7c1ed086</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2021-08-09 20:12:40</sys_created_on>
+<sys_id>990be936073930100dc4fa7f7c1ed089</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17b2bd6f0170000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2021-08-09 20:12:40</sys_updated_on>
+<table/>
+<target_name>Sly Fox Development</target_name>
+<type>Theme</type>
+<update_domain>global</update_domain>
+<update_guid>acddbc36dab5301006f65da24c3d5030</update_guid>
+<update_guid_history>acddbc36dab5301006f65da24c3d5030:47198860,fe997c72b9b530101231a1328c9389b1:-2021137675</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sp_rectangle_menu_item_b58aad36073930100dc4fa7f7c1ed055</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_rectangle_menu_item"><sp_rectangle_menu_item action="INSERT_OR_UPDATE"><active>true</active><color>default</color><condition/><display_1/><display_2/><display_date/><filter/><glyph>info-circle</glyph><hint/><kb_article/><kb_category/><kb_topic/><label>Requests</label><order>100</order><record_script/><sc_cat_item/><sc_category/><short_description/><sp_page display_value="requests">31ed6a51d7130200a9ad1e173e24d479</sp_page><sp_rectangle_menu display_value="Sly Fox SideBar Menu">c1c86136073930100dc4fa7f7c1ed0a7</sp_rectangle_menu><sp_rectangle_menu_item/><sys_class_name>sp_rectangle_menu_item</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-08-09 20:10:52</sys_created_on><sys_id>b58aad36073930100dc4fa7f7c1ed055</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Requests</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sp_rectangle_menu_item_b58aad36073930100dc4fa7f7c1ed055</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-08-09 20:10:52</sys_updated_on><table/><type>page</type><url/><url_target/></sp_rectangle_menu_item><sys_translated_text action="delete_multiple" query="documentkey=b58aad36073930100dc4fa7f7c1ed055"/></record_update>]]></payload>
+<payload_hash>1306567509</payload_hash>
+<remote_update_set display_value="Service Portal - RES">d90be936073930100dc4fa7f7c1ed086</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2021-08-09 20:12:40</sys_created_on>
+<sys_id>9d0be936073930100dc4fa7f7c1ed088</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17b2c8a16440000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2021-08-09 20:12:40</sys_updated_on>
+<table/>
+<target_name>Requests</target_name>
+<type>Menu Item</type>
+<update_domain>global</update_domain>
+<update_guid>7a9ae576403930101f25ea9fce4bc763</update_guid>
+<update_guid_history>7a9ae576403930101f25ea9fce4bc763:1306567509</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_section_1e52853a07b530100dc4fa7f7c1ed01f</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_section caption="" section_id="1e52853a07b530100dc4fa7f7c1ed01f" sys_domain="global" table="m2m_sp_theme_js_include" version="3" view=""><sys_ui_element action="INSERT_OR_UPDATE"><element>.begin_split</element><position>0</position><sys_created_by>admin</sys_created_by><sys_created_on>2021-08-09 17:14:58</sys_created_on><sys_id>d252853a07b530100dc4fa7f7c1ed026</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="m2m_sp_theme_js_include" sys_domain="global" view="Default view">1e52853a07b530100dc4fa7f7c1ed01f</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-08-09 17:14:58</sys_updated_on><sys_user/><type>.begin_split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>sp_js_include</element><position>1</position><sys_created_by>admin</sys_created_by><sys_created_on>2021-08-09 17:14:58</sys_created_on><sys_id>de52853a07b530100dc4fa7f7c1ed026</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="m2m_sp_theme_js_include" sys_domain="global" view="Default view">1e52853a07b530100dc4fa7f7c1ed01f</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-08-09 17:14:58</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>sp_theme</element><position>2</position><sys_created_by>admin</sys_created_by><sys_created_on>2021-08-09 17:14:58</sys_created_on><sys_id>5652853a07b530100dc4fa7f7c1ed027</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="m2m_sp_theme_js_include" sys_domain="global" view="Default view">1e52853a07b530100dc4fa7f7c1ed01f</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-08-09 17:14:58</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.split</element><position>3</position><sys_created_by>admin</sys_created_by><sys_created_on>2021-08-09 17:14:58</sys_created_on><sys_id>da52853a07b530100dc4fa7f7c1ed027</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="m2m_sp_theme_js_include" sys_domain="global" view="Default view">1e52853a07b530100dc4fa7f7c1ed01f</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-08-09 17:14:58</sys_updated_on><sys_user/><type>.split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>sys_scope</element><position>4</position><sys_created_by>admin</sys_created_by><sys_created_on>2021-08-09 17:14:58</sys_created_on><sys_id>5252853a07b530100dc4fa7f7c1ed028</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="m2m_sp_theme_js_include" sys_domain="global" view="Default view">1e52853a07b530100dc4fa7f7c1ed01f</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-08-09 17:14:58</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>order</element><position>5</position><sys_created_by>admin</sys_created_by><sys_created_on>2021-08-09 17:14:58</sys_created_on><sys_id>d652853a07b530100dc4fa7f7c1ed028</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="m2m_sp_theme_js_include" sys_domain="global" view="Default view">1e52853a07b530100dc4fa7f7c1ed01f</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-08-09 17:14:58</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.end_split</element><position>6</position><sys_created_by>admin</sys_created_by><sys_created_on>2021-08-09 17:14:58</sys_created_on><sys_id>5e52853a07b530100dc4fa7f7c1ed028</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="m2m_sp_theme_js_include" sys_domain="global" view="Default view">1e52853a07b530100dc4fa7f7c1ed01f</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-08-09 17:14:58</sys_updated_on><sys_user/><type>.end_split</type></sys_ui_element><sys_ui_section action="INSERT_OR_UPDATE"><caption/><header>false</header><name>m2m_sp_theme_js_include</name><roles/><sys_class_name>sys_ui_section</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-08-09 17:14:58</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>1e52853a07b530100dc4fa7f7c1ed01f</sys_id><sys_mod_count>0</sys_mod_count><sys_name>m2m_sp_theme_js_include</sys_name><sys_overrides/><sys_package display_value="Service Portal - Core" source="com.glide.service-portal">50f2458f6d6620100acb70b353433062</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_ui_section_1e52853a07b530100dc4fa7f7c1ed01f</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-08-09 17:14:58</sys_updated_on><sys_user/><title>true</title><view display_value="Default view" name="NULL">Default view</view><view_name/></sys_ui_section></sys_ui_section></record_update>]]></payload>
+<payload_hash>-473140479</payload_hash>
+<remote_update_set display_value="Service Portal - RES">d90be936073930100dc4fa7f7c1ed086</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2021-08-09 20:12:40</sys_created_on>
+<sys_id>d10be936073930100dc4fa7f7c1ed08a</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17b2be90c230000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2021-08-09 20:12:40</sys_updated_on>
+<table>m2m_sp_theme_js_include</table>
+<target_name>JS Includes</target_name>
+<type>Form Layout</type>
+<update_domain>global</update_domain>
+<update_guid>d652853ac6b530102e8ac4cf1d9d1a2a</update_guid>
+<update_guid_history>d652853ac6b530102e8ac4cf1d9d1a2a:-473140479,1e52853aaab530106350757c9d416d22:-566416192</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sp_rel_widget_clone_61bdb03607b530100dc4fa7f7c1ed022</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_rel_widget_clone"><sp_rel_widget_clone action="INSERT_OR_UPDATE"><child display_value="Copy of Stock Header">edbdb03607b530100dc4fa7f7c1ed01d</child><cloned>2021-08-09 16:54:42</cloned><last_validated>2021-08-09 16:54:42</last_validated><parent display_value="Stock Header">bf5ec2f2cb10120000f8d856634c9c0c</parent><payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;sp_widget&gt;&lt;category&gt;standard&lt;/category&gt;&lt;client_script&gt;&lt;![CDATA[function ($rootScope, $scope, snRecordWatcher, spUtil, $location, $uibModal, cabrillo, $timeout, $window) {
+
+	$scope.collapse = function() {
+		$rootScope.$emit('sp-navbar-collapse');
+	}
+
+	$scope.avatarProfile = {
+		userID: $scope.user.sys_id,
+		name: $scope.user.name,
+		initials: $window.NOW.user_initials
+	};
+
+	if ($window.NOW.user_avatar) {
+		$scope.avatarProfile.userImage = $window.NOW.user_avatar;
+	}
+
+	if (cabrillo.isNative()) {
+		if ($window.innerWidth &lt; 767) {
+			$scope.isViewNative = true;
+		} else {
+			$scope.isViewNativeTablet = true;
+		}
+	}
+
+
+	$scope.openPopUp = function() {
+		var url = "$chat_support.do?queueID=" + $scope.data.connect_support_queue_id;
+		var popup = window.open (url, "popup", "width=900, height=600");
+	};
+
+	$scope.openLogin = function () {
+		$scope.modalInstance = $uibModal.open({
+			templateUrl: 'modalLogin',
+			scope: $scope
+		});
+	};
+
+	var xsScreenSize = isXSScreenSize();
+	$scope.showXSAvatar = isXSScreenSize();
+	$scope.showAvatar = !isXSScreenSize();
+
+	$scope.isAgentChatConfigured = g_has_agent_chat_config;
+
+	angular.element($window).on('resize', function () {
+		if(xsScreenSize !== isXSScreenSize() &amp;&amp; (!$scope.showXSAvatar || !$scope.showAvatar)){
+			$scope.showXSAvatar = true;
+			$scope.showAvatar = true;
+		}
+	});
+
+
+	function isXSScreenSize() {
+		return $window.matchMedia('(max-width: 767px)').matches;
+	}
+
+	$rootScope.$on('sp.avatar_changed', function(evt, obj) {
+		$scope.userID = "";
+		$scope.newAvatarId = obj.newAvatarId;
+		$timeout(function(){
+			$scope.userID = $scope.user.sys_id;
+			$("#profile-dropdown .sub-avatar").css("background-image", 'url("' + $scope.newAvatarId + '.iix?t=small")');
+		});
+	});
+
+	$scope.isHomepage = function() {
+		if (!$scope.page.id)
+			return true;
+
+		if ($scope.page.id == $scope.portal.homepage_dv)
+			return true;
+
+		return false;
+	};
+}
+		]]&gt;&lt;/client_script&gt;&lt;controller_as/&gt;&lt;css&gt;.navbar {
+  transition: 250ms opacity ease-in-out;
+  -webkit-transition: 250ms opacity ease-in-out;
+  border: 0;
+  border-bottom: 4px solid $sp-navbar-divider-color;
+}
+
+.navbar-fade {
+  opacity: 0.4;
+}
+
+.navbar-inverse .navbar-toggle {
+  border-color: rgba(255, 255, 255, 0.25);
+}
+
+header[role="banner"],
+.nav &amp;gt; li &amp;gt; a {
+  max-height: 60px;
+}
+
+@media screen and (max-width: 768px){
+  .nav &amp;gt; li &amp;gt; a {
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
+  }
+}
+
+.navbar-brand {
+  max-height: 60px;
+  padding: 0;
+  padding-bottom: 0.5rem;
+}
+
+.navbar-brand img, .navbar-brand span {
+  margin-left: $sp-logo-margin-x;
+  margin-right: $sp-logo-margin-x;
+  margin-top: $sp-logo-margin-y;
+  margin-bottom: $sp-logo-margin-y;
+  display: block;
+  max-height: $sp-logo-max-height;
+  max-width: $sp-logo-max-width;
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+.breadcrumb-container {
+  background-color: $panel-bg;
+}
+
+/* for mobile app */
+.navbar-inverse.is-native {
+  background-color: #405060;
+}
+
+nav {
+  margin-bottom: 0px;
+  border-radius: 0px;
+
+ .toggle-dropdown {
+    height: 60px;
+  }
+
+}
+
+.navbar-right {
+  padding-right: 0px;
+  padding-left: 7px;
+}
+
+.navbar-nav {
+margin: 0px;
+}
+
+// PRB711244: Dropdown menu is scrollable when too many items
+.scrollable-dropdown {
+  max-height: 80vh;
+  overflow: auto;
+  height: auto;
+}
+
+.is-native {
+ .scrollable-dropdown {
+  max-height: 100vh;
+  overflow: scroll;
+  height: auto;
+	}
+}
+
+
+/* PRB923910: Fix for Service Portal - Header Poorly Aligned in Safari */
+@media screen and (min-width: 768px) {
+  .navbar-right {
+    display: flex !important;
+    height: auto !important;
+  }
+}&lt;/css&gt;&lt;data_table&gt;sp_instance&lt;/data_table&gt;&lt;demo_data/&gt;&lt;description/&gt;&lt;docs/&gt;&lt;field_list/&gt;&lt;has_preview&gt;false&lt;/has_preview&gt;&lt;id/&gt;&lt;internal&gt;false&lt;/internal&gt;&lt;link&gt;&lt;![CDATA[function(scope, element) {
+	$(document).keyup(function(event) {
+		if (event.which == 9 || event.which == 37 || event.which == 39) { //tab key handler + arrow keys
+			if ($(event.target).parents(".dropdown-menu").length == 0) { //if we are NOT inside a dropdown...
+				//close the dropdowns
+				$(".dropdown").removeClass("open");
+				$("[data-toggle='dropdown']").attr("aria-expanded", "false");
+			}
+		}
+		if (event.which == 13 || event.which == 32)
+			$(event.target).parent(".dropdown.open").find("ul.dropdown-menu li:first-child a").focus();
+	});
+
+	$(element).on('click.nav','.navbar-collapse.in',function(e) {
+		var target = $(e.target);
+		if (target.is('a')) {
+			if (target.hasClass('sp-menu-has-items'))
+				return; // menu item has a submenu, so just toggle it
+
+			// collapse mobile nav if clicked an anchor
+			$(this).removeClass('in').addClass('collapse');
+			return;
+		}
+
+		if (target.parent().hasClass("toggle-dropdown")) {
+			// collapse mobile nav if parent has toggle-dropdown class
+			$(this).removeClass('in').addClass('collapse');
+			return;
+		}
+
+		// if neither target nor parent is an anchor, do nothing
+		if (!target.parent().is('a'))
+			return;
+
+		// collapse mobile nav if target is part of a submenu
+		if (target.parents("ul.dropdown-menu").length &gt; 0)
+			$(this).removeClass('in').addClass('collapse');
+	});
+}]]&gt;&lt;/link&gt;&lt;name&gt;Stock Header&lt;/name&gt;&lt;option_schema/&gt;&lt;public&gt;true&lt;/public&gt;&lt;roles/&gt;&lt;script&gt;&lt;![CDATA[// Defines the support queue ID that will be linked to by the Live Chat link in header
+data.connect_support_queue_id = $sp.getValue('sp_chat_queue');
+data.login_page = $sp.getValue('login_page');
+data.profileBtnMsg = gs.getMessage("User options");
+var menu = $sp.getValue("sp_rectangle_menu");
+data.menu = $sp.getWidgetFromInstance(menu);
+if (data.menu &amp;&amp; data.menu.data) {
+	data.menu.data.replace = true;
+	// Hide login if menu already has link to login
+	data.hasLogin = false;
+	if (data.menu.data.menu.items) {
+		for(var i in data.menu.data.menu.items) {
+			var item = data.menu.data.menu.items[i];
+			if (item.type == 'page' &amp;&amp; item.sp_page == data.login_page)
+				data.hasLogin = true;
+		}
+	}
+}
+
+data.loginWidget = $sp.getWidgetFromInstance('login-modal');]]&gt;&lt;/script&gt;&lt;servicenow&gt;true&lt;/servicenow&gt;&lt;sys_class_name&gt;sp_header_footer&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2015-12-16 23:21:34&lt;/sys_created_on&gt;&lt;sys_id&gt;bf5ec2f2cb10120000f8d856634c9c0c&lt;/sys_id&gt;&lt;sys_mod_count&gt;590&lt;/sys_mod_count&gt;&lt;sys_name&gt;Stock Header&lt;/sys_name&gt;&lt;sys_package display_value="Service Portal - Core" source="com.glide.service-portal"&gt;50f2458f6d6620100acb70b353433062&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_header_footer_bf5ec2f2cb10120000f8d856634c9c0c&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-09-18 06:17:02&lt;/sys_updated_on&gt;&lt;template&gt;&lt;![CDATA[&lt;div&gt;
+  &lt;nav class="navbar-inverse" ng-class="::{'navbar':!isViewNative, 'is-native': isViewNative}"
+       role="navigation" aria-label="${Primary}"&gt;
+    &lt;div ng-show="::!isViewNative" class="navbar-header"&gt;
+&lt;a class="navbar-brand" ng-if="::!portal.logo" href="?id={{::portal.homepage_dv}}"&gt;&lt;span ng-bind="portal.title"&gt;&lt;/span&gt;&lt;/a&gt;
+      &lt;a class="navbar-brand navbar-brand-logo" ng-if="::portal.logo" ng-href="?id={{::portal.homepage_dv}}" ng-click="collapse()" aria-label="${Go to homepage}"&gt;
+        &lt;img ng-src="{{::portal.logo}}" title="ServiceNow" role="presentation" alt="${Portal Logo}" /&gt;
+      &lt;/a&gt;
+
+      &lt;button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#sp-nav-bar"&gt;
+        &lt;span class="sr-only"&gt;${Toggle navigation}&lt;/span&gt;
+        &lt;span class="icon-bar"&gt;&lt;/span&gt;
+        &lt;span class="icon-bar"&gt;&lt;/span&gt;
+        &lt;span class="icon-bar"&gt;&lt;/span&gt;
+      &lt;/button&gt;
+    &lt;/div&gt;
+
+    &lt;div sp-navbar-toggle="" class="collapse navbar-right" id="sp-nav-bar"&gt;
+      &lt;!-- Include The Menu --&gt;
+      &lt;sp-widget widget="::data.menu"&gt;&lt;/sp-widget&gt;
+      &lt;ul ng-if="(!user.logged_in &amp;&amp; page.id != portal.login_page_dv &amp;&amp; !data.hasLogin)" class="nav navbar-nav" role="presentation"&gt;
+        &lt;li role="presentation"&gt;&lt;a href ng-click="::openLogin()"&gt;${Login}&lt;/a&gt;&lt;/li&gt;
+      &lt;/ul&gt;
+      &lt;ul ng-if="user.logged_in" class="nav navbar-nav" role="menubar"&gt;
+        &lt;!-- chat, avatar, and logout --&gt;
+        &lt;li ng-if="::(data.connect_support_queue_id &amp;&amp; !isAgentChatConfigured)" role="presentation"&gt;&lt;a href ng-click="openPopUp()" role="menuitem"&gt;${Live Chat}&lt;/a&gt;&lt;/li&gt;
+        &lt;li ng-if="showAvatar" class="hidden-xs dropdown" role="presentation"&gt;
+          &lt;a href class="toggle-dropdown" data-toggle="dropdown" aria-expanded="false" title="{{::data.profileBtnMsg}}" aria-label="{{::data.profileBtnMsg}}: {{::user.name}}" id="profile-dropdown"  role="menuitem" aria-haspopup="true"&gt;
+            &lt;span class="navbar-avatar" aria-hidden="true"&gt;&lt;sn-avatar class="avatar-small-medium" primary="avatarProfile" /&gt;&lt;/span&gt;
+            &lt;span class="visible-lg-inline"&gt;{{::user.name}}&lt;/span&gt;
+          &lt;/a&gt;
+          &lt;ul class="dropdown-menu" role="menu" aria-label="{{::data.profileBtnMsg}}"&gt;
+            &lt;li role="presentation"&gt;&lt;a tabindex="-1" ng-href="?id=user_profile&amp;sys_id={{::user.sys_id}}" role="menuitem"&gt;${Profile}&lt;/a&gt;&lt;/li&gt;
+            &lt;li ng-if="::!(isViewNative || isViewNativeTablet)" role="presentation"&gt;&lt;a tabindex="-1" href="{{::portal.logoutUrl}}" role="menuitem"&gt;${Logout}&lt;/a&gt;&lt;/li&gt;
+          &lt;/ul&gt;
+        &lt;/li&gt;
+        &lt;li ng-if="showXSAvatar" class="visible-xs-block" role="presentation"&gt;&lt;a role="menuitem" ng-href="?id=user_profile&amp;sys_id={{::user.sys_id}}" ng-click="collapse()"&gt;
+          &lt;span class="navbar-avatar"&gt;&lt;sn-avatar class="avatar-small-medium" primary="avatarProfile" /&gt;&lt;/span&gt;{{::user.name}}&lt;/a&gt;
+        &lt;/li&gt;
+        &lt;li ng-if="::!(isViewNative || isViewNativeTablet)" class="visible-xs-block" role="presentation"&gt;&lt;a role="menuitem" ng-href="{{::portal.logoutUrl}}" ng-click="collapse()"&gt;${Logout}&lt;/a&gt;&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/div&gt;
+  &lt;/nav&gt;
+&lt;/div&gt;]]&gt;&lt;/template&gt;&lt;/sp_widget&gt;</payload><sys_class_name>sp_rel_widget_clone</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-08-09 16:54:42</sys_created_on><sys_id>61bdb03607b530100dc4fa7f7c1ed022</sys_id><sys_mod_count>0</sys_mod_count><sys_name>edbdb03607b530100dc4fa7f7c1ed01d</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sp_rel_widget_clone_61bdb03607b530100dc4fa7f7c1ed022</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-08-09 16:54:42</sys_updated_on></sp_rel_widget_clone></record_update>]]></payload>
+<payload_hash>-254373808</payload_hash>
+<remote_update_set display_value="Service Portal - RES">d90be936073930100dc4fa7f7c1ed086</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2021-08-09 20:12:40</sys_created_on>
+<sys_id>d50be936073930100dc4fa7f7c1ed089</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17b2bd67f1e0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2021-08-09 20:12:40</sys_updated_on>
+<table/>
+<target_name>edbdb03607b530100dc4fa7f7c1ed01d</target_name>
+<type>Widget Clone</type>
+<update_domain>global</update_domain>
+<update_guid>61bdb03645b530109aa4b973b7e98b24</update_guid>
+<update_guid_history>61bdb03645b530109aa4b973b7e98b24:-254373808</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sp_portal_d2f8387207b530100dc4fa7f7c1ed071</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_portal"><sp_portal action="INSERT_OR_UPDATE"><css_variables>$brand-primary:#428bca;
+$body-bg:#fff;
+$state-success-text:#5cb85c;
+$sp-homepage-bg:#fff;
+$sp-navbar-divider-color:#c20629;
+$text-color:#717171;
+$sp-logo-margin-y:2px;
+$navbar-inverse-link-hover-color:#ffffff;
+$panel-bg:#fff;
+$brand-success:#5cb85c;
+$navbar-inverse-bg:#131723;
+$brand-warning:#f0ad4e;
+$brand-danger:#d9534f;
+$sp-tagline-color:#717171;
+$navbar-inverse-link-color:#bdc0c4;
+$brand-info:#5bc0de;
+$link-color:#428bca;
+$sp-logo-margin-x:15px;
+$btn-default-bg:#fff;
+$text-muted:#979797;
+</css_variables><default>false</default><enable_ais>false</enable_ais><hide_portal_name>false</hide_portal_name><homepage display_value="index">46cc384147532100ba13a5554ee49009</homepage><icon/><kb_knowledge_base/><kb_knowledge_page display_value="kb_view">db9fcab847101200ba13a5554ee490cf</kb_knowledge_page><login_page display_value="login">6995a144cb11120000f8d856634c9c25</login_page><logo>ece2a5fe07f530100dc4fa7f7c1ed0e5</logo><notfound_page display_value="404">3c2c9063cb11020000f8d856634c9c1f</notfound_page><quick_start_config/><sc_catalog/><sc_catalog_page display_value="sc_home">fe87a11147132100ba13a5554ee490b9</sc_catalog_page><sc_category_page/><search_application display_value="Service Portal Default Search Application">00731b9d5b231010d9a5ce1a8581c7dd</search_application><search_results_configuration display_value="Service Portal Search">80eb579d53671010968addeeff7b1215</search_results_configuration><sp_chat_queue/><sp_rectangle_menu display_value="SP Header Menu">d150fd31cb10020000f8d856634c9ce6</sp_rectangle_menu><sys_class_name>sp_portal</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-08-09 16:35:26</sys_created_on><sys_id>d2f8387207b530100dc4fa7f7c1ed071</sys_id><sys_mod_count>21</sys_mod_count><sys_name>Sly Fox Development</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sp_portal_d2f8387207b530100dc4fa7f7c1ed071</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-08-09 19:43:27</sys_updated_on><theme display_value="Sly Fox Development">0189fc7207b530100dc4fa7f7c1ed08b</theme><title>Sly Fox Development</title><ts_index_group/><url_suffix>fox</url_suffix></sp_portal><sys_translated_text action="delete_multiple" query="documentkey=d2f8387207b530100dc4fa7f7c1ed071"/><sys_attachment action="INSERT_OR_UPDATE"><average_image_color>#ff0000</average_image_color><chunk_size_bytes>700000</chunk_size_bytes><compressed>true</compressed><content_type>image/png</content_type><file_name>logo</file_name><hash>950eac3ec3b3c3a425f8e9d0be4addd41ecd4396bdb11375f405292eb24392ed</hash><image_height>400</image_height><image_width>277</image_width><size_bytes>21706</size_bytes><size_compressed>21698</size_compressed><state>available</state><sys_created_by>admin</sys_created_by><sys_created_on>2021-08-09 19:37:07</sys_created_on><sys_id>ece2a5fe07f530100dc4fa7f7c1ed0e5</sys_id><sys_mod_count>3</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-08-09 19:37:07</sys_updated_on><table_name>ZZ_YYsp_portal</table_name><table_sys_id>d2f8387207b530100dc4fa7f7c1ed071</table_sys_id></sys_attachment><sys_attachment_doc action="INSERT_OR_UPDATE"><data>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</data><length>22064</length><position>0</position><sys_attachment display_value="logo" sys_id="ece2a5fe07f530100dc4fa7f7c1ed0e5">ece2a5fe07f530100dc4fa7f7c1ed0e5</sys_attachment><sys_created_by>admin</sys_created_by><sys_created_on>2021-08-09 19:37:07</sys_created_on><sys_id>20e2a5fe07f530100dc4fa7f7c1ed0e6</sys_id></sys_attachment_doc><sys_attachment_doc action="INSERT_OR_UPDATE"><data>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</data><length>6868</length><position>1</position><sys_attachment display_value="logo" sys_id="ece2a5fe07f530100dc4fa7f7c1ed0e5">ece2a5fe07f530100dc4fa7f7c1ed0e5</sys_attachment><sys_created_by>admin</sys_created_by><sys_created_on>2021-08-09 19:37:07</sys_created_on><sys_id>a0e2a5fe07f530100dc4fa7f7c1ed0e6</sys_id></sys_attachment_doc></record_update>]]></payload>
+<payload_hash>154001657</payload_hash>
+<remote_update_set display_value="Service Portal - RES">d90be936073930100dc4fa7f7c1ed086</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2021-08-09 20:12:40</sys_created_on>
+<sys_id>d90be936073930100dc4fa7f7c1ed088</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17b2c70fc3c0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2021-08-09 20:12:40</sys_updated_on>
+<table/>
+<target_name>Sly Fox Development</target_name>
+<type>Service Portal</type>
+<update_domain>global</update_domain>
+<update_guid>99542d327739301010ed3b1cf564c110</update_guid>
+<update_guid_history>99542d327739301010ed3b1cf564c110:154001657,3e4421327439301045201d1510f232b9:249562876,8d636dfe86f53010a04a5a9d55c2d95d:154001657,7a5321322e3930106479e289ed77ad13:771121941,d043adfeabf53010d5aba6e22c09b1b4:154001657,39336dfe79f53010a7138f7ace1e699a:1694729476,2f236dfee8f530109ef07dc1c232a9c9:-24757349,9723e9fe93f53010f36d4cf1ce433b22:370560419,35236dfe2ef5301049d6dd74c846ab57:1300927829,8c232dfe2ef530101a8cf8df5ed10d99:201981900,a7132dfe4ef53010dab26b979e4e7b8b:542146390,ba1369fed2f5301080940ac2fe4ecd92:-1307083960,ae132dfef4f5301077bb3b5ca79fa822:-1543305799,a903e9fe1ef5301008e57289d774621a:1643485583,c40369feaaf530107a0139cfbb398c7b:1291131029,52f269fe3bf530101d9a3d38c10f90b9:1446890504,85f229fe7ff5301014e0cb5cec30252c:-2115488420,58f2e5fe24f530102ee406f939a51049:762551758,60e229fe67f5301029011d4792d05902:504809089,6ce2a5fe83f53010348d79a07bbd45e8:-892868844,007b70f277b5301053cb490a9d3d59db:1463031651,24b970b20cb530100bece813ba9ea0f4:-45823542,17493c7264b53010513fa63728668038:-14494937</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>m2m_sp_theme_css_include_98185db607f530100dc4fa7f7c1ed007</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sp_theme_css_include"><m2m_sp_theme_css_include action="INSERT_OR_UPDATE"><order/><sp_css_include display_value="Sly Fox Default Styles">b40855f607f530100dc4fa7f7c1ed0e3</sp_css_include><sp_theme display_value="Sly Fox Development">0189fc7207b530100dc4fa7f7c1ed08b</sp_theme><sys_class_name>m2m_sp_theme_css_include</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-08-09 18:49:51</sys_created_on><sys_id>98185db607f530100dc4fa7f7c1ed007</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Sly Fox Default Styles.Sly Fox Development</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>m2m_sp_theme_css_include_98185db607f530100dc4fa7f7c1ed007</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-08-09 18:49:51</sys_updated_on></m2m_sp_theme_css_include></record_update>]]></payload>
+<payload_hash>-1118108030</payload_hash>
+<remote_update_set display_value="Service Portal - RES">d90be936073930100dc4fa7f7c1ed086</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2021-08-09 20:12:40</sys_created_on>
+<sys_id>dd0be936073930100dc4fa7f7c1ed086</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17b2c3fead70000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2021-08-09 20:12:40</sys_updated_on>
+<table/>
+<target_name>Sly Fox Default Styles.Sly Fox Development</target_name>
+<type>Stylesheets</type>
+<update_domain>global</update_domain>
+<update_guid>1c185db6c9f530107c10a5fab7afc009</update_guid>
+<update_guid_history>1c185db6c9f530107c10a5fab7afc009:-1118108030</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sp_css_include_b40855f607f530100dc4fa7f7c1ed0e3</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_css_include"><sp_css_include action="INSERT_OR_UPDATE"><name>Sly Fox Default Styles</name><source>local</source><sp_css display_value="Sly Fox Default Styles">511895f607f530100dc4fa7f7c1ed0e7</sp_css><sys_class_name>sp_css_include</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-08-09 18:49:51</sys_created_on><sys_id>b40855f607f530100dc4fa7f7c1ed0e3</sys_id><sys_mod_count>1</sys_mod_count><sys_name>Sly Fox Default Styles</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sp_css_include_b40855f607f530100dc4fa7f7c1ed0e3</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-08-09 18:50:12</sys_updated_on><url/></sp_css_include></record_update>]]></payload>
+<payload_hash>1112941250</payload_hash>
+<remote_update_set display_value="Service Portal - RES">d90be936073930100dc4fa7f7c1ed086</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2021-08-09 20:12:40</sys_created_on>
+<sys_id>dd0be936073930100dc4fa7f7c1ed087</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17b2c403c970000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2021-08-09 20:12:40</sys_updated_on>
+<table/>
+<target_name>Sly Fox Default Styles</target_name>
+<type>CSS Include</type>
+<update_domain>global</update_domain>
+<update_guid>552815f672f53010905e9d993cc2a143</update_guid>
+<update_guid_history>552815f672f53010905e9d993cc2a143:1112941250,1c185db6c6f53010e3fe97dfd40f5706:2106810758</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+</unload>
