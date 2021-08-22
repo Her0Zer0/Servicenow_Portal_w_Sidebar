@@ -1,0 +1,1120 @@
+<?xml version="1.0" encoding="UTF-8"?><unload unload_date="2021-08-22 13:06:43">
+<sys_remote_update_set action="INSERT_OR_UPDATE">
+<application display_value="Global">global</application>
+<application_name>Global</application_name>
+<application_scope>global</application_scope>
+<application_version/>
+<collisions/>
+<commit_date/>
+<deleted/>
+<description/>
+<inserted/>
+<name>Service Portal - RES pt2</name>
+<origin_sys_id/>
+<parent display_value=""/>
+<release_date/>
+<remote_base_update_set display_value=""/>
+<remote_parent_id/>
+<remote_sys_id>46d805f3073130100dc4fa7f7c1ed064</remote_sys_id>
+<state>loaded</state>
+<summary/>
+<sys_class_name>sys_remote_update_set</sys_class_name>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2021-08-22 13:06:42</sys_created_on>
+<sys_id>6c3687f2070230100dc4fa7f7c1ed0d0</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2021-08-22 13:06:42</sys_updated_on>
+<update_set display_value=""/>
+<update_source display_value=""/>
+<updated/>
+</sys_remote_update_set>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sp_instance_621961900b0503002600425663673a30</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance"><sp_instance action="INSERT_OR_UPDATE"><active>true</active><class_name/><color>default</color><css/><glyph/><id/><order>2</order><roles/><short_description/><size>md</size><sp_column display_value="1">d81921900b0503002600425663673ae6</sp_column><sp_widget display_value="SC Scroll to top">9cfd91940b4103002600425663673a31</sp_widget><sys_class_name>sp_instance</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2017-09-02 21:34:19</sys_created_on><sys_id>621961900b0503002600425663673a30</sys_id><sys_mod_count>2</sys_mod_count><sys_name/><sys_package display_value="Service Portal - Service Catalog v2" source="com.glideapp.servicecatalog.portal">0423c9cf6d6620100acb70b35343303c</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sp_instance_621961900b0503002600425663673a30</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-08-12 22:05:13</sys_updated_on><title/><url/><widget_parameters/></sp_instance><sys_translated_text action="delete_multiple" query="documentkey=621961900b0503002600425663673a30"/></record_update>]]></payload>
+<payload_hash>899610143</payload_hash>
+<remote_update_set display_value="Service Portal - RES pt2">6c3687f2070230100dc4fa7f7c1ed0d0</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2021-08-22 13:06:42</sys_created_on>
+<sys_id>203687f2070230100dc4fa7f7c1ed0d2</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17b3c65dcbe0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2021-08-22 13:06:42</sys_updated_on>
+<table/>
+<target_name/>
+<type>Instance</type>
+<update_domain>global</update_domain>
+<update_guid>6781e9f7d67130100063a62b57e76d6f</update_guid>
+<update_guid_history>6781e9f7d67130100063a62b57e76d6f:899610143,db81e9f7597130100380b3fdc41ab96d:1033314206</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_properties_category_6a3299fb073130100dc4fa7f7c1ed0be</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_properties_category"&gt;&lt;sys_properties_category action="INSERT_OR_UPDATE"&gt;&lt;name&gt;Sly Fox Portal&lt;/name&gt;&lt;sys_class_name&gt;sys_properties_category&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-08-12 20:58:52&lt;/sys_created_on&gt;&lt;sys_id&gt;6a3299fb073130100dc4fa7f7c1ed0be&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_name&gt;Sly Fox Portal&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_properties_category_6a3299fb073130100dc4fa7f7c1ed0be&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-08-12 21:11:30&lt;/sys_updated_on&gt;&lt;title&gt;&lt;![CDATA[&lt;p&gt;&lt;strong&gt;SideBar Menu&lt;/strong&gt;&lt;/p&gt;
+&lt;hr /&gt;]]&gt;&lt;/title&gt;&lt;/sys_properties_category&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=6a3299fb073130100dc4fa7f7c1ed0be"/&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-1310892697</payload_hash>
+<remote_update_set display_value="Service Portal - RES pt2">6c3687f2070230100dc4fa7f7c1ed0d0</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2021-08-22 13:06:42</sys_created_on>
+<sys_id>203687f2070230100dc4fa7f7c1ed0d5</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17b3c34acf30000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2021-08-22 13:06:42</sys_updated_on>
+<table/>
+<target_name>Sly Fox Portal</target_name>
+<type>System Property Category</type>
+<update_domain>global</update_domain>
+<update_guid>2c455dbf72313010f15db8ae18c3b4a1</update_guid>
+<update_guid_history>2c455dbf72313010f15db8ae18c3b4a1:-1310892697,9eb3d17f443130102f6a79de096021fc:743390671,1b52593f91313010d2d8c29b78189687:1797268328</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_app_module_a22199fb073130100dc4fa7f7c1ed0d3</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="Sly Fox Portal">b4aec97b073130100dc4fa7f7c1ed0b8</application><assessment/><device_type/><filter/><hint/><homepage/><image/><link_type>LIST</link_type><map_page/><mobile_title>Widgets</mobile_title><mobile_view_name>Mobile</mobile_view_name><name>sp_widget</name><order>900</order><override_menu_roles>false</override_menu_roles><query/><report/><roles/><sys_class_name>sys_app_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-08-12 20:53:59</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>a22199fb073130100dc4fa7f7c1ed0d3</sys_id><sys_mod_count>1</sys_mod_count><sys_name>Widgets</sys_name><sys_overrides/><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_app_module_a22199fb073130100dc4fa7f7c1ed0d3</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-08-12 20:54:10</sys_updated_on><timeline_page/><title>Widgets</title><uncancelable>false</uncancelable><view_name/><window_name/></sys_app_module></record_update>]]></payload>
+<payload_hash>1090668983</payload_hash>
+<remote_update_set display_value="Service Portal - RES pt2">6c3687f2070230100dc4fa7f7c1ed0d0</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2021-08-22 13:06:42</sys_created_on>
+<sys_id>243687f2070230100dc4fa7f7c1ed0d4</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17b3c24ce150000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2021-08-22 13:06:42</sys_updated_on>
+<table>sp_widget</table>
+<target_name>Widgets</target_name>
+<type>Module</type>
+<update_domain>global</update_domain>
+<update_guid>6a41d9fb293130100de213958c8a9b03</update_guid>
+<update_guid_history>6a41d9fb293130100de213958c8a9b03:1090668983,b731d9fbd1313010b9b93323a6fbac41:-2089797562</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_app_module_601099bb073130100dc4fa7f7c1ed028</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="Sly Fox Portal">b4aec97b073130100dc4fa7f7c1ed0b8</application><assessment/><device_type/><filter/><hint/><homepage/><image/><link_type>LIST</link_type><map_page/><mobile_title>Portals</mobile_title><mobile_view_name>Mobile</mobile_view_name><name>sp_portal</name><order>100</order><override_menu_roles>false</override_menu_roles><query/><report/><roles/><sys_class_name>sys_app_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-08-12 20:49:18</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>601099bb073130100dc4fa7f7c1ed028</sys_id><sys_mod_count>1</sys_mod_count><sys_name>Portals</sys_name><sys_overrides/><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_app_module_601099bb073130100dc4fa7f7c1ed028</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-08-12 20:52:43</sys_updated_on><timeline_page/><title>Portals</title><uncancelable>false</uncancelable><view_name/><window_name/></sys_app_module></record_update>]]></payload>
+<payload_hash>1886131551</payload_hash>
+<remote_update_set display_value="Service Portal - RES pt2">6c3687f2070230100dc4fa7f7c1ed0d0</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2021-08-22 13:06:42</sys_created_on>
+<sys_id>283687f2070230100dc4fa7f7c1ed0d3</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17b3c237d010000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2021-08-22 13:06:42</sys_updated_on>
+<table>sp_portal</table>
+<target_name>Portals</target_name>
+<type>Module</type>
+<update_domain>global</update_domain>
+<update_guid>2df0d5fba2313010a3d8f97ae4b0937b</update_guid>
+<update_guid_history>2df0d5fba2313010a3d8f97ae4b0937b:1886131551,1f205dbb1d313010381af5952d361373:725032166</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sp_widget_8659edf2073930100dc4fa7f7c1ed026</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sp_widget"&gt;&lt;sp_widget action="INSERT_OR_UPDATE"&gt;&lt;category&gt;standard&lt;/category&gt;&lt;client_script&gt;&lt;![CDATA[function ($scope, spUtil, $rootScope, $timeout, spAriaUtil, spGtd, $window) {
+	
+	
+	
+	$scope.loadingIndicator = $rootScope.loadingIndicator;
+	$scope.accessibilityEnabled = spAriaUtil.g_accessibility === "true";
+
+	$scope.$on('sp_loading_indicator', function(e, value) {
+		$scope.loadingIndicator = value;
+	});
+	
+	// PRB1108244: visibleItems array is used to improve keyboard nav
+	// in menu, refresh it as needed
+	$scope.$watch('data.menu.items', function() {
+		$scope.visibleItems = [];
+		if ($scope.data.menu.items) {
+			for (var i in $scope.data.menu.items) {
+				var item = $scope.data.menu.items[i];
+				if (item.items || (item.scriptedItems &amp;&amp; item.scriptedItems.count != 0))
+					$scope.visibleItems.push(item);
+			}
+		}
+	}, true);
+  
+
+	// Get list of record watchers
+	var record_watchers = [];
+	if ($scope.data.menu.items) {
+		for(var i in $scope.data.menu.items) {
+			var item = $scope.data.menu.items[i];
+			if (item.type == 'scripted') {
+				if (item.scriptedItems.record_watchers)
+					record_watchers = record_watchers.concat(item.scriptedItems.record_watchers);
+			}
+			if (item.type == 'filtered') {
+				record_watchers.push({'table':item.table,'filter':item.filter});
+			}
+		}
+	}
+	// Init record watchers
+	for (var y in record_watchers){
+		var watcher = record_watchers[y];
+		spUtil.recordWatch($scope, watcher.table, watcher.filter);
+	}
+  $rootScope.$broadcast('sp-header-loaded');
+}]]&gt;&lt;/client_script&gt;&lt;controller_as&gt;c&lt;/controller_as&gt;&lt;css&gt;.sf-list{
+  padding: 0px;
+  margin: 0px;
+  .sf-list-item{
+    	display: block;
+  		min-height: 50px;
+    	border-bottom: 2px solid $sp-navbar-divider-color;
+    	text-align: center;
+    	position: relative;
+    
+    
+    .sf-item-link{
+      	display: block;
+    		pointer: cursor;
+      	text-decoration: none;
+      	padding: 10px;
+      	margin: 4px 0px;
+    }
+    
+  }
+
+}&lt;/css&gt;&lt;data_table&gt;sp_instance_menu&lt;/data_table&gt;&lt;demo_data/&gt;&lt;description/&gt;&lt;docs/&gt;&lt;field_list&gt;title&lt;/field_list&gt;&lt;has_preview&gt;false&lt;/has_preview&gt;&lt;id&gt;sly_fox_sidebar_menu&lt;/id&gt;&lt;internal&gt;false&lt;/internal&gt;&lt;link&gt;&lt;![CDATA[function(scope, elem) {
+	$(elem).on('keydown','.header-menu-item',function(e){
+		var target = e.target;
+		if (target.localName == 'a') {
+			var currentMenuItem = $(target).parents('li');
+			var parentUL = currentMenuItem.parents('ul');
+			var allMenuItems = parentUL.children('li:visible');
+			var firstMenuItem = allMenuItems.first();
+			var lastMenuItem = allMenuItems.last();
+			var menuItemToFocus;
+			if(e.keyCode == 37) {
+				e.preventDefault();
+				currentMenuItem.removeClass('open');
+				var previousMenuItem = currentMenuItem.prevAll('li:visible').first();
+				//enable circular navigation
+				menuItemToFocus = previousMenuItem.length ? previousMenuItem : lastMenuItem;
+				menuItemToFocus.find('a').focus();
+			} else if(e.keyCode == 39) {
+				e.preventDefault();
+				currentMenuItem.removeClass('open');
+				var nextMenuItem = currentMenuItem.nextAll('li:visible').first();
+				//enable circular navigation
+				menuItemToFocus = nextMenuItem.length ? nextMenuItem : firstMenuItem;
+				menuItemToFocus.find('a').focus();
+			}
+			if(e.keyCode == 9) {
+				$(target).parents('li').removeClass('open');
+			}
+		}
+		});
+	}]]&gt;&lt;/link&gt;&lt;name&gt;Sly Fox SideBar Menu&lt;/name&gt;&lt;option_schema/&gt;&lt;public&gt;true&lt;/public&gt;&lt;roles/&gt;&lt;script&gt;&lt;![CDATA[(function(){
+	// build menus
+	var menu_id = gs.getProperty("sly.fox.side.bar.menu.instances");
+	var gr = new GlideRecord('sp_instance_menu');
+	gr.get(menu_id);
+	data.menu = {};
+	data.menu.items = $sp.getMenuItems(menu_id);
+	data.isLoggedIn = GlideSession.get().isLoggedIn();
+	console.log(data.menu.items);
+})();]]&gt;&lt;/script&gt;&lt;servicenow&gt;false&lt;/servicenow&gt;&lt;sys_class_name&gt;sp_widget&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-08-09 20:05:21&lt;/sys_created_on&gt;&lt;sys_id&gt;8659edf2073930100dc4fa7f7c1ed026&lt;/sys_id&gt;&lt;sys_mod_count&gt;26&lt;/sys_mod_count&gt;&lt;sys_name&gt;Sly Fox SideBar Menu&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_widget_8659edf2073930100dc4fa7f7c1ed026&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-08-12 22:00:02&lt;/sys_updated_on&gt;&lt;template&gt;&lt;![CDATA[&lt;ul class="sf-list list-unstyled"&gt;
+ 	&lt;li class="sf-list-item" ng-repeat="item in data.menu.items" &gt;
+    &lt;i class="glyphicon glyphicon-{{item.glyph}}"&gt;&lt;/i&gt;
+  	&lt;a class="sf-item-link" href="{{item.href}}"&gt;{{item.label}}&lt;/a&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;]]&gt;&lt;/template&gt;&lt;/sp_widget&gt;&lt;/record_update&gt;</payload>
+<payload_hash>942752501</payload_hash>
+<remote_update_set display_value="Service Portal - RES pt2">6c3687f2070230100dc4fa7f7c1ed0d0</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2021-08-22 13:06:42</sys_created_on>
+<sys_id>2c3687f2070230100dc4fa7f7c1ed0d2</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17b3c61219c0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2021-08-22 13:06:42</sys_updated_on>
+<table/>
+<target_name>Sly Fox SideBar Menu</target_name>
+<type>Widget</type>
+<update_domain>global</update_domain>
+<update_guid>7b502db76f713010737999cf5392943f</update_guid>
+<update_guid_history>7b502db76f713010737999cf5392943f:942752501,bf30e1b70b713010fb8f4901d761b9e7:1739235741,ef9f91b77c7130101fc7c351eadc18a4:-549636401,5a7fd9778f71301043c0f0a70588299d:-1611185546,61ee9177e47130108c43af098f60e375:-342048422,7fde9177b77130103c9cd7f463c484d2:-1335420517,1d1e9177bb713010043579000a44dbca:219693662,910d553704713010b6437bfdf7df2b70:-377680885,c8ec153706713010bc170bda39df8bc8:564739308,3ebc51371b713010a00c49381ed97621:-1847319625,86acd5f3c7713010c15e13463e0fbda4:-122151138,229c9db3d7713010ad2a27640e12eab7:-1838156932,2c5cd5f365713010a7ecde224e7d2faf:-712202251,ed3cd5f358713010da6e6f9a06b6ccd5:562439945,a42cd5f3f27130108fb1e85e1b41b38c:-1226777475,33eb59f3ae7130108413e1a61380ad25:-716099139,81ab55f37071301091aa0ff34afa584d:-1463211346,f49b59739c713010de2eea7567018b4a:3015890,4ffa9d730a7130105b924f5f72fe36ea:-347274722,7e98d173177130104cc24fd5f2d0a4ad:-348941615,47e71dff1031301071145adce7552ca2:1188490977,3b9bc5f7053130103deb001ef97db4f4:-1049862875,594bc1f7e6313010d6be1a6762059d7d:-301647309,681b41f7853130107e0a9dd5cc6da059:-2004817900,8fba41b7b93130101c14dbba01d1c061:2004633898,59692936eb3930103019291b6b5d6214:-1473590991,0259edf26b393010c1770e53cad87c28:1675469023</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sp_header_footer_edbdb03607b530100dc4fa7f7c1ed01d</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sp_header_footer"&gt;&lt;sp_header_footer action="INSERT_OR_UPDATE"&gt;&lt;category&gt;custom&lt;/category&gt;&lt;client_script&gt;&lt;![CDATA[function ($rootScope, $scope, snRecordWatcher, spUtil, $location, $uibModal, cabrillo, $timeout, $window) {
+
+	/***
+	* Sly Fox addition
+	*/
+	SlyMenu.loadDefaults('section.page');
+	$scope.isMenuOpen = false;
+	$scope.toggleSideBar = function(){
+		$scope.isMenuOpen = SlyMenu.toggleSideBar();
+	}
+	
+	
+	
+	
+	
+	
+	$scope.collapse = function() {
+		$rootScope.$emit('sp-navbar-collapse');
+	}
+
+	$scope.avatarProfile = {
+		userID: $scope.user.sys_id,
+		name: $scope.user.name,
+		initials: $window.NOW.user_initials
+	};
+
+	if ($window.NOW.user_avatar) {
+		$scope.avatarProfile.userImage = $window.NOW.user_avatar;
+	}
+
+	if (cabrillo.isNative()) {
+		if ($window.innerWidth &lt; 767) {
+			$scope.isViewNative = true;
+		} else {
+			$scope.isViewNativeTablet = true;
+		}
+	}
+
+
+	$scope.openPopUp = function() {
+		var url = "$chat_support.do?queueID=" + $scope.data.connect_support_queue_id;
+		var popup = window.open (url, "popup", "width=900, height=600");
+	};
+
+	$scope.openLogin = function () {
+		$scope.modalInstance = $uibModal.open({
+			templateUrl: 'modalLogin',
+			scope: $scope
+		});
+	};
+
+	var xsScreenSize = isXSScreenSize();
+	$scope.showXSAvatar = isXSScreenSize();
+	$scope.showAvatar = !isXSScreenSize();
+
+	$scope.isAgentChatConfigured = g_has_agent_chat_config;
+
+	angular.element($window).on('resize', function () {
+		if(xsScreenSize !== isXSScreenSize() &amp;&amp; (!$scope.showXSAvatar || !$scope.showAvatar)){
+			$scope.showXSAvatar = true;
+			$scope.showAvatar = true;
+		}
+	});
+
+
+	function isXSScreenSize() {
+		return $window.matchMedia('(max-width: 767px)').matches;
+	}
+
+	$rootScope.$on('sp.avatar_changed', function(evt, obj) {
+		$scope.userID = "";
+		$scope.newAvatarId = obj.newAvatarId;
+		$timeout(function(){
+			$scope.userID = $scope.user.sys_id;
+			$("#profile-dropdown .sub-avatar").css("background-image", 'url("' + $scope.newAvatarId + '.iix?t=small")');
+		});
+	});
+
+	$scope.isHomepage = function() {
+		if (!$scope.page.id)
+			return true;
+
+		if ($scope.page.id == $scope.portal.homepage_dv)
+			return true;
+
+		return false;
+	};
+}
+		]]&gt;&lt;/client_script&gt;&lt;controller_as&gt;c&lt;/controller_as&gt;&lt;css&gt;.navbar {
+  transition: 250ms opacity ease-in-out;
+  -webkit-transition: 250ms opacity ease-in-out;
+  border: 0;
+  border-bottom: 4px solid $sp-navbar-divider-color;
+}
+
+.navbar-fade {
+  opacity: 0.4;
+}
+
+.navbar-inverse .navbar-toggle {
+  border-color: rgba(255, 255, 255, 0.25);
+}
+
+header[role="banner"],
+.nav &amp;gt; li &amp;gt; a {
+  max-height: 60px;
+}
+
+@media screen and (max-width: 768px){
+  .nav &amp;gt; li &amp;gt; a {
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
+  }
+}
+
+.navbar-brand {
+  max-height: 60px;
+  padding: 0;
+  padding-bottom: 0.5rem;
+}
+
+.navbar-brand img, .navbar-brand span {
+  margin-left: $sp-logo-margin-x;
+  margin-right: $sp-logo-margin-x;
+  margin-top: $sp-logo-margin-y;
+  margin-bottom: $sp-logo-margin-y;
+  display: block;
+  max-height: $sp-logo-max-height;
+  max-width: $sp-logo-max-width;
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+.breadcrumb-container {
+  background-color: $panel-bg;
+}
+
+/* for mobile app */
+.navbar-inverse.is-native {
+  background-color: #405060;
+}
+
+nav {
+  margin-bottom: 0px;
+  border-radius: 0px;
+
+ .toggle-dropdown {
+    height: 60px;
+  }
+
+}
+
+.navbar-right {
+  padding-right: 0px;
+  padding-left: 7px;
+}
+
+.navbar-nav {
+margin: 0px;
+}
+
+// PRB711244: Dropdown menu is scrollable when too many items
+.scrollable-dropdown {
+  max-height: 80vh;
+  overflow: auto;
+  height: auto;
+}
+
+.is-native {
+ .scrollable-dropdown {
+  max-height: 100vh;
+  overflow: scroll;
+  height: auto;
+	}
+}
+
+
+/* PRB923910: Fix for Service Portal - Header Poorly Aligned in Safari */
+@media screen and (min-width: 768px) {
+  .navbar-right {
+    display: flex !important;
+    height: auto !important;
+  }
+}
+
+.sf-stock-header{
+	position: relative;
+  
+    .sf-side-bar{
+      position: absolute;
+      bottom: calc(-100vh + 60);
+      left: 0px;
+      height: 100vh;
+      width: 250px;
+      z-index: 1000;
+      border-right: 4px solid $sp-navbar-divider-color;
+      transition: left 300ms ease;
+      
+      
+      .sf-side-bar-tab{
+      	position: absolute;
+        right: -48px;
+        top: 8px;
+        width: 48px;
+        height: 48px;
+        border-top-right-radius: 4px;
+        border-bottom-right-radius: 4px;
+        border-left: 4px solid $sp-navbar-divider-color;
+        z-index: 999;
+        
+        .glyphicon{
+        	position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%,-50%);
+        	font-size: 24px;
+        }
+      }
+  }  
+  
+  .sf-side-bar.closed{
+  	left: -250px;
+  }
+  
+  
+  
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;/css&gt;&lt;data_table&gt;sp_instance&lt;/data_table&gt;&lt;demo_data/&gt;&lt;description/&gt;&lt;docs/&gt;&lt;field_list/&gt;&lt;has_preview&gt;false&lt;/has_preview&gt;&lt;id/&gt;&lt;internal&gt;false&lt;/internal&gt;&lt;link&gt;&lt;![CDATA[function(scope, element) {
+	$(document).keyup(function(event) {
+		if (event.which == 9 || event.which == 37 || event.which == 39) { //tab key handler + arrow keys
+			if ($(event.target).parents(".dropdown-menu").length == 0) { //if we are NOT inside a dropdown...
+				//close the dropdowns
+				$(".dropdown").removeClass("open");
+				$("[data-toggle='dropdown']").attr("aria-expanded", "false");
+			}
+		}
+		if (event.which == 13 || event.which == 32)
+			$(event.target).parent(".dropdown.open").find("ul.dropdown-menu li:first-child a").focus();
+	});
+
+	$(element).on('click.nav','.navbar-collapse.in',function(e) {
+		var target = $(e.target);
+		if (target.is('a')) {
+			if (target.hasClass('sp-menu-has-items'))
+				return; // menu item has a submenu, so just toggle it
+
+			// collapse mobile nav if clicked an anchor
+			$(this).removeClass('in').addClass('collapse');
+			return;
+		}
+
+		if (target.parent().hasClass("toggle-dropdown")) {
+			// collapse mobile nav if parent has toggle-dropdown class
+			$(this).removeClass('in').addClass('collapse');
+			return;
+		}
+
+		// if neither target nor parent is an anchor, do nothing
+		if (!target.parent().is('a'))
+			return;
+
+		// collapse mobile nav if target is part of a submenu
+		if (target.parents("ul.dropdown-menu").length &gt; 0)
+			$(this).removeClass('in').addClass('collapse');
+	});
+
+}]]&gt;&lt;/link&gt;&lt;name&gt;Sly Fox Stock Header&lt;/name&gt;&lt;option_schema/&gt;&lt;public&gt;true&lt;/public&gt;&lt;roles/&gt;&lt;script&gt;&lt;![CDATA[// Defines the support queue ID that will be linked to by the Live Chat link in header
+data.connect_support_queue_id = $sp.getValue('sp_chat_queue');
+data.login_page = $sp.getValue('login_page');
+data.profileBtnMsg = gs.getMessage("User options");
+var menu = $sp.getValue("sp_rectangle_menu");
+data.menu = $sp.getWidgetFromInstance(menu);
+data.sideBarMenu = $sp.getWidget("sly_fox_sidebar_menu");
+if (data.menu &amp;&amp; data.menu.data) {
+	data.menu.data.replace = true;
+	// Hide login if menu already has link to login
+	data.hasLogin = false;
+	if (data.menu.data.menu.items) {
+		for(var i in data.menu.data.menu.items) {
+			var item = data.menu.data.menu.items[i];
+			if (item.type == 'page' &amp;&amp; item.sp_page == data.login_page)
+				data.hasLogin = true;
+		}
+	}
+}
+
+data.loginWidget = $sp.getWidgetFromInstance('login-modal');]]&gt;&lt;/script&gt;&lt;servicenow&gt;false&lt;/servicenow&gt;&lt;static&gt;false&lt;/static&gt;&lt;sys_class_name&gt;sp_header_footer&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-08-09 16:54:42&lt;/sys_created_on&gt;&lt;sys_id&gt;edbdb03607b530100dc4fa7f7c1ed01d&lt;/sys_id&gt;&lt;sys_mod_count&gt;81&lt;/sys_mod_count&gt;&lt;sys_name&gt;Sly Fox Stock Header&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_header_footer_edbdb03607b530100dc4fa7f7c1ed01d&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-08-12 21:22:43&lt;/sys_updated_on&gt;&lt;template&gt;&lt;![CDATA[&lt;div class="sf-stock-header"&gt;
+  &lt;nav class="navbar-inverse" ng-class="::{'navbar':!isViewNative, 'is-native': isViewNative}"
+       role="navigation" aria-label="${Primary}"&gt;
+    &lt;div ng-show="::!isViewNative" class="navbar-header"&gt;
+&lt;a class="navbar-brand" ng-if="::!portal.logo" href="?id={{::portal.homepage_dv}}"&gt;&lt;span ng-bind="portal.title"&gt;&lt;/span&gt;&lt;/a&gt;
+      &lt;a class="navbar-brand navbar-brand-logo" ng-if="::portal.logo" ng-href="?id={{::portal.homepage_dv}}" ng-click="collapse()" aria-label="${Go to homepage}"&gt;
+        &lt;img ng-src="{{::portal.logo}}" title="ServiceNow" role="presentation" alt="${Portal Logo}" /&gt;
+      &lt;/a&gt;
+
+      &lt;button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#sp-nav-bar"&gt;
+        &lt;span class="sr-only"&gt;${Toggle navigation}&lt;/span&gt;
+        &lt;span class="icon-bar"&gt;&lt;/span&gt;
+        &lt;span class="icon-bar"&gt;&lt;/span&gt;
+        &lt;span class="icon-bar"&gt;&lt;/span&gt;
+      &lt;/button&gt;
+    &lt;/div&gt;
+
+    &lt;div sp-navbar-toggle="" class="collapse navbar-right" id="sp-nav-bar"&gt;
+      &lt;!-- Include The Menu --&gt;
+      &lt;sp-widget widget="::data.menu"&gt;&lt;/sp-widget&gt;
+      &lt;ul ng-if="(!user.logged_in &amp;&amp; page.id != portal.login_page_dv &amp;&amp; !data.hasLogin)" class="nav navbar-nav" role="presentation"&gt;
+        &lt;li role="presentation"&gt;&lt;a href ng-click="::openLogin()"&gt;${Login}&lt;/a&gt;&lt;/li&gt;
+      &lt;/ul&gt;
+      &lt;ul ng-if="user.logged_in" class="nav navbar-nav" role="menubar"&gt;
+        &lt;!-- chat, avatar, and logout --&gt;
+        &lt;li ng-if="::(data.connect_support_queue_id &amp;&amp; !isAgentChatConfigured)" role="presentation"&gt;&lt;a href ng-click="openPopUp()" role="menuitem"&gt;${Live Chat}&lt;/a&gt;&lt;/li&gt;
+        &lt;li ng-if="showAvatar" class="hidden-xs dropdown" role="presentation"&gt;
+          &lt;a href class="toggle-dropdown" data-toggle="dropdown" aria-expanded="false" title="{{::data.profileBtnMsg}}" aria-label="{{::data.profileBtnMsg}}: {{::user.name}}" id="profile-dropdown"  role="menuitem" aria-haspopup="true"&gt;
+            &lt;span class="navbar-avatar" aria-hidden="true"&gt;&lt;sn-avatar class="avatar-small-medium" primary="avatarProfile" /&gt;&lt;/span&gt;
+            &lt;span class="visible-lg-inline"&gt;{{::user.name}}&lt;/span&gt;
+          &lt;/a&gt;
+          &lt;ul class="dropdown-menu" role="menu" aria-label="{{::data.profileBtnMsg}}"&gt;
+            &lt;li role="presentation"&gt;&lt;a tabindex="-1" ng-href="?id=user_profile&amp;sys_id={{::user.sys_id}}" role="menuitem"&gt;${Profile}&lt;/a&gt;&lt;/li&gt;
+            &lt;li ng-if="::!(isViewNative || isViewNativeTablet)" role="presentation"&gt;&lt;a tabindex="-1" href="{{::portal.logoutUrl}}" role="menuitem"&gt;${Logout}&lt;/a&gt;&lt;/li&gt;
+          &lt;/ul&gt;
+        &lt;/li&gt;
+        &lt;li ng-if="showXSAvatar" class="visible-xs-block" role="presentation"&gt;&lt;a role="menuitem" ng-href="?id=user_profile&amp;sys_id={{::user.sys_id}}" ng-click="collapse()"&gt;
+          &lt;span class="navbar-avatar"&gt;&lt;sn-avatar class="avatar-small-medium" primary="avatarProfile" /&gt;&lt;/span&gt;{{::user.name}}&lt;/a&gt;
+        &lt;/li&gt;
+        &lt;li ng-if="::!(isViewNative || isViewNativeTablet)" class="visible-xs-block" role="presentation"&gt;&lt;a role="menuitem" ng-href="{{::portal.logoutUrl}}" ng-click="collapse()"&gt;${Logout}&lt;/a&gt;&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/div&gt;
+  &lt;/nav&gt;
+  
+  &lt;!--================================
+			Sly fox navbar
+	=================================--&gt;
+  &lt;div class="sf-side-bar navbar-inverse" ng-class="{'closed':!isMenuOpen}"&gt;
+  		&lt;div&gt;
+          &lt;sp-widget widget="::data.sideBarMenu"&gt;&lt;/sp-widget&gt;
+        &lt;/div&gt;
+    &lt;div class="sf-side-bar-tab navbar-inverse" ng-click="toggleSideBar()"&gt;
+      &lt;div class="glyphicon glyphicon-align-justify"&gt;&lt;div&gt;
+    &lt;/div&gt;&lt;!-- sf-side-bar-tab--&gt;
+        
+  &lt;/div&gt; &lt;!-- sf-side-bar --&gt;
+&lt;/div&gt;&lt;!-- sf-stock-header --&gt;
+]]&gt;&lt;/template&gt;&lt;/sp_header_footer&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-2196112</payload_hash>
+<remote_update_set display_value="Service Portal - RES pt2">6c3687f2070230100dc4fa7f7c1ed0d0</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2021-08-22 13:06:42</sys_created_on>
+<sys_id>603687f2070230100dc4fa7f7c1ed0d1</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17b3c3ef4b50000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2021-08-22 13:06:42</sys_updated_on>
+<table/>
+<target_name>Sly Fox Stock Header</target_name>
+<type>Header | Footer</type>
+<update_domain>global</update_domain>
+<update_guid>78d7d9bfc4313010b4cb2e82396c0a7a</update_guid>
+<update_guid_history>78d7d9bfc4313010b4cb2e82396c0a7a:-2196112,eaf65133e0713010b0cb54a243e5bf41:-1590014048,13861dffc2313010b6c173ed42d24766:737565770,2f1fc97b2331301040b61ebae5f011bf:-529960955,68cb41f7633130106508bd6090989ba1:969925777,606bc577663130100677b4c85e89a773:98859321,9ca7e1f2b5393010fe577323fa195ff2:14066185,4a67ad7214393010d88a838842bbcab2:-493964618,7070edfaa0f530102a5b0f2a16c15794:22354613,5a0e1d7adef53010fbde1564bf836571:-1128981004,b7371db63ef53010a62fa67ae7fa67ff:22354613,cc2555761ff53010f1bf73e4f6a4a596:1390651674,b80591761ef53010e7325eb1d59c2259:-600955697,6934d936e6f530108f29451eb1051e7a:1377179751,682459f2c1f53010febc7688fc02deae:-1625117698,2fd3d536d0f53010bc81c07c91c6aaa5:-1484063039,a6c3953658f530109a9e5230cdcb96ad:-2066182168,368251b243f53010e572b5b17d80ec8a:1588593314,e85291b275f5301011af3180aeb4027d:1169197413,df3291f2aff530108f3009843fe85f49:1231101031,b6c1d1729ef53010f780e09ce032010c:2023740778,649191b2e8f53010c3a94530ff5d0175:-353466358,be9019729bf5301092c63d083a36ea96:1918273245,517091b26cf530108e1d6da4ed09db6c:-1189605963,aa4011b2a7f5301040330d002abb643f:1918273245,659f81722af53010fb3e0c62752339de:2062912068,549f4572bdf530102cc412c8659d9e65:103911680,354f457292f5301027d1ec7513f9935d:-1534396534,370f81725ff5301072713d05b7fb15d6:845789304,7aaecdfe95b53010304983833e4fa15c:908493466,2d8e0d3210f53010bae5ca02f06904fe:-1458729729,df4e8dfecfb53010787feaaf77c0117c:-498726860,0ebd09be15b530101183dab5c0460a2e:2013335492,6b2d4dfe0fb53010e361ee0988473c17:26355136,351dc9be93b53010e5af0c103eb8bc8b:-1847152913,2f0d09be26b530106ea2965421cfb703:2000743127,248c85fe3bb53010ed15fa6b3822b8b6:924557303,bc5cc9be35b530109ff32dd5f296b483:1914427123,3e7bc9be98b53010cf1ba036a2f4937b:-1200919223,d56bc17e62b53010bc68be34b2980bfb:1253791241,f03bcdba43b5301080d8bf0605b2be81:1392168395,742a497e60b530104998838d88707456:-817095322,e2b9c17e4fb5301012adf562f54474d7:1234457906,c159817ea0b530104d68016eb9aa2873:2068252478,34094dbaafb530104e73424ea38c2f8d:1234457906,b16745fa69b530102a531016dc5fe9c3:562698449,8e370dfaeeb530107a692686033d9741:1694078549,1d2709fac3b53010ca5f39af6ac11b3f:-1629762272,051789faeeb5301007e15eb3fb22de80:2117506683,7507cdba04b5301014aa1e20e9a0ad66:-1682863392,6de6897af7b530105c7acd7b5d89b153:1705790617,8fa645fa45b530102a2465e950146473:-563286649,1e160dba91b5301001d923c5fb67fb8b:1330588857,78f5897a20b5301089fa4a312bf6a368:1764736139,16d50dbaa8b530105c6277fa1a13e954:-1365192642,1b5585ba65b53010a6e352f348fd67f8:1069907446,b1c3c53abeb530106c725680bae5d455:122775909,58f1413ab0b53010e529b5089ff1bf05:995232239,48e189b626b53010f9df190898d16a5e:38935586,ab61c9b6bcb53010ab742ae79a352601:-1524244217,eb0149b6acb53010c7bc1e5a82686e70:165616982,7120c5b665b53010e908a906459cd81c:720032442,e000453613b53010add35f9c138610cc:-247405625,5affb8b6f7b53010779cc1a8df107ef9:100737023,a7ef38b697b53010afc97b547b87f5a0:-1134144468,cedf38b650b5301047bc54749fa5c6ef:758139438,74df38b633b530105fc55bba58082f98:-1613118930,20bff4b6c3b530109a04f7720f04d114:-1745875751,9d7f34b692b5301087d701ded3412a5f:-17160578,424fb0b6e0b53010e9b03f176b39a639:973744163,f22f3c76b9b53010bebde115247e72b6:1714901473,6b1f30b61ab5301003e0a52edc49a116:1897630296,9c1f70766cb53010e2b4f21b7ea52595:-475057155,66febc7618b53010c174ce63a2c47e27:173746438,83ee34767fb530100528c6e25c0b69da:1548069008,d0ee3c7613b53010dc68afa8af8c0374:2133734757,cedef87653b53010dde575e09ba6d2f7:746473810,80cef8f20fb5301011ce16e728401ed0:1227936849,466e307649b53010482ec7980672ed53:1424871903,413e347624b530103ef28ec5b1f7c2d2:-2014836645,92cdfc3666b5301002b636525c8612ac:852407824,6dbdb036cab5301065224039d2106520:-1926737738</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_app_module_7bc0d1fb073130100dc4fa7f7c1ed08e</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="Sly Fox Portal">b4aec97b073130100dc4fa7f7c1ed0b8</application><assessment/><device_type/><filter/><hint/><homepage/><image/><link_type>LIST</link_type><map_page/><mobile_title>UI Scripts</mobile_title><mobile_view_name>Mobile</mobile_view_name><name>sys_ui_script</name><order>800</order><override_menu_roles>false</override_menu_roles><query/><report/><roles/><sys_class_name>sys_app_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-08-12 20:52:20</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>7bc0d1fb073130100dc4fa7f7c1ed08e</sys_id><sys_mod_count>1</sys_mod_count><sys_name>UI Scripts</sys_name><sys_overrides/><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_app_module_7bc0d1fb073130100dc4fa7f7c1ed08e</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-08-12 20:53:01</sys_updated_on><timeline_page/><title>UI Scripts</title><uncancelable>false</uncancelable><view_name/><window_name/></sys_app_module></record_update>]]></payload>
+<payload_hash>1871548449</payload_hash>
+<remote_update_set display_value="Service Portal - RES pt2">6c3687f2070230100dc4fa7f7c1ed0d0</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2021-08-22 13:06:42</sys_created_on>
+<sys_id>603687f2070230100dc4fa7f7c1ed0d4</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17b3c23c3020000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2021-08-22 13:06:42</sys_updated_on>
+<table>sys_ui_script</table>
+<target_name>UI Scripts</target_name>
+<type>Module</type>
+<update_domain>global</update_domain>
+<update_guid>b101d5fbf6313010d9c7d81530cbf580</update_guid>
+<update_guid_history>b101d5fbf6313010d9c7d81530cbf580:1871548449,ffd015fbf93130102fbfaa942242ce5e:783223567</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_app_module_53405dbb073130100dc4fa7f7c1ed093</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="Sly Fox Portal">b4aec97b073130100dc4fa7f7c1ed0b8</application><assessment/><device_type/><filter/><hint/><homepage/><image/><link_type>LIST</link_type><map_page/><mobile_title>Themes</mobile_title><mobile_view_name>Mobile</mobile_view_name><name>sp_theme</name><order>200</order><override_menu_roles>false</override_menu_roles><query/><report/><roles/><sys_class_name>sys_app_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-08-12 20:50:05</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>53405dbb073130100dc4fa7f7c1ed093</sys_id><sys_mod_count>1</sys_mod_count><sys_name>Themes</sys_name><sys_overrides/><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_app_module_53405dbb073130100dc4fa7f7c1ed093</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-08-12 20:52:46</sys_updated_on><timeline_page/><title>Themes</title><uncancelable>false</uncancelable><view_name/><window_name/></sys_app_module></record_update>]]></payload>
+<payload_hash>808100128</payload_hash>
+<remote_update_set display_value="Service Portal - RES pt2">6c3687f2070230100dc4fa7f7c1ed0d0</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2021-08-22 13:06:42</sys_created_on>
+<sys_id>643687f2070230100dc4fa7f7c1ed0d3</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17b3c2388730000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2021-08-22 13:06:42</sys_updated_on>
+<table>sp_theme</table>
+<target_name>Themes</target_name>
+<type>Module</type>
+<update_domain>global</update_domain>
+<update_guid>c6f055fb1f313010fbd80a9e51826610</update_guid>
+<update_guid_history>c6f055fb1f313010fbd80a9e51826610:808100128,7a501dbbb6313010a18a0763ba7bf9fc:-1665090680</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sp_rectangle_menu_item_b58aad36073930100dc4fa7f7c1ed055</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_rectangle_menu_item"><sp_rectangle_menu_item action="INSERT_OR_UPDATE"><active>true</active><color>default</color><condition>GlideSPScriptable.canSeePage("my_requests")</condition><display_1/><display_2/><display_date/><filter/><glyph>info-circle</glyph><hint/><kb_article/><kb_category/><kb_topic/><label>Requests</label><order>100</order><record_script/><sc_cat_item/><sc_category/><short_description/><sp_page display_value="my_requests">4ab7a3a5875023000f220cf888cb0bec</sp_page><sp_rectangle_menu display_value="Sly Fox SideBar Menu">c1c86136073930100dc4fa7f7c1ed0a7</sp_rectangle_menu><sp_rectangle_menu_item/><sys_class_name>sp_rectangle_menu_item</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-08-09 20:10:52</sys_created_on><sys_id>b58aad36073930100dc4fa7f7c1ed055</sys_id><sys_mod_count>1</sys_mod_count><sys_name>Requests</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sp_rectangle_menu_item_b58aad36073930100dc4fa7f7c1ed055</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-08-12 21:29:27</sys_updated_on><table/><type>page</type><url/><url_target/></sp_rectangle_menu_item><sys_translated_text action="delete_multiple" query="documentkey=b58aad36073930100dc4fa7f7c1ed055"/></record_update>]]></payload>
+<payload_hash>-681886191</payload_hash>
+<remote_update_set display_value="Service Portal - RES pt2">6c3687f2070230100dc4fa7f7c1ed0d0</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2021-08-22 13:06:42</sys_created_on>
+<sys_id>683687f2070230100dc4fa7f7c1ed0d2</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17b3c451e800000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2021-08-22 13:06:42</sys_updated_on>
+<table/>
+<target_name>Requests</target_name>
+<type>Menu Item</type>
+<update_domain>global</update_domain>
+<update_guid>27591d737d7130105fc13f3787a6ca9c</update_guid>
+<update_guid_history>27591d737d7130105fc13f3787a6ca9c:-681886191,7a9ae576403930101f25ea9fce4bc763:1306567509</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sp_instance_1781e9f7077130100dc4fa7f7c1ed068</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance"><sp_instance action="INSERT_OR_UPDATE"><active>true</active><class_name/><color>default</color><css/><glyph/><id/><order>1</order><roles/><short_description/><size>md</size><sp_column display_value="1">d81921900b0503002600425663673ae6</sp_column><sp_widget display_value="Calculator">974a652347332100ba13a5554ee49089</sp_widget><sys_class_name>sp_instance</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-08-12 22:05:13</sys_created_on><sys_id>1781e9f7077130100dc4fa7f7c1ed068</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sp_instance_1781e9f7077130100dc4fa7f7c1ed068</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-08-12 22:05:13</sys_updated_on><title/><url/><widget_parameters/></sp_instance><sys_translated_text action="delete_multiple" query="documentkey=1781e9f7077130100dc4fa7f7c1ed068"/></record_update>]]></payload>
+<payload_hash>491517037</payload_hash>
+<remote_update_set display_value="Service Portal - RES pt2">6c3687f2070230100dc4fa7f7c1ed0d0</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2021-08-22 13:06:42</sys_created_on>
+<sys_id>6c3687f2070230100dc4fa7f7c1ed0d1</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17b3c65dc3a0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2021-08-22 13:06:42</sys_updated_on>
+<table/>
+<target_name/>
+<type>Instance</type>
+<update_domain>global</update_domain>
+<update_guid>1b81e9f7547130107d8b3f433e06296a</update_guid>
+<update_guid_history>1b81e9f7547130107d8b3f433e06296a:491517037</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_properties_ab0511bf073130100dc4fa7f7c1ed0e2</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties"><sys_properties action="INSERT_OR_UPDATE"><choices/><description>Set the menu instance id(s) for the side bar menu to loop through. The values should be a comma separated list. </description><ignore_cache>true</ignore_cache><is_private>false</is_private><name>sly.fox.side.bar.menu.instances</name><read_roles/><suffix/><sys_class_name>sys_properties</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-08-12 21:11:02</sys_created_on><sys_id>ab0511bf073130100dc4fa7f7c1ed0e2</sys_id><sys_mod_count>2</sys_mod_count><sys_name>sly.fox.side.bar.menu.instances</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_properties_ab0511bf073130100dc4fa7f7c1ed0e2</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-08-12 21:25:54</sys_updated_on><type>string</type><value>c1c86136073930100dc4fa7f7c1ed0a7</value><write_roles/></sys_properties><sys_translated_text action="delete_multiple" query="documentkey=ab0511bf073130100dc4fa7f7c1ed0e2"/></record_update>]]></payload>
+<payload_hash>1498781503</payload_hash>
+<remote_update_set display_value="Service Portal - RES pt2">6c3687f2070230100dc4fa7f7c1ed0d0</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2021-08-22 13:06:42</sys_created_on>
+<sys_id>6c3687f2070230100dc4fa7f7c1ed0d4</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17b3c41de240000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2021-08-22 13:06:42</sys_updated_on>
+<table/>
+<target_name>sly.fox.side.bar.menu.instances</target_name>
+<type>System Property</type>
+<update_domain>global</update_domain>
+<update_guid>e78815fff73130106df4a2dc65dc7169</update_guid>
+<update_guid_history>e78815fff73130106df4a2dc65dc7169:1498781503,16a5ddbff83130101ec971181eab7651:-769764464,bd25d1bf4d31301041111b5c4ff1ba03:61788689</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_app_module_1dbec57b073130100dc4fa7f7c1ed083</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="Sly Fox Portal">b4aec97b073130100dc4fa7f7c1ed0b8</application><assessment/><device_type/><filter/><hint/><homepage/><image/><link_type>LIST</link_type><map_page/><mobile_title>Headers</mobile_title><mobile_view_name>Mobile</mobile_view_name><name>sp_header_footer</name><order>500</order><override_menu_roles>false</override_menu_roles><query/><report/><roles/><sys_class_name>sys_app_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-08-12 20:47:20</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>1dbec57b073130100dc4fa7f7c1ed083</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Headers</sys_name><sys_overrides/><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_app_module_1dbec57b073130100dc4fa7f7c1ed083</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-08-12 20:47:20</sys_updated_on><timeline_page/><title>Headers</title><uncancelable>false</uncancelable><view_name/><window_name/></sys_app_module></record_update>]]></payload>
+<payload_hash>-1765059025</payload_hash>
+<remote_update_set display_value="Service Portal - RES pt2">6c3687f2070230100dc4fa7f7c1ed0d0</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2021-08-22 13:06:42</sys_created_on>
+<sys_id>a03687f2070230100dc4fa7f7c1ed0d3</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17b3c1e8f570000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2021-08-22 13:06:42</sys_updated_on>
+<table>sp_header_footer</table>
+<target_name>Headers</target_name>
+<type>Module</type>
+<update_domain>global</update_domain>
+<update_guid>62bf4d7bd83130107f70ce66caf6afed</update_guid>
+<update_guid_history>62bf4d7bd83130107f70ce66caf6afed:-1765059025</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sp_instance_e1ede9c35b3212000d7ec7ad31f91ae9</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance"><sp_instance action="INSERT_OR_UPDATE"><active>true</active><class_name/><color>default</color><css/><glyph/><id/><order>1</order><roles/><short_description/><size>md</size><sp_column display_value="1">bacde9c35b3212000d7ec7ad31f91ac2</sp_column><sp_widget display_value="breadcrumbs">0fb269305b3212000d7ec7ad31f91ae2</sp_widget><sys_class_name>sp_instance</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2016-04-19 22:14:59</sys_created_on><sys_id>e1ede9c35b3212000d7ec7ad31f91ae9</sys_id><sys_mod_count>2</sys_mod_count><sys_name/><sys_package display_value="Service Portal - Service Catalog (do not activate...see plugin description)" source="com.glide.service-portal.service-catalog">1f1309cf6d6620100acb70b353433061</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sp_instance_e1ede9c35b3212000d7ec7ad31f91ae9</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-08-12 22:05:12</sys_updated_on><title/><url/><widget_parameters/></sp_instance><sys_translated_text action="delete_multiple" query="documentkey=e1ede9c35b3212000d7ec7ad31f91ae9"/></record_update>]]></payload>
+<payload_hash>-1068299147</payload_hash>
+<remote_update_set display_value="Service Portal - RES pt2">6c3687f2070230100dc4fa7f7c1ed0d0</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2021-08-22 13:06:42</sys_created_on>
+<sys_id>a43687f2070230100dc4fa7f7c1ed0d2</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17b3c65d9ea0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2021-08-22 13:06:42</sys_updated_on>
+<table/>
+<target_name/>
+<type>Instance</type>
+<update_domain>global</update_domain>
+<update_guid>178169f703713010221df8b5ecf90e1b</update_guid>
+<update_guid_history>178169f703713010221df8b5ecf90e1b:-1068299147,978169f70b7130100516122a0e80ff19:-1380405354</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_properties_category_m2m_b925d1bf073130100dc4fa7f7c1ed004</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties_category_m2m"><sys_properties_category_m2m action="INSERT_OR_UPDATE"><category display_value="Sly Fox Portal Properties">6a3299fb073130100dc4fa7f7c1ed0be</category><order>1</order><property display_value="sly.fox.test.property" name="sly.fox.test.property">ab0511bf073130100dc4fa7f7c1ed0e2</property><sys_class_name>sys_properties_category_m2m</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-08-12 21:11:02</sys_created_on><sys_id>b925d1bf073130100dc4fa7f7c1ed004</sys_id><sys_mod_count>0</sys_mod_count><sys_name>sly.fox.test.property.Sly Fox Portal Properties</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_properties_category_m2m_b925d1bf073130100dc4fa7f7c1ed004</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-08-12 21:11:02</sys_updated_on></sys_properties_category_m2m></record_update>]]></payload>
+<payload_hash>623307467</payload_hash>
+<remote_update_set display_value="Service Portal - RES pt2">6c3687f2070230100dc4fa7f7c1ed0d0</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2021-08-22 13:06:42</sys_created_on>
+<sys_id>a43687f2070230100dc4fa7f7c1ed0d5</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17b3c3441660000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2021-08-22 13:06:42</sys_updated_on>
+<table/>
+<target_name>sly.fox.test.property.Sly Fox Portal Properties</target_name>
+<type>Category Property</type>
+<update_domain>global</update_domain>
+<update_guid>3125d1bfe83130101cc9fc8f3b440e06</update_guid>
+<update_guid_history>3125d1bfe83130101cc9fc8f3b440e06:623307467</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sp_instance_0e6e4cb3cb21020000f8d856634c9c33</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sp_instance"&gt;&lt;sp_instance action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;class_name/&gt;&lt;color&gt;default&lt;/color&gt;&lt;css/&gt;&lt;glyph/&gt;&lt;id/&gt;&lt;order&gt;1&lt;/order&gt;&lt;roles/&gt;&lt;short_description/&gt;&lt;size&gt;md&lt;/size&gt;&lt;sp_column display_value="1"&gt;694e0cb3cb21020000f8d856634c9c57&lt;/sp_column&gt;&lt;sp_widget display_value="SC Categories"&gt;4c03cba0cb11020000f8d856634c9ce1&lt;/sp_widget&gt;&lt;sys_class_name&gt;sp_instance&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2015-08-04 23:43:52&lt;/sys_created_on&gt;&lt;sys_id&gt;0e6e4cb3cb21020000f8d856634c9c33&lt;/sys_id&gt;&lt;sys_mod_count&gt;40&lt;/sys_mod_count&gt;&lt;sys_name&gt;Categories&lt;/sys_name&gt;&lt;sys_package display_value="Service Portal - Service Catalog (do not activate...see plugin description)" source="com.glide.service-portal.service-catalog"&gt;1f1309cf6d6620100acb70b353433061&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_instance_0e6e4cb3cb21020000f8d856634c9c33&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-08-12 22:05:13&lt;/sys_updated_on&gt;&lt;title&gt;Categories&lt;/title&gt;&lt;url/&gt;&lt;widget_parameters&gt;&lt;![CDATA[{
+	"hide_xs": {
+		"value": "true",
+		"displayValue": "true"
+	},
+	"omit_badges": {
+		"value": "true",
+		"displayValue": "true"
+	},
+	"check_can_view": {
+		"value": "true",
+		"displayValue": "true"
+	},
+	"category_layout": {
+		"value": "Nested",
+		"displayValue": "Nested"
+	},
+	"page": {
+		"value": "",
+		"displayValue": ""
+	},
+	"number_of_categories_to_load": {
+		"value": 15,
+		"displayValue": "15"
+	}
+}]]&gt;&lt;/widget_parameters&gt;&lt;/sp_instance&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=0e6e4cb3cb21020000f8d856634c9c33"/&gt;&lt;/record_update&gt;</payload>
+<payload_hash>2105714492</payload_hash>
+<remote_update_set display_value="Service Portal - RES pt2">6c3687f2070230100dc4fa7f7c1ed0d0</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2021-08-22 13:06:42</sys_created_on>
+<sys_id>a83687f2070230100dc4fa7f7c1ed0d1</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17b3c65dabe0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2021-08-22 13:06:42</sys_updated_on>
+<table/>
+<target_name>Categories</target_name>
+<type>Instance</type>
+<update_domain>global</update_domain>
+<update_guid>5b81e9f7857130108903757b45730745</update_guid>
+<update_guid_history>5b81e9f7857130108903757b45730745:2105714492,df81e9f7d4713010794c8e079c5a4543:-1990539525</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_properties_8d62993f073130100dc4fa7f7c1ed02b</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties"><sys_properties action="INSERT_OR_UPDATE"><choices>true,false</choices><description>Enable the Side bar menu (true | false)</description><ignore_cache>true</ignore_cache><is_private>false</is_private><name>sly.fox.side.bar.menu.is.set</name><read_roles/><suffix/><sys_class_name>sys_properties</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-08-12 20:59:54</sys_created_on><sys_id>8d62993f073130100dc4fa7f7c1ed02b</sys_id><sys_mod_count>2</sys_mod_count><sys_name>sly.fox.side.bar.menu.is.set</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_properties_8d62993f073130100dc4fa7f7c1ed02b</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-08-12 21:08:22</sys_updated_on><type>boolean</type><value>true</value><write_roles/></sys_properties><sys_translated_text action="delete_multiple" query="documentkey=8d62993f073130100dc4fa7f7c1ed02b"/></record_update>]]></payload>
+<payload_hash>-754798060</payload_hash>
+<remote_update_set display_value="Service Portal - RES pt2">6c3687f2070230100dc4fa7f7c1ed0d0</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2021-08-22 13:06:42</sys_created_on>
+<sys_id>a83687f2070230100dc4fa7f7c1ed0d4</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17b3c31ce950000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2021-08-22 13:06:42</sys_updated_on>
+<table/>
+<target_name>sly.fox.side.bar.menu.is.set</target_name>
+<type>System Property</type>
+<update_domain>global</update_domain>
+<update_guid>a68415bf1631301087ccfd3847c0ac7e</update_guid>
+<update_guid_history>a68415bf1631301087ccfd3847c0ac7e:-754798060,db6411bfc93130105ec9f19185a4ed3c:25560357,e692593f5131301081fcef3d0b1b0d9a:-41091112</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_app_module_6d7199fb073130100dc4fa7f7c1ed0b4</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="Sly Fox Portal">b4aec97b073130100dc4fa7f7c1ed0b8</application><assessment/><device_type/><filter/><hint/><homepage/><image/><link_type>DIRECT</link_type><map_page/><mobile_title>Properties</mobile_title><mobile_view_name>Mobile</mobile_view_name><name/><order>1000</order><override_menu_roles>false</override_menu_roles><query>system_properties_ui.do?sysparm_title=Sly%20Fox%20Portal&amp;sysparm_category=Sly%20Fox%20Portal</query><report/><roles/><sys_class_name>sys_app_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-08-12 21:02:23</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>6d7199fb073130100dc4fa7f7c1ed0b4</sys_id><sys_mod_count>4</sys_mod_count><sys_name>Properties</sys_name><sys_overrides/><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_app_module_6d7199fb073130100dc4fa7f7c1ed0b4</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-08-12 21:12:20</sys_updated_on><timeline_page/><title>Properties</title><uncancelable>false</uncancelable><view_name/><window_name/></sys_app_module></record_update>]]></payload>
+<payload_hash>1330430290</payload_hash>
+<remote_update_set display_value="Service Portal - RES pt2">6c3687f2070230100dc4fa7f7c1ed0d0</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2021-08-22 13:06:42</sys_created_on>
+<sys_id>ac3687f2070230100dc4fa7f7c1ed0d3</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17b3c3570510000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2021-08-22 13:06:42</sys_updated_on>
+<table/>
+<target_name>Properties</target_name>
+<type>Module</type>
+<update_domain>global</update_domain>
+<update_guid>647511ff623130101ba65b28c54fc00f</update_guid>
+<update_guid_history>647511ff623130101ba65b28c54fc00f:1330430290,2234dd7ff831301026ab1eec066f6729:1181956626,c4249d7f303130105894e0a876e5e646:236769321,6d339d3fc33130108505c962a9ca5a8b:1181956626,be23917f0c313010dd53ad8a520821b6:1976717983</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sp_instance_d388c770d7000200a9ad1e173e24d425</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sp_instance"&gt;&lt;sp_instance action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;class_name/&gt;&lt;color&gt;default&lt;/color&gt;&lt;css/&gt;&lt;glyph/&gt;&lt;id/&gt;&lt;order&gt;1&lt;/order&gt;&lt;roles/&gt;&lt;short_description/&gt;&lt;size&gt;md&lt;/size&gt;&lt;sp_column display_value="2"&gt;6e88c770d7000200a9ad1e173e24d421&lt;/sp_column&gt;&lt;sp_widget display_value="SC Category Page"&gt;f2ff0622d7000200a9ad1e173e24d4f3&lt;/sp_widget&gt;&lt;sys_class_name&gt;sp_instance&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2015-05-13 16:01:14&lt;/sys_created_on&gt;&lt;sys_id&gt;d388c770d7000200a9ad1e173e24d425&lt;/sys_id&gt;&lt;sys_mod_count&gt;11&lt;/sys_mod_count&gt;&lt;sys_name&gt;Catalog Category&lt;/sys_name&gt;&lt;sys_package display_value="Service Portal - Service Catalog (do not activate...see plugin description)" source="com.glide.service-portal.service-catalog"&gt;1f1309cf6d6620100acb70b353433061&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_instance_d388c770d7000200a9ad1e173e24d425&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-08-12 22:05:13&lt;/sys_updated_on&gt;&lt;title&gt;Catalog Category&lt;/title&gt;&lt;url/&gt;&lt;widget_parameters&gt;&lt;![CDATA[{
+	"click_event_name": {
+		"value": "",
+		"displayValue": ""
+	},
+	"limit_item": {
+		"value": 9,
+		"displayValue": "9"
+	},
+	"show_items_from_child": {
+		"value": "true",
+		"displayValue": "true"
+	}
+}]]&gt;&lt;/widget_parameters&gt;&lt;/sp_instance&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=d388c770d7000200a9ad1e173e24d425"/&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-1702859177</payload_hash>
+<remote_update_set display_value="Service Portal - RES pt2">6c3687f2070230100dc4fa7f7c1ed0d0</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2021-08-22 13:06:42</sys_created_on>
+<sys_id>e03687f2070230100dc4fa7f7c1ed0d2</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17b3c65db6f0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2021-08-22 13:06:42</sys_updated_on>
+<table/>
+<target_name>Catalog Category</target_name>
+<type>Instance</type>
+<update_domain>global</update_domain>
+<update_guid>d781e9f738713010620a36477c667d4b</update_guid>
+<update_guid_history>d781e9f738713010620a36477c667d4b:-1702859177,5f81e9f7637130100af5c7197ebeb349:563674774</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_properties_category_m2m_2692593f073130100dc4fa7f7c1ed09b</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties_category_m2m"><sys_properties_category_m2m action="INSERT_OR_UPDATE"><category display_value="Sly Fox Portal Properties">6a3299fb073130100dc4fa7f7c1ed0be</category><order>1</order><property display_value="sly.fox.side.bar.menu.is.set" name="sly.fox.side.bar.menu.is.set">8d62993f073130100dc4fa7f7c1ed02b</property><sys_class_name>sys_properties_category_m2m</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-08-12 20:59:54</sys_created_on><sys_id>2692593f073130100dc4fa7f7c1ed09b</sys_id><sys_mod_count>0</sys_mod_count><sys_name>sly.fox.side.bar.menu.is.set.Sly Fox Portal Properties</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_properties_category_m2m_2692593f073130100dc4fa7f7c1ed09b</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-08-12 20:59:54</sys_updated_on></sys_properties_category_m2m></record_update>]]></payload>
+<payload_hash>-446547737</payload_hash>
+<remote_update_set display_value="Service Portal - RES pt2">6c3687f2070230100dc4fa7f7c1ed0d0</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2021-08-22 13:06:42</sys_created_on>
+<sys_id>e03687f2070230100dc4fa7f7c1ed0d5</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17b3c2a0f5e0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2021-08-22 13:06:42</sys_updated_on>
+<table/>
+<target_name>sly.fox.side.bar.menu.is.set.Sly Fox Portal Properties</target_name>
+<type>Category Property</type>
+<update_domain>global</update_domain>
+<update_guid>2692593fac313010cc3b9b457ff0aa9d</update_guid>
+<update_guid_history>2692593fac313010cc3b9b457ff0aa9d:-446547737</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_app_module_cdcf897b073130100dc4fa7f7c1ed07d</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="Sly Fox Portal">b4aec97b073130100dc4fa7f7c1ed0b8</application><assessment/><device_type/><filter/><hint/><homepage/><image/><link_type>LIST</link_type><map_page/><mobile_title>Menus</mobile_title><mobile_view_name>Mobile</mobile_view_name><name>sp_instance_menu</name><order>600</order><override_menu_roles>false</override_menu_roles><query/><report/><roles/><sys_class_name>sys_app_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-08-12 20:48:25</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>cdcf897b073130100dc4fa7f7c1ed07d</sys_id><sys_mod_count>1</sys_mod_count><sys_name>Menus</sys_name><sys_overrides/><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_app_module_cdcf897b073130100dc4fa7f7c1ed07d</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-08-12 20:52:39</sys_updated_on><timeline_page/><title>Menus</title><uncancelable>false</uncancelable><view_name/><window_name/></sys_app_module></record_update>]]></payload>
+<payload_hash>1885365596</payload_hash>
+<remote_update_set display_value="Service Portal - RES pt2">6c3687f2070230100dc4fa7f7c1ed0d0</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2021-08-22 13:06:42</sys_created_on>
+<sys_id>e43687f2070230100dc4fa7f7c1ed0d4</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17b3c236a110000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2021-08-22 13:06:42</sys_updated_on>
+<table>sp_instance_menu</table>
+<target_name>Menus</target_name>
+<type>Module</type>
+<update_domain>global</update_domain>
+<update_guid>54f015fb2b31301042b92ebc6b9a6392</update_guid>
+<update_guid_history>54f015fb2b31301042b92ebc6b9a6392:1885365596,d2ff4d7b61313010491b5b4b6e2647e2:-1407933240</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_app_module_67505dbb073130100dc4fa7f7c1ed096</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="Sly Fox Portal">b4aec97b073130100dc4fa7f7c1ed0b8</application><assessment/><device_type/><filter/><hint/><homepage/><image/><link_type>LIST</link_type><map_page/><mobile_title>Css</mobile_title><mobile_view_name>Mobile</mobile_view_name><name>sp_css</name><order>700</order><override_menu_roles>false</override_menu_roles><query/><report/><roles/><sys_class_name>sys_app_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-08-12 20:50:46</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>67505dbb073130100dc4fa7f7c1ed096</sys_id><sys_mod_count>1</sys_mod_count><sys_name>Css</sys_name><sys_overrides/><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_app_module_67505dbb073130100dc4fa7f7c1ed096</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-08-12 20:52:57</sys_updated_on><timeline_page/><title>Css</title><uncancelable>false</uncancelable><view_name/><window_name/></sys_app_module></record_update>]]></payload>
+<payload_hash>652288678</payload_hash>
+<remote_update_set display_value="Service Portal - RES pt2">6c3687f2070230100dc4fa7f7c1ed0d0</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2021-08-22 13:06:42</sys_created_on>
+<sys_id>e83687f2070230100dc4fa7f7c1ed0d3</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17b3c23b2fe0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2021-08-22 13:06:42</sys_updated_on>
+<table>sp_css</table>
+<target_name>Css</target_name>
+<type>Module</type>
+<update_domain>global</update_domain>
+<update_guid>740119fbf23130103b3530f20fdb75c4</update_guid>
+<update_guid_history>740119fbf23130103b3530f20fdb75c4:652288678,7880d9bb09313010bf854e70d355bc6f:2078974387</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_app_application_b4aec97b073130100dc4fa7f7c1ed0b8</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_application"><sys_app_application action="INSERT_OR_UPDATE"><active>true</active><category display_value="Custom Applications">e0355b31ef303000a61d5a3615c0fb78</category><description/><device_type>browser</device_type><hint/><name/><order>100</order><roles/><sys_class_name>sys_app_application</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-08-12 20:42:49</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>b4aec97b073130100dc4fa7f7c1ed0b8</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Sly Fox Portal</sys_name><sys_overrides/><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_app_application_b4aec97b073130100dc4fa7f7c1ed0b8</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-08-12 20:42:49</sys_updated_on><title>Sly Fox Portal</title><view_name/></sys_app_application></record_update>]]></payload>
+<payload_hash>-993906207</payload_hash>
+<remote_update_set display_value="Service Portal - RES pt2">6c3687f2070230100dc4fa7f7c1ed0d0</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2021-08-22 13:06:42</sys_created_on>
+<sys_id>ec3687f2070230100dc4fa7f7c1ed0d2</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17b3c1a6b800000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2021-08-22 13:06:42</sys_updated_on>
+<table/>
+<target_name>Sly Fox Portal</target_name>
+<type>Application Menu</type>
+<update_domain>global</update_domain>
+<update_guid>d0be897b5c31301013f1f004cdd5adf8</update_guid>
+<update_guid_history>d0be897b5c31301013f1f004cdd5adf8:-993906207</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+</unload>
