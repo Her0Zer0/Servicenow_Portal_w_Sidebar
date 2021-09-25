@@ -1,0 +1,764 @@
+<?xml version="1.0" encoding="UTF-8"?><unload unload_date="2021-09-25 16:01:25">
+<sys_remote_update_set action="INSERT_OR_UPDATE">
+<application display_value="Global">global</application>
+<application_name>Global</application_name>
+<application_scope>global</application_scope>
+<application_version/>
+<collisions/>
+<commit_date/>
+<deleted/>
+<description/>
+<inserted/>
+<name>USWDS Portal Design 1.0</name>
+<origin_sys_id/>
+<parent display_value=""/>
+<release_date/>
+<remote_base_update_set display_value=""/>
+<remote_parent_id/>
+<remote_sys_id>a027d1fd2f3e3010cf61d0e62799b63e</remote_sys_id>
+<state>loaded</state>
+<summary/>
+<sys_class_name>sys_remote_update_set</sys_class_name>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2021-09-25 16:01:24</sys_created_on>
+<sys_id>f63476752f727010cf61d0e62799b600</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2021-09-25 16:01:24</sys_updated_on>
+<update_set display_value=""/>
+<update_source display_value=""/>
+<updated/>
+</sys_remote_update_set>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sp_instance_e0a0aab52f327010cf61d0e62799b637</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sp_instance"&gt;&lt;sp_instance action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;class_name/&gt;&lt;color&gt;default&lt;/color&gt;&lt;css/&gt;&lt;glyph/&gt;&lt;id/&gt;&lt;order&gt;1&lt;/order&gt;&lt;roles/&gt;&lt;short_description/&gt;&lt;size&gt;md&lt;/size&gt;&lt;sp_column display_value="1"&gt;a690aab52f327010cf61d0e62799b6ea&lt;/sp_column&gt;&lt;sp_widget display_value="Code Showcase"&gt;d72062b52f327010cf61d0e62799b624&lt;/sp_widget&gt;&lt;sys_class_name&gt;sp_instance&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-09-25 14:35:46&lt;/sys_created_on&gt;&lt;sys_id&gt;e0a0aab52f327010cf61d0e62799b637&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_instance_e0a0aab52f327010cf61d0e62799b637&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-09-25 15:36:22&lt;/sys_updated_on&gt;&lt;title/&gt;&lt;url/&gt;&lt;widget_parameters&gt;&lt;![CDATA[{
+	"widget_id": {
+		"value": "uswds_accordion",
+		"displayValue": "uswds_accordion"
+	},
+	"aboutheader": {
+		"value": "",
+		"displayValue": ""
+	},
+	"aboutcontent": {
+		"value": "",
+		"displayValue": ""
+	},
+	"about_header": {
+		"value": "",
+		"displayValue": ""
+	},
+	"about_content": {
+		"value": "",
+		"displayValue": ""
+	},
+	"widget_options_header": {
+		"value": "",
+		"displayValue": ""
+	},
+	"widget_options_content": {
+		"value": "",
+		"displayValue": ""
+	},
+	"widget_instance_options_header": {
+		"value": "",
+		"displayValue": ""
+	},
+	"widget_instance_options_content": {
+		"value": "",
+		"displayValue": ""
+	},
+	"showcase_title": {
+		"value": "Accordion USWDS Version",
+		"displayValue": "Accordion USWDS Version"
+	}
+}]]&gt;&lt;/widget_parameters&gt;&lt;/sp_instance&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=e0a0aab52f327010cf61d0e62799b637"/&gt;&lt;/record_update&gt;</payload>
+<payload_hash>471032027</payload_hash>
+<remote_update_set display_value="USWDS Portal Design 1.0">f63476752f727010cf61d0e62799b600</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2021-09-25 16:01:24</sys_created_on>
+<sys_id>323476752f727010cf61d0e62799b603</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17c1d99aa370000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2021-09-25 16:01:24</sys_updated_on>
+<table/>
+<target_name/>
+<type>Instance</type>
+<update_domain>global</update_domain>
+<update_guid>888e2631cc727010610da5180a69d869</update_guid>
+<update_guid_history>888e2631cc727010610da5180a69d869:471032027,e598aa3d3932701088480efcc432d3a0:-389218979,2ca0eab5d632701031989de45a1cce7c:-1531450612</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sp_css_include_07eb9d712f7e3010cf61d0e62799b68c</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_css_include"><sp_css_include action="INSERT_OR_UPDATE"><name>Bootstrap Override Accordion</name><source>local</source><sp_css display_value="Bootstrap Override Accordion">c2fb91f12f7e3010cf61d0e62799b67b</sp_css><sys_class_name>sp_css_include</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-09-25 09:35:42</sys_created_on><sys_id>07eb9d712f7e3010cf61d0e62799b68c</sys_id><sys_mod_count>2</sys_mod_count><sys_name>Bootstrap Override Accordion</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sp_css_include_07eb9d712f7e3010cf61d0e62799b68c</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-09-25 14:15:40</sys_updated_on><url/></sp_css_include></record_update>]]></payload>
+<payload_hash>-1207699383</payload_hash>
+<remote_update_set display_value="USWDS Portal Design 1.0">f63476752f727010cf61d0e62799b600</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2021-09-25 16:01:24</sys_created_on>
+<sys_id>363476752f727010cf61d0e62799b602</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17c1d4fca190000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2021-09-25 16:01:24</sys_updated_on>
+<table/>
+<target_name>Bootstrap Override Accordion</target_name>
+<type>CSS Include</type>
+<update_domain>global</update_domain>
+<update_guid>820c92f1d03270104c88541eb9173707</update_guid>
+<update_guid_history>820c92f1d03270104c88541eb9173707:-1207699383,1c0cdd71817e3010c92c0ce963350974:1585637388,cdfb91f1557e30100a86ae726624c525:866001828</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sp_column_a690aab52f327010cf61d0e62799b6ea</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_column"><sp_column action="INSERT_OR_UPDATE"><class_name/><order>1</order><size>12</size><size_lg/><size_sm/><size_xs/><sp_row display_value="1">6690aab52f327010cf61d0e62799b6e8</sp_row><sys_class_name>sp_column</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-09-25 14:35:38</sys_created_on><sys_id>a690aab52f327010cf61d0e62799b6ea</sys_id><sys_mod_count>0</sys_mod_count><sys_name>1</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sp_column_a690aab52f327010cf61d0e62799b6ea</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-09-25 14:35:38</sys_updated_on></sp_column></record_update>]]></payload>
+<payload_hash>32414701</payload_hash>
+<remote_update_set display_value="USWDS Portal Design 1.0">f63476752f727010cf61d0e62799b600</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2021-09-25 16:01:24</sys_created_on>
+<sys_id>3a3476752f727010cf61d0e62799b601</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17c1d62102f0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2021-09-25 16:01:24</sys_updated_on>
+<table/>
+<target_name>1</target_name>
+<type>Column</type>
+<update_domain>global</update_domain>
+<update_guid>6a90aab555327010a5a5989b283be5eb</update_guid>
+<update_guid_history>6a90aab555327010a5a5989b283be5eb:32414701</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sp_theme_e15855312f7e3010cf61d0e62799b650</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_theme"><sp_theme action="INSERT_OR_UPDATE"><css_variables/><footer/><footer_fixed>true</footer_fixed><header display_value="Stock Header">bf5ec2f2cb10120000f8d856634c9c0c</header><name>USWDS</name><navbar_fixed>true</navbar_fixed><sys_class_name>sp_theme</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-09-25 09:20:02</sys_created_on><sys_id>e15855312f7e3010cf61d0e62799b650</sys_id><sys_mod_count>1</sys_mod_count><sys_name>USWDS</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sp_theme_e15855312f7e3010cf61d0e62799b650</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-09-25 09:30:46</sys_updated_on></sp_theme></record_update>]]></payload>
+<payload_hash>-904797255</payload_hash>
+<remote_update_set display_value="USWDS Portal Design 1.0">f63476752f727010cf61d0e62799b600</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2021-09-25 16:01:24</sys_created_on>
+<sys_id>3e3476752f727010cf61d0e62799b603</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17c1c4af4120000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2021-09-25 16:01:24</sys_updated_on>
+<table/>
+<target_name>USWDS</target_name>
+<type>Theme</type>
+<update_domain>global</update_domain>
+<update_guid>f0da9531d17e3010bbb629951fc8aed2</update_guid>
+<update_guid_history>f0da9531d17e3010bbb629951fc8aed2:-904797255,6b5891bd3a3e30109a2102106e2a0b1e:890382122</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sp_css_c2fb91f12f7e3010cf61d0e62799b67b</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_css"><sp_css action="INSERT_OR_UPDATE"><css>/* PANELS */&#13;
+.us-accordion.panel-group .panel, &#13;
+.us-accordion .panel{&#13;
+	border-radius: 0 !important;&#13;
+}&#13;
+&#13;
+.us-accordion .panel-heading{&#13;
+	padding: 0px;&#13;
+  	border-top-right-radius: 0;&#13;
+  	border-top-left-radius: 0;&#13;
+}&#13;
+&#13;
+.us-accordion .panel-title a{&#13;
+	width: 100%;&#13;
+  	height: 100%;&#13;
+  	display: inline-block;&#13;
+  	padding: 16px;&#13;
+  	font-family: "Source Sans Pro";&#13;
+  	font-size: 16px;&#13;
+  	font-style: normal;&#13;
+  	font-weight: 700;&#13;
+  	&#13;
+}&#13;
+&#13;
+.us-accordion .panel-title a .uswds-icon{&#13;
+	font-weight: 100;&#13;
+  	font-size: 16px;&#13;
+}&#13;
+&#13;
+&#13;
+</css><name>Bootstrap Override Accordion</name><sys_class_name>sp_css</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-09-25 09:35:53</sys_created_on><sys_id>c2fb91f12f7e3010cf61d0e62799b67b</sys_id><sys_mod_count>21</sys_mod_count><sys_name>Bootstrap Override Accordion</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sp_css_c2fb91f12f7e3010cf61d0e62799b67b</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-09-25 14:15:40</sys_updated_on></sp_css></record_update>]]></payload>
+<payload_hash>-1732669042</payload_hash>
+<remote_update_set display_value="USWDS Portal Design 1.0">f63476752f727010cf61d0e62799b600</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2021-09-25 16:01:24</sys_created_on>
+<sys_id>723476752f727010cf61d0e62799b602</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17c1d4fca400000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2021-09-25 16:01:24</sys_updated_on>
+<table/>
+<target_name>Bootstrap Override Accordion</target_name>
+<type>Style Sheet</type>
+<update_domain>global</update_domain>
+<update_guid>860c92f14f3270104eb635ca110d7e08</update_guid>
+<update_guid_history>860c92f14f3270104eb635ca110d7e08:-1732669042,ffd32179797e3010c293b1316b83e669:-1967983436,ec632d39037e3010d659a5f2d9cff226:-95768105,1733a575e47e3010caa8bc3047dd8e8f:390290624,be1365f5657e301082a6c79708d8922f:-555017528,4cd2e5b5007e301033133e8c8919ff36:-1742342682,a4b265f5987e3010da3b3034756ad421:-596859769,5d32edf5bb7e3010b5e13a11b9634a97:1444994732,cc126df5627e30104488b285f8909c98:201097265,8020e575bc7e3010b54a86c2f25e8bdf:-557444964,f41025b5c77e3010445a1155e6002baf:-2002836125,abef51b50f7e3010fb27b840ab749b5c:-1307967374,90af51b5c57e301061cd66953c30ba2d:-1092851513,5c9fd575987e3010602d97212069a4e6:-769729014,6dbe51755f7e30100eba154bf1076250:-1898324654,349e5935507e301065a76c788bb5865c:605912902,904e5df1967e30107a63038e49776a5a:-944580809,08ed5935337e3010c8dcd606befd6555:-1962923391,829d9535e17e3010a5be6e44f6778c03:-2081770458,e36dd135137e3010d7983efdf4fb3498:476028158,7b3d59f1727e301015b1ebed0fe5e303:568123859,7bfb5db12a7e30107e9a40d7a07a8db2:-2075379224</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>m2m_sp_theme_css_include_dabf5a752f327010cf61d0e62799b6eb</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sp_theme_css_include"><m2m_sp_theme_css_include action="INSERT_OR_UPDATE"><order>1100</order><sp_css_include display_value="Boostrap Override ">792cd2f12f327010cf61d0e62799b6fd</sp_css_include><sp_theme display_value="USWDS">e15855312f7e3010cf61d0e62799b650</sp_theme><sys_class_name>m2m_sp_theme_css_include</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-09-25 14:31:47</sys_created_on><sys_id>dabf5a752f327010cf61d0e62799b6eb</sys_id><sys_mod_count>1</sys_mod_count><sys_name>Boostrap Override .USWDS</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>m2m_sp_theme_css_include_dabf5a752f327010cf61d0e62799b6eb</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-09-25 14:32:23</sys_updated_on></m2m_sp_theme_css_include></record_update>]]></payload>
+<payload_hash>1273432333</payload_hash>
+<remote_update_set display_value="USWDS Portal Design 1.0">f63476752f727010cf61d0e62799b600</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2021-09-25 16:01:24</sys_created_on>
+<sys_id>763476752f727010cf61d0e62799b601</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17c1d5f15740000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2021-09-25 16:01:24</sys_updated_on>
+<table/>
+<target_name>Boostrap Override .USWDS</target_name>
+<type>Stylesheets</type>
+<update_domain>global</update_domain>
+<update_guid>76df5a75cf327010ed47a0c69e3a4ce1</update_guid>
+<update_guid_history>76df5a75cf327010ed47a0c69e3a4ce1:1273432333,dabf5a75273270100259cd76f3aa52ed:1955470341</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_properties_9d4751fd2f3e3010cf61d0e62799b684</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties"><sys_properties action="INSERT_OR_UPDATE"><choices/><description>If true, portal css would be in rem units</description><ignore_cache>true</ignore_cache><is_private>false</is_private><name>glide.service_portal.resize_text.us.enable_rem_conversion</name><read_roles/><suffix/><sys_class_name>sys_properties</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-09-25 09:15:15</sys_created_on><sys_id>9d4751fd2f3e3010cf61d0e62799b684</sys_id><sys_mod_count>0</sys_mod_count><sys_name>glide.service_portal.resize_text.us.enable_rem_conversion</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_properties_9d4751fd2f3e3010cf61d0e62799b684</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-09-25 09:15:15</sys_updated_on><type>boolean</type><value>true</value><write_roles/></sys_properties><sys_translated_text action="delete_multiple" query="documentkey=9d4751fd2f3e3010cf61d0e62799b684"/></record_update>]]></payload>
+<payload_hash>608338388</payload_hash>
+<remote_update_set display_value="USWDS Portal Design 1.0">f63476752f727010cf61d0e62799b600</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2021-09-25 16:01:24</sys_created_on>
+<sys_id>763476752f727010cf61d0e62799b604</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17c1c3cc08c0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2021-09-25 16:01:24</sys_updated_on>
+<table/>
+<target_name>glide.service_portal.resize_text.us.enable_rem_conversion</target_name>
+<type>System Property</type>
+<update_domain>global</update_domain>
+<update_guid>ad4795fd4d3e3010f95ca9247ac2d34a</update_guid>
+<update_guid_history>ad4795fd4d3e3010f95ca9247ac2d34a:608338388</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sp_row_6690aab52f327010cf61d0e62799b6e8</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_row"><sp_row action="INSERT_OR_UPDATE"><class_name/><order>1</order><sp_column/><sp_container display_value="USWDS Accordion - Test Page - Container 2">ec7022b52f327010cf61d0e62799b65b</sp_container><sys_class_name>sp_row</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-09-25 14:35:38</sys_created_on><sys_id>6690aab52f327010cf61d0e62799b6e8</sys_id><sys_mod_count>0</sys_mod_count><sys_name>1</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sp_row_6690aab52f327010cf61d0e62799b6e8</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-09-25 14:35:38</sys_updated_on></sp_row></record_update>]]></payload>
+<payload_hash>633928242</payload_hash>
+<remote_update_set display_value="USWDS Portal Design 1.0">f63476752f727010cf61d0e62799b600</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2021-09-25 16:01:24</sys_created_on>
+<sys_id>7a3476752f727010cf61d0e62799b603</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17c1d6210030000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2021-09-25 16:01:24</sys_updated_on>
+<table/>
+<target_name>1</target_name>
+<type>Row</type>
+<update_domain>global</update_domain>
+<update_guid>aa90aab5f832701041aaf21547937ce9</update_guid>
+<update_guid_history>aa90aab5f832701041aaf21547937ce9:633928242</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sp_instance_d1bde6312f727010cf61d0e62799b603</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sp_instance"&gt;&lt;sp_instance action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;class_name/&gt;&lt;color&gt;default&lt;/color&gt;&lt;css/&gt;&lt;glyph/&gt;&lt;id/&gt;&lt;order&gt;2&lt;/order&gt;&lt;roles/&gt;&lt;short_description/&gt;&lt;size&gt;md&lt;/size&gt;&lt;sp_column display_value="1"&gt;a690aab52f327010cf61d0e62799b6ea&lt;/sp_column&gt;&lt;sp_widget display_value="Code Showcase"&gt;d72062b52f327010cf61d0e62799b624&lt;/sp_widget&gt;&lt;sys_class_name&gt;sp_instance&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-09-25 15:32:54&lt;/sys_created_on&gt;&lt;sys_id&gt;d1bde6312f727010cf61d0e62799b603&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_instance_d1bde6312f727010cf61d0e62799b603&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-09-25 15:36:01&lt;/sys_updated_on&gt;&lt;title/&gt;&lt;url/&gt;&lt;widget_parameters&gt;&lt;![CDATA[{
+	"widget_id": {
+		"value": "typeahead-search",
+		"displayValue": "typeahead-search"
+	},
+	"about_header": {
+		"value": "",
+		"displayValue": ""
+	},
+	"about_content": {
+		"value": "",
+		"displayValue": ""
+	},
+	"widget_options_header": {
+		"value": "",
+		"displayValue": ""
+	},
+	"widget_options_content": {
+		"value": "",
+		"displayValue": ""
+	},
+	"widget_instance_options_header": {
+		"value": "",
+		"displayValue": ""
+	},
+	"widget_instance_options_content": {
+		"value": "",
+		"displayValue": ""
+	},
+	"showcase_title": {
+		"value": "Type Ahead Search",
+		"displayValue": "Type Ahead Search"
+	}
+}]]&gt;&lt;/widget_parameters&gt;&lt;/sp_instance&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=d1bde6312f727010cf61d0e62799b603"/&gt;&lt;/record_update&gt;</payload>
+<payload_hash>1766014182</payload_hash>
+<remote_update_set display_value="USWDS Portal Design 1.0">f63476752f727010cf61d0e62799b600</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2021-09-25 16:01:24</sys_created_on>
+<sys_id>7e3476752f727010cf61d0e62799b602</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17c1d9959d40000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2021-09-25 16:01:24</sys_updated_on>
+<table/>
+<target_name/>
+<type>Instance</type>
+<update_domain>global</update_domain>
+<update_guid>8b6eee31ad727010075242bb9eeda076</update_guid>
+<update_guid_history>8b6eee31ad727010075242bb9eeda076:1766014182,0bbda631f9727010157ef0034183ed33:1552150416,55bde631eb7270100536bd8768bd5005:2049870891</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>m2m_sp_theme_css_include_c9fb91f12f7e3010cf61d0e62799b626</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sp_theme_css_include"><m2m_sp_theme_css_include action="INSERT_OR_UPDATE"><order>1000</order><sp_css_include display_value="Bootstrap Overrides">07eb9d712f7e3010cf61d0e62799b68c</sp_css_include><sp_theme display_value="USWDS">e15855312f7e3010cf61d0e62799b650</sp_theme><sys_class_name>m2m_sp_theme_css_include</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-09-25 09:35:42</sys_created_on><sys_id>c9fb91f12f7e3010cf61d0e62799b626</sys_id><sys_mod_count>1</sys_mod_count><sys_name>Bootstrap Overrides.USWDS</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>m2m_sp_theme_css_include_c9fb91f12f7e3010cf61d0e62799b626</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-09-25 09:43:27</sys_updated_on></m2m_sp_theme_css_include></record_update>]]></payload>
+<payload_hash>-420427135</payload_hash>
+<remote_update_set display_value="USWDS Portal Design 1.0">f63476752f727010cf61d0e62799b600</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2021-09-25 16:01:24</sys_created_on>
+<sys_id>b23476752f727010cf61d0e62799b601</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17c1c56903e0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2021-09-25 16:01:24</sys_updated_on>
+<table/>
+<target_name>Bootstrap Overrides.USWDS</target_name>
+<type>Stylesheets</type>
+<update_domain>global</update_domain>
+<update_guid>6abdd9f10b7e3010ea21188cbc23c04f</update_guid>
+<update_guid_history>6abdd9f10b7e3010ea21188cbc23c04f:-420427135,05fb91f1af7e30108c7343a838649528:-1961756392</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sp_widget_e29a95312f7e3010cf61d0e62799b60d</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sp_widget"&gt;&lt;sp_widget action="INSERT_OR_UPDATE"&gt;&lt;category&gt;custom&lt;/category&gt;&lt;client_script&gt;&lt;![CDATA[api.controller=function() {
+  /* widget controller */
+  var c = this;
+
+};
+
+]]&gt;&lt;/client_script&gt;&lt;controller_as&gt;c&lt;/controller_as&gt;&lt;css/&gt;&lt;data_table&gt;sp_instance&lt;/data_table&gt;&lt;demo_data/&gt;&lt;description/&gt;&lt;docs/&gt;&lt;field_list/&gt;&lt;has_preview&gt;true&lt;/has_preview&gt;&lt;id&gt;uswds_accordion&lt;/id&gt;&lt;internal&gt;false&lt;/internal&gt;&lt;link&gt;&lt;![CDATA[function link(scope, element, attrs, controller) {  }]]&gt;&lt;/link&gt;&lt;name&gt;USWDS Accordion&lt;/name&gt;&lt;option_schema&gt;[{"hint":"my_accordion_id","name":"id","section":"other","default_value":"#uswds_accordion","label":"Accordion ID","type":"string"}]&lt;/option_schema&gt;&lt;public&gt;false&lt;/public&gt;&lt;roles/&gt;&lt;script&gt;&lt;![CDATA[(function() {
+  /* 
+	*		@param Options: ID
+	*		@description Should be the id of the accordion. 
+	*
+	*		@param Options: List
+	*		@description Accepts an array of objects for the list 
+	*		@example Object: 
+	*			{
+	*				id: "replace_me_id_1",
+	*				header: "Replace Me Header 1", 
+	*				content: "Replace Me Content 1",
+	*				expanded: true 
+	*			}
+	*/
+	data.id = options.id;
+	data.list = options.list || [
+		{
+			id: "replace_me_id_1",
+			header: "Replace Me Header 1", 
+			content: "Example content that should be replaced with more useful content",
+			expanded: true 
+		},
+		{
+			id: "replace_me_id_2",
+			header: "Replace Me Header 2", 
+			content: "Example content that should be replaced with more useful content",
+			expanded: false 
+		},
+		{
+			id: "replace_me_id_3",
+			header: "Replace Me Header 3", 
+			content: "Example content that should be replaced with more useful content",
+			expanded: false 
+		}
+	];	
+})();]]&gt;&lt;/script&gt;&lt;servicenow&gt;false&lt;/servicenow&gt;&lt;sys_class_name&gt;sp_widget&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-09-25 09:29:48&lt;/sys_created_on&gt;&lt;sys_id&gt;e29a95312f7e3010cf61d0e62799b60d&lt;/sys_id&gt;&lt;sys_mod_count&gt;115&lt;/sys_mod_count&gt;&lt;sys_name&gt;USWDS Accordion&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_widget_e29a95312f7e3010cf61d0e62799b60d&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-09-25 14:55:20&lt;/sys_updated_on&gt;&lt;template&gt;&lt;![CDATA[&lt;div class="us-accordion panel-group" id="{{::data.id}}" role="tablist" 
+     aria-multiselectable="true"&gt;
+  &lt;div class="panel panel-default" ng-repeat="item in data.list"&gt;
+    &lt;div class="panel-heading" role="tab" id="{{::item.id}}_heading"&gt;
+      &lt;h4 class="panel-title"&gt;
+        &lt;a role="button" data-toggle="collapse" data-parent="{{::data.id}}"
+           aria-expanded="expanded" aria-controls="{{::item.id}}_collapse"
+           href="#{{item.id}}_collapse" ng-click="item.expanded = !item.expanded"&gt;
+          &lt;span class="pull-left"&gt;{{::item.header}}&lt;/span&gt;
+          &lt;span class="pull-right"&gt;
+          	&lt;i class="fa" ng-class="{'fa-minus': item.expanded, 'fa-plus': !item.expanded}"&gt;&lt;/i&gt;
+          &lt;/span&gt;
+        &lt;/a&gt;
+      &lt;/h4&gt;
+    &lt;/div&gt;
+    &lt;div id="{{::item.id}}_collapse" class="panel-collapse collapse" 
+         ng-class="{'in': item.expanded}" role="tabpanel" 
+         aria-labelledby="{{::item.id}}_heading"&gt;
+      &lt;div class="panel-body"&gt;
+        {{::item.content}}
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;]]&gt;&lt;/template&gt;&lt;/sp_widget&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-190997681</payload_hash>
+<remote_update_set display_value="USWDS Portal Design 1.0">f63476752f727010cf61d0e62799b600</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2021-09-25 16:01:24</sys_created_on>
+<sys_id>b23476752f727010cf61d0e62799b604</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17c1d741b900000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2021-09-25 16:01:24</sys_updated_on>
+<table/>
+<target_name>USWDS Accordion</target_name>
+<type>Widget</type>
+<update_domain>global</update_domain>
+<update_guid>1715ee39853270104ff1e966e6d6169d</update_guid>
+<update_guid_history>1715ee39853270104ff1e966e6d6169d:-190997681,5515ea3987327010d3245706e8b321d2:1269241915,68d4aa3907327010a9af2a4aa6e119fc:-1342294732,2aaf5a758c327010f1f394151c162bd8:37957832,3c4f5a75ec32701060ffc6344f9cf7d0:879687469,053d5235de327010fce7058c37a6a3e7:1437873190,2a9b9ab1133270108e71225e55286acb:55491522,fc6bde3d8cbe30107c87a47191344ef8:-993117169,a01b9a7d49fe3010c89834032cc10fa6:970804669,746fbd7d86be3010035649d232feda5f:-791528366,990f357d2ebe3010284bb923791132c4:-226860223,38ee357dbdbe3010f551466f5a52214c:950599282,6f8e357d65be3010879c5614a7433244:-551802382,832eb93dbebe30104e15045a9c2b8b9e:1329750034,971e7d3da5be3010c1ec6d14332503e0:-292923979,da0e7d3d7ebe30100a65650ebaadced8:310485371,a9fdf53d88be30109f545e9224136212:1193318628,aced3d3debbe3010b97cb35ce7b0513f:696040647,69dd7df9d2be301088a49f3817195a28:1178107003,55cdfdf91abe301056516b107b30e48c:1932553351,fcad393d18be30109231ed2d679077e6:696040647,927d317901be3010ba0e6deb63808a39:-699542540,457db53d2abe3010137a229d8e36c6ab:1736733319,6b4d353d5abe3010c0258119ac0479b8:-785126604,12dcfdf9d1be30102ff8f1f23425b948:2059798100,abbc7df9f2be301055c29534ca300010:947489485,cfac7df988be30104c3ab5f70ed5ea08:1609028173,c0fb35f931be301043e6ee25b15f74e0:-178002157,d2bbb1f9e8be30102f4bbd72771ab11a:306586069,d69b31f9d0be3010de935522986b739d:-1342686191,89d9b93907be30102c68cd64969df097:-1529160033,32997579eabe3010e62153d82dad75f5:130757622,74597579d9be3010da5b5010e91e82ed:884049958,ab393579dabe3010fbf7426b3e758b9c:1387323641,e6e875f508be30103523e18568f5e82a:1767386687,e9d8bd3998be3010b11b4243193b6400:1708165759,13a87d39e1be3010a0cec315f1c561f9:1808702511,73987d3931be30104804001746dfe756:246957742,5f78fdb51fbe30106a32edae1cf9b2d0:1263772942,5368b5b524be3010f7e3d8a6420da458:1765084448,df18b539b0be30104403e0fa8e79ba23:209155028,940831f53fbe30107877a490b8eb691a:-425961247,d0d675f504be30103b342b1a502c5c02:738002794,9e967db5ffbe301087bfb90b0e0cefb0:-1118234426,a186f1f5fdbe3010d96986ec4c409bf7:-249261099,1066fdb596be30108127ab5988137839:-1118234426,7c36fdb51dbe301084199855a0a28105:915941362,3e167535ecbe3010db2161aac32bc810:1719237947,c916bdb508be30109ed1b38109a48695:1698037275,95067db5fabe30106eb96ba7b15ef8a8:1047938061,5cf575751ebe3010779f05740f3761bb:-1514350106,e9a579b565be3010ddfc90bc069751a0:1820396198,b65571b524be30103f4e3c8f9263e8f8:1834420915,32f47175c8be301076e71ad0a4897750:-2064261256,5fc4fd752fbe3010cd24ff4ccb5d029c:-1264484406,b9f37575ccbe3010b4fe7007701ed5b4:1955069499,48f3757570be3010cc92754859e9ae75:1443170994,34a3f9f1c6be301068adc72eb4e8bbee:1151115789,a9837535d5be30106f4041e33aa13e4c:1354348344,21a27135cabe3010479e8d250d32e5ab:-1186566461,418271356dbe30104a9e4af02c2c199a:903758917,7e323135edbe301080db7a35c02b8910:1721598166,90223135efbe3010966156dd9db49e09:-672449724,bdf131f1cfbe3010802668de450bc181:-907094729,17e1b5f141be30107eb07298694aca25:1562995298,71c1f9f1c6be3010064e912859b878ac:1909592506,a9b1b5f100be3010590c3c72c191fcc8:-560497521,ab71b5f194be30106591041e24aa24be:-969223470,cc61b5f1b6be30102e93e52e7b6da7b6:1685313999,2f4175f116be301094788a766bf659d7:1213755343,0041bdb1f4be3010fd6a5934e6c2bf7a:1878550738,6031f9314dbe301059f6276db37a7089:-560115478,37c031f1d6be301084132c140b1b2d31:951618062,afa0bdb1b9be30106f70aa8caaf1ed66:317451665,2490f9318cbe30103368f3dbd67c564b:-229751223,2b2fe5718abe3010dd23727bdd0b53d8:1952344561,6c2fe5717abe3010a9918214764aa8d0:-1204664596,dc1fa5717cbe3010876525f956a5e1d3:1787872137,ebcee17106be3010de8db57971dff1dd:708105804,601ea93102be3010811232da21f5a057:-2044693546,850ea93191be30103a567e7683b51e4f:498957460,4dbd6131e3be3010c4de93231c377b18:22401378,e8ad65313bbe30102cea02440e4e19f0:498957460,384d21fde97e301025b6b3e39810d77a:1473615892,743d213132be3010ee5c529f11cb91fb:-607985530,802dedfd7a7e30106632d7a876bde6dd:-1251457678,2d3ce9b9b87e301037863e2b19ea6473:1864821780,3aeb61fdf07e3010ab59dcb5f3e567c2:761220936,7fcb21fd637e3010a22630b7a882ff72:-1715140010,57fae1bd7a7e3010d059554c2a70531b:404625796,9eda25bd1d7e30108371bd3bbcc792a8:2023506607,15cae1bdd17e301013c488074c16cb01:1640088280,b28a21bd6a7e3010d432847ce2334b55:-1462674088,50a9657d827e301076d88e29e7597aba:812223318,d27869f9fa7e3010bd09f44047c84ea1:-8401175,9828253dc37e3010027fec1628bbbac6:-806415352,82f7e9f9cd7e301040ed0fa41abe8e76:-1525188268,72a729f9a67e3010eb99b3a1fe113cb4:-8401175,6a87e9f9207e3010d912ec9a77a69022:-1537929047,ac57e9f9b67e3010d013a83ae6b93e1a:-1276005675,2f172579a97e3010e9d2ec53166156ef:-2078900374,f1f3e179867e3010f90ed9a2c1e7a1b0:-1270435058,28e3e179947e3010ddf38dfa35fca1a8:-2127875520,aa932179fd7e3010e66b359fee71b74f:1135023796,5361a5f5ff7e3010fbecaa759b337844:-1270435058,a951a5b5a57e3010901a72621f53b57e:-1724896305,0b41e5759d7e3010623b5a18439268f9:1815984863,1c41e1f5ca7e301078af761295c59063:-1597740562,7131e1f5707e301091ed1a672c631a5c:268245186,1121e5b5bd7e3010b0a1052007f61221:398422306,e7eed575cd7e3010175bb8b6f9a811ca:637505656,3dded575ec7e301097222944f534b6c2:-990155006,334e5175197e30101f3bb0089fa7114c:637505656,b69b9531517e30108166515976c271d9:1357124753,881b15b1b57e30107ab66a62ea69f482:-692145158,ee9a9531757e3010b4922d833df6d50f:960265894</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sp_portal_153715fd2f3e3010cf61d0e62799b6b1</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_portal"><sp_portal action="INSERT_OR_UPDATE"><css_variables/><default>false</default><enable_ais>false</enable_ais><enable_favorites>false</enable_favorites><hide_portal_name>false</hide_portal_name><homepage/><icon/><kb_knowledge_base/><kb_knowledge_page/><login_page/><logo/><notfound_page/><quick_start_config/><sc_catalog/><sc_catalog_page/><sc_category_page/><search_application/><search_results_configuration/><sp_chat_queue/><sp_rectangle_menu/><sys_class_name>sp_portal</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-09-25 09:15:15</sys_created_on><sys_id>153715fd2f3e3010cf61d0e62799b6b1</sys_id><sys_mod_count>1</sys_mod_count><sys_name>USWDS Design</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sp_portal_153715fd2f3e3010cf61d0e62799b6b1</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-09-25 09:20:04</sys_updated_on><theme display_value="USWDS">e15855312f7e3010cf61d0e62799b650</theme><title>USWDS Design</title><ts_index_group/><url_suffix>us</url_suffix></sp_portal><sys_translated_text action="delete_multiple" query="documentkey=153715fd2f3e3010cf61d0e62799b6b1"/></record_update>]]></payload>
+<payload_hash>1242650977</payload_hash>
+<remote_update_set display_value="USWDS Portal Design 1.0">f63476752f727010cf61d0e62799b600</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2021-09-25 16:01:24</sys_created_on>
+<sys_id>b63476752f727010cf61d0e62799b603</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17c1c4128f90000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2021-09-25 16:01:24</sys_updated_on>
+<table/>
+<target_name>USWDS Design</target_name>
+<type>Service Portal</type>
+<update_domain>global</update_domain>
+<update_guid>80685dbd2f3e30100c493d09147974e9</update_guid>
+<update_guid_history>80685dbd2f3e30100c493d09147974e9:1242650977,e94795fd4c3e3010440db1a0aae36f4c:-996637829</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sp_css_include_f66895312f7e3010cf61d0e62799b6b2</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_css_include"><sp_css_include action="INSERT_OR_UPDATE"><name>USWDS Fonts</name><source>url</source><sp_css/><sys_class_name>sp_css_include</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-09-25 09:26:54</sys_created_on><sys_id>f66895312f7e3010cf61d0e62799b6b2</sys_id><sys_mod_count>0</sys_mod_count><sys_name>USWDS Fonts</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sp_css_include_f66895312f7e3010cf61d0e62799b6b2</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-09-25 09:26:54</sys_updated_on><url>https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&amp;family=Public+Sans:ital,wght@0,100;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;family=Roboto+Mono:ital,wght@0,100;0,300;0,500;0,700;1,100;1,300;1,500;1,700&amp;family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&amp;display=swap</url></sp_css_include></record_update>]]></payload>
+<payload_hash>1671620226</payload_hash>
+<remote_update_set display_value="USWDS Portal Design 1.0">f63476752f727010cf61d0e62799b600</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2021-09-25 16:01:24</sys_created_on>
+<sys_id>ba3476752f727010cf61d0e62799b602</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17c1c4768220000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2021-09-25 16:01:24</sys_updated_on>
+<table/>
+<target_name>USWDS Fonts</target_name>
+<type>CSS Include</type>
+<update_domain>global</update_domain>
+<update_guid>c0f99531537e301038b7f9b923bf13b8</update_guid>
+<update_guid_history>c0f99531537e301038b7f9b923bf13b8:1671620226</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sp_css_8bbfde752f327010cf61d0e62799b6a3</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_css"><sp_css action="INSERT_OR_UPDATE"><css/><name>Bootstrap Override Alerts</name><sys_class_name>sp_css</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-09-25 14:32:05</sys_created_on><sys_id>8bbfde752f327010cf61d0e62799b6a3</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Bootstrap Override Alerts</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sp_css_8bbfde752f327010cf61d0e62799b6a3</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-09-25 14:32:05</sys_updated_on></sp_css></record_update>]]></payload>
+<payload_hash>241774568</payload_hash>
+<remote_update_set display_value="USWDS Portal Design 1.0">f63476752f727010cf61d0e62799b600</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2021-09-25 16:01:24</sys_created_on>
+<sys_id>be3476752f727010cf61d0e62799b601</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17c1d5ed0bc0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2021-09-25 16:01:24</sys_updated_on>
+<table/>
+<target_name>Bootstrap Override Alerts</target_name>
+<type>Style Sheet</type>
+<update_domain>global</update_domain>
+<update_guid>a6cfd2351f327010a4c1e61a49103b6b</update_guid>
+<update_guid_history>a6cfd2351f327010a4c1e61a49103b6b:241774568</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sp_page_2e9a95312f7e3010cf61d0e62799b610</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_page"><sp_page action="INSERT_OR_UPDATE"><category>custom</category><css/><draft>false</draft><dynamic_title_structure/><id>uswds_test</id><internal>false</internal><omit_watcher>false</omit_watcher><public>false</public><roles/><seo_script/><short_description/><sys_class_name>sp_page</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-09-25 09:29:48</sys_created_on><sys_id>2e9a95312f7e3010cf61d0e62799b610</sys_id><sys_mod_count>0</sys_mod_count><sys_name>uswds_test</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sp_page_2e9a95312f7e3010cf61d0e62799b610</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-09-25 09:29:48</sys_updated_on><title>USWDS Accordion - Test Page</title><use_seo_script>false</use_seo_script></sp_page><sys_translated_text action="delete_multiple" query="documentkey=2e9a95312f7e3010cf61d0e62799b610"/></record_update>]]></payload>
+<payload_hash>-541838166</payload_hash>
+<remote_update_set display_value="USWDS Portal Design 1.0">f63476752f727010cf61d0e62799b600</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2021-09-25 16:01:24</sys_created_on>
+<sys_id>f23476752f727010cf61d0e62799b603</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17c1c4a12120000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2021-09-25 16:01:24</sys_updated_on>
+<table/>
+<target_name>uswds_test</target_name>
+<type>Page</type>
+<update_domain>global</update_domain>
+<update_guid>a69a9531b67e3010d2b1cfe582f21513</update_guid>
+<update_guid_history>a69a9531b67e3010d2b1cfe582f21513:-541838166</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sp_css_include_792cd2f12f327010cf61d0e62799b6fd</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_css_include"><sp_css_include action="INSERT_OR_UPDATE"><name>Boostrap Override </name><source>local</source><sp_css display_value="Bootstrap Override Alerts">8bbfde752f327010cf61d0e62799b6a3</sp_css><sys_class_name>sp_css_include</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-09-25 14:31:47</sys_created_on><sys_id>792cd2f12f327010cf61d0e62799b6fd</sys_id><sys_mod_count>1</sys_mod_count><sys_name>Boostrap Override </sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sp_css_include_792cd2f12f327010cf61d0e62799b6fd</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-09-25 14:32:07</sys_updated_on><url/></sp_css_include></record_update>]]></payload>
+<payload_hash>-1322427545</payload_hash>
+<remote_update_set display_value="USWDS Portal Design 1.0">f63476752f727010cf61d0e62799b600</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2021-09-25 16:01:24</sys_created_on>
+<sys_id>f63476752f727010cf61d0e62799b602</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17c1d5ed7dd0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2021-09-25 16:01:24</sys_updated_on>
+<table/>
+<target_name>Boostrap Override </target_name>
+<type>CSS Include</type>
+<update_domain>global</update_domain>
+<update_guid>4fcf12b502327010cfd82a54f0a20644</update_guid>
+<update_guid_history>4fcf12b502327010cfd82a54f0a20644:-1322427545,1ebf5a7529327010b5f8e17945bdaaea:599010950</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>m2m_sp_theme_css_include_00f995312f7e3010cf61d0e62799b6b9</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sp_theme_css_include"><m2m_sp_theme_css_include action="INSERT_OR_UPDATE"><order>100</order><sp_css_include display_value="USWDS Fonts">f66895312f7e3010cf61d0e62799b6b2</sp_css_include><sp_theme display_value="USWDS">e15855312f7e3010cf61d0e62799b650</sp_theme><sys_class_name>m2m_sp_theme_css_include</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-09-25 09:26:54</sys_created_on><sys_id>00f995312f7e3010cf61d0e62799b6b9</sys_id><sys_mod_count>1</sys_mod_count><sys_name>USWDS Fonts.USWDS</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>m2m_sp_theme_css_include_00f995312f7e3010cf61d0e62799b6b9</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-09-25 09:35:31</sys_updated_on></m2m_sp_theme_css_include></record_update>]]></payload>
+<payload_hash>1268307771</payload_hash>
+<remote_update_set display_value="USWDS Portal Design 1.0">f63476752f727010cf61d0e62799b600</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2021-09-25 16:01:24</sys_created_on>
+<sys_id>fa3476752f727010cf61d0e62799b600</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17c1c4f4e7c0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2021-09-25 16:01:24</sys_updated_on>
+<table/>
+<target_name>USWDS Fonts.USWDS</target_name>
+<type>Stylesheets</type>
+<update_domain>global</update_domain>
+<update_guid>56eb15b1637e3010c3e9596d3718f5c1</update_guid>
+<update_guid_history>56eb15b1637e3010c3e9596d3718f5c1:1268307771,c0f99531277e30106d2f855c06e2ebbb:516085314</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sp_container_ec7022b52f327010cf61d0e62799b65b</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_container"><sp_container action="INSERT_OR_UPDATE"><background_color/><background_image/><background_style>default</background_style><bootstrap_alt>false</bootstrap_alt><class_name/><container_class_name/><name>USWDS Accordion - Test Page - Container 1</name><order>1</order><sp_page display_value="uswds_test">2e9a95312f7e3010cf61d0e62799b610</sp_page><subheader>false</subheader><sys_class_name>sp_container</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-09-25 14:34:58</sys_created_on><sys_id>ec7022b52f327010cf61d0e62799b65b</sys_id><sys_mod_count>1</sys_mod_count><sys_name>USWDS Accordion - Test Page - Container 1</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sp_container_ec7022b52f327010cf61d0e62799b65b</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-09-25 15:55:14</sys_updated_on><title/><width>container</width></sp_container></record_update>]]></payload>
+<payload_hash>134008680</payload_hash>
+<remote_update_set display_value="USWDS Portal Design 1.0">f63476752f727010cf61d0e62799b600</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2021-09-25 16:01:24</sys_created_on>
+<sys_id>fa3476752f727010cf61d0e62799b601</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17c1daaf2990000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2021-09-25 16:01:24</sys_updated_on>
+<table/>
+<target_name>USWDS Accordion - Test Page - Container 1</target_name>
+<type>Container</type>
+<update_domain>global</update_domain>
+<update_guid>a8d23635f1727010350eaf25e925b57a</update_guid>
+<update_guid_history>a8d23635f1727010350eaf25e925b57a:134008680,74706ab58f327010c1ed9e48ae665b10:-352193817</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sp_widget_d72062b52f327010cf61d0e62799b624</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sp_widget"&gt;&lt;sp_widget action="INSERT_OR_UPDATE"&gt;&lt;category&gt;custom&lt;/category&gt;&lt;client_script&gt;&lt;![CDATA[api.controller=function() {
+  /* widget controller */
+  var c = this;
+};]]&gt;&lt;/client_script&gt;&lt;controller_as&gt;c&lt;/controller_as&gt;&lt;css&gt;.wps_code_showcase{
+	border: 1px solid #ccc;
+  margin: 8px;
+  padding: 8px;
+  border-radius: 4px;
+}
+
+.tab-content .tab-pane{
+	padding: 8px;
+}&lt;/css&gt;&lt;data_table&gt;sp_instance&lt;/data_table&gt;&lt;demo_data/&gt;&lt;description/&gt;&lt;docs/&gt;&lt;field_list/&gt;&lt;has_preview&gt;true&lt;/has_preview&gt;&lt;id&gt;code_showcase&lt;/id&gt;&lt;internal&gt;false&lt;/internal&gt;&lt;link&gt;&lt;![CDATA[function link(scope, element, attrs, controller) {
+  
+}]]&gt;&lt;/link&gt;&lt;name&gt;Code Showcase&lt;/name&gt;&lt;option_schema&gt;[{"hint":"Place the widget ID of the widget you wish to display in the Code Showcase panel","name":"widget_id","section":"Data","label":"Widget ID","type":"string"},{"hint":"Title of the About section","name":"about_header","section":"Data","default_value":"About","label":"About Header","type":"string"},{"hint":"Describe the widget you are presenting","name":"about_content","section":"Data","default_value":"This widget is a prime example of how instance options work! Please me with more meaningful information because this is just sample text...","label":"About Content","type":"string"},{"hint":"Header for the widget options section","name":"widget_options_header","section":"Data","default_value":"Widget Options","label":"Widget Options Header","type":"string"},{"hint":"Describe the widget/code options that are available","name":"widget_options_content","section":"Data","default_value":"Sample information that should be replaced with something more meaningful.","label":"Widget Options Content","type":"string"},{"hint":"Header for Instance Options","name":"widget_instance_options_header","section":"Data","default_value":"Widget Instance Example","label":"Widget Instance Options Header","type":"string"},{"hint":"Describe the instance options for this code or widget","name":"widget_instance_options_content","section":"Data","default_value":"Sample text that should be replaced with something more meaningful.","label":"Widget Instance Options Content","type":"string"},{"hint":"The title for the product/code being presented","name":"showcase_title","section":"Data","default_value":"ShowCase Header","label":"ShowCase Title","type":"string"}]&lt;/option_schema&gt;&lt;public&gt;false&lt;/public&gt;&lt;roles/&gt;&lt;script&gt;&lt;![CDATA[(function() {
+  /* populate the 'data' object */
+  /* e.g., data.table = $sp.getValue('table'); */
+	data.displayingWidget = $sp.getWidget(options.widget_id) || $sp.getWidget('uswds_accordion');
+	data.aboutHeader = options.aboutHeader || "About";
+	data.aboutContent = options.aboutContent || "Some sample information should be used here...";
+	data.widgetOptionsHeader = options.widget_options_header;
+	data.widgetOptionsContent = options.widget_options_content;
+	data.widgetInstanceOptionsHeader = options.widget_instance_options_header;
+	data.widgetInstanceOptionsContent = options.widget_instance_options_content;
+	data.showcaseTitle = options.showcase_title;
+	data.instanceId = data.showcaseTitle.split(' ').join('_').toLowerCase();
+
+})();]]&gt;&lt;/script&gt;&lt;servicenow&gt;false&lt;/servicenow&gt;&lt;sys_class_name&gt;sp_widget&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-09-25 14:34:05&lt;/sys_created_on&gt;&lt;sys_id&gt;d72062b52f327010cf61d0e62799b624&lt;/sys_id&gt;&lt;sys_mod_count&gt;43&lt;/sys_mod_count&gt;&lt;sys_name&gt;Code Showcase&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_widget_d72062b52f327010cf61d0e62799b624&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-09-25 15:54:26&lt;/sys_updated_on&gt;&lt;template&gt;&lt;![CDATA[&lt;div class="wps_code_showcase"&gt;
+  	&lt;div class="row"&gt;
+      &lt;div class="col-xs-12"&gt;
+        &lt;h3 style="margin-bottom: 16px;"&gt;{{::data.showcaseTitle}}&lt;/h3&gt;
+      &lt;/div&gt;
+    &lt;div class="col-md-6"&gt;
+      &lt;div id="example_widget"&gt;
+        	&lt;sp-widget widget="data.displayingWidget"&gt;&lt;/sp-widget&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class="col-md-6"&gt;
+    	  &lt;ul class="nav nav-tabs" role="tablist"&gt;
+          &lt;li role="presentation" class="active"&gt;
+            &lt;a href="#{{::data.instanceId}}_about" 
+               aria-controls="{{::data.instanceId}}_about" role="tab" data-toggle="tab"&gt;About&lt;/a&gt;
+          &lt;/li&gt;
+          &lt;li role="presentation"&gt;
+            &lt;a href="#{{::data.instanceId}}_widget_options" 
+               aria-controls="{{::data.instanceId}}_widget_options" role="tab" data-toggle="tab"&gt;Widget Options&lt;/a&gt;
+          &lt;/li&gt;
+          &lt;li role="presentation"&gt;
+            &lt;a href="#{{::data.instanceId}}_widget_instance_options" 
+               aria-controls="{{::data.instanceId}}_widget_instance_options" role="tab" data-toggle="tab"&gt;Widget Instance Example&lt;/a&gt;
+          &lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;div class="tab-content"&gt;
+         &lt;div role="tabpanel" class="tab-pane active" id="{{::data.instanceId}}_about"&gt;
+        	&lt;h3&gt;{{data.aboutHeader}}&lt;/h3&gt;
+          &lt;p&gt;{{data.aboutContent}}&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div role="tabpanel" class="tab-pane" id="{{::data.instanceId}}_widget_options"&gt;
+        &lt;h3&gt;{{data.widgetOptionsHeader}}&lt;/h3&gt;
+          &lt;p&gt;{{data.widgetOptionsContent}}&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div role="tabpanel" class="tab-pane" id="{{::data.instanceId}}_widget_instance_options"&gt;
+        	&lt;h3&gt;{{data.widgetInstanceOptionsHeader}}&lt;/h3&gt;
+          &lt;p&gt;{{data.widgetInstanceOptionsContent}}&lt;/p&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+]]&gt;&lt;/template&gt;&lt;/sp_widget&gt;&lt;/record_update&gt;</payload>
+<payload_hash>2133078765</payload_hash>
+<remote_update_set display_value="USWDS Portal Design 1.0">f63476752f727010cf61d0e62799b600</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2021-09-25 16:01:24</sys_created_on>
+<sys_id>fe3476752f727010cf61d0e62799b603</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17c1daa34410000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2021-09-25 16:01:24</sys_updated_on>
+<table/>
+<target_name>Code Showcase</target_name>
+<type>Widget</type>
+<update_domain>global</update_domain>
+<update_guid>70a2323577727010b2920950ca21ab4f</update_guid>
+<update_guid_history>70a2323577727010b2920950ca21ab4f:2133078765,b49232717d7270109b382a828ae090c4:1440797622,2a7232f1d37270100b1913883d82bcd3:-1756264089,26a132f14372701089e9e0fcb07c8949:-322640724,752132f136727010cd82d426c78a36bd:1391098235,ab11f631fe7270108e3d0f6211400863:1018443018,fd01beb11c7270109b103f4a0c597ad7:-1846120501,96a032b1747270106888f78425363c7e:-911589691,7e603a71b67270105438d0ff45803852:1038949614,b2df62b17f727010e0e810288fcc2934:-2080922656,a9cf227131727010496092a4b3c0c468:1895573568,957fee317d72701051bdd7670821b0bb:-2055015701,d59daefd4732701043dc255db375897a:-1245152836,d17de6fdf0327010da6a62e7e5a3bfb9:-1042537296,9b2d22318a7270102535a97aaff55950:2131699644,e10daefd6e327010ac9e8cf9e0e6f774:1568022472,14dce2fdd63270103a5a663153bd27e6:-2112253655,a48c2afd3d327010a32bb55350517494:-1922488511,036ce2fd6332701044fbf263cc87efd7:-1953877993,dd5ca6fd593270104abceff91e56e199:285075374,711c62fd89327010ba34ea9fc555c15d:-1685787614,4ffbaabd1f327010d6d966e606099f4f:1013632434,c5eb667d50327010a5b156b781d90bb0:-1570101507,7a4baabd433270104cd112e7f9cdf619:1294300141,8f0b6a3d283270103e548077b3e1a2f8:-631437445,c7faa6bdf232701018ce87bb477df98d:1645327315,58caaa3db2327010834d585e1a4135bd:655480087,f45aee3dbb3270109ddd79d6aabe31ef:1736705223,042a667d98327010dc7c1a07270ccf78:1138589978,76c9aa3da9327010ba786374f57f8926:-1257414078,8d89667d4f3270106a7d16e302933f73:-1553907578,a909e63dbd327010c2d2ab9fd763b7ed:844558298,15d8aa3d5632701056f58eb82257bc1f:1294552201,3868e63dfd327010cdf91bd4ea2690e6:-1829575187,ee3866b9c032701058a9feb0a3e26d71:-1058891619,5bc7623dcc327010448e0cf44a3a4935:1044617,8bb7223d54327010c750bfa9841e1d78:-1216762619,63a7eef905327010f414bf7f5e4bfcaf:221717548,4c57eaf9ae3270102f5087280763e490:-1728088827,8c93ae39f93270105734a4e566443587:-1095263949,6d53ee753732701065de232566cce15f:665579461,d333aa39d832701092094556f2bf47c8:-1781489795,7b51e6b5e3327010dd1b483c5cd32f55:882716102,373066b5fa3270104202f8b6f8c317e7:-464958248</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+</unload>
